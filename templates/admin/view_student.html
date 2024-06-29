@@ -1,0 +1,394 @@
+{% extends 'admin/admin_base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Admin - Manage Students
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <head>
+        <title>Selenium Automation</title>
+        <style>
+        .container{
+            width : 100% ;
+            height : 100px ;
+            display : flex ;
+            flex-direction : column ;
+            justify-content : right ;
+            align-items : center ;
+        }
+
+button {
+  border: none;
+  padding: 20px 40px;
+  font-size: 44px;
+  position: relative;
+  background: transparent;
+  color: #3d7926;
+  text-transform: uppercase;
+  border: 3px solid #3d7926;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+button:hover {
+  color: #000;
+}
+span {
+  transition: all 0.7s;
+  z-index: -1;
+}
+
+button .first {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background: #3d7926;
+}
+
+button:hover .first {
+  top: 0;
+  right: 0;
+}
+button .second {
+  content: "";
+  position: absolute;
+  left: 25%;
+  top: -100%;
+  height: 100%;
+  width: 25%;
+  background: #3d7926;
+}
+
+button:hover .second {
+  top: 0;
+  left: 50%;
+}
+
+button .third {
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  top: 100%;
+  width: 25%;
+  background: #3d7926;
+}
+
+button:hover .third {
+  top: 0;
+  left: 25%;
+}
+
+button .fourth {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 25%;
+  background: #3d7926;
+}
+
+button:hover .fourth {
+  top: 0;
+  left: 0;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.send {
+  --hue: 30deg;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  perspective: 66rem;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.send *, .send *::before, .send *::after {
+  transition: all 1s;
+}
+.send .rotate {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.send .rotate .move {
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.send .rotate .move .part {
+  position: absolute;
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+}
+.send .rotate .move .part::before, .send .rotate .move .part::after {
+  content: "Send Report To WhatsApp";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d7926;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
+.send .rotate .move .part.left::before {
+  transform-origin: 50% 25%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 1px, 0 calc(50% + 1px));
+          clip-path: polygon(0 0, 100% 0, 100% 1px, 0 calc(50% + 1px));
+}
+.send .rotate .move .part.left::after {
+  -webkit-clip-path: polygon(0 50%, 100% 0, 100% 1px, 1px 100%, 0 100%);
+          clip-path: polygon(0 50%, 100% 0, 100% 1px, 1px 100%, 0 100%);
+}
+.send .rotate .move .part.right::before {
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 1px, calc(50% + 1px) 100%, 50% 100%);
+          clip-path: polygon(0 100%, 100% 0, 100% 1px, calc(50% + 1px) 100%, 50% 100%);
+}
+.send .rotate .move .part.right::after {
+  transform-origin: 75% 50%;
+  -webkit-clip-path: polygon(100% 0, 50% 100%, 100% 100%);
+          clip-path: polygon(100% 0, 50% 100%, 100% 100%);
+}
+
+#send:checked ~ .send .rotate {
+  transform: rotate3d(1, -0.2, 0.2, 65deg);
+}
+#send:checked ~ .send .rotate .move {
+  -webkit-animation: fly 3s cubic-bezier(0.72, -0.23, 0.35, 1.03) 1s both;
+          animation: fly 3s cubic-bezier(0.72, -0.23, 0.35, 1.03) 1s both;
+}
+#send:checked ~ .send .rotate .part.left {
+  transform: rotate3d(-1, 1, 0, 60deg);
+}
+#send:checked ~ .send .rotate .part.left::before {
+  transform: rotate3d(-1, 0.5, 0, -60deg);
+}
+#send:checked ~ .send .rotate .part.left::after {
+  background-color: #3d7926;
+}
+#send:checked ~ .send .rotate .part.right {
+  transform: rotate3d(-1, 1, 0, -60deg);
+}
+#send:checked ~ .send .rotate .part.right::before {
+  background-color: #3d7926;
+}
+#send:checked ~ .send .rotate .part.right::after {
+  transform: rotate3d(-0.25, 0.5, 0, 100deg);
+}
+
+@-webkit-keyframes fly {
+  0% {
+    transform: translate3D(0, 0, 0rem);
+  }
+  50% {
+    transform: translate3D(400rem, -400rem, 0rem);
+  }
+  50.00001% {
+    transform: translate3D(-100rem, 100rem, 0rem);
+  }
+  100% {
+    transform: translate3D(0rem, 0rem, 0rem);
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: translate3D(0, 0, 0rem);
+  }
+  50% {
+    transform: translate3D(400rem, -400rem, 0rem);
+  }
+  50.00001% {
+    transform: translate3D(-100rem, 100rem, 0rem);
+  }
+  100% {
+    transform: translate3D(0rem, 0rem, 0rem);
+  }
+}
+        
+        </style>
+    </head>
+
+{% endblock %}
+{% block content %}
+    {% block body %}
+
+    <div class="blur-background" id="blur-background"></div>
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-between mb-4">
+            <div class="col-md-4">
+                <div class="card student-info-card">
+                    <div class="card-body">
+                        <h4>Student Name</h4>
+                        <p>{{ students.0.full_name|capfirst }}</p>
+                        <h4>Standard</h4>
+                        <p>{{ students.0.standard }}</p>
+                        <h4>Medium</h4>
+                        <p>{{ students.0.medium }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card student-info-card">
+                    <div class="card-body">
+                        <h4>Total Tests</h4>
+                        <p>{{ basic_analysis.total_tests }}</p>
+                        <h4>Average Biology Performance</h4>
+                        <p>{{ basic_analysis.biology }} %</p>
+                        <h4>Average Physics Performance </h4>
+                        <p>{{ basic_analysis.physics }} %</p>
+                        <h4>Average Chemistry Performance</h4>
+                        <p>{{ basic_analysis.chemistry }} %</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+            <a href="{% url 'generate_pdf_report' id %}" class="button">
+                <button>
+                    Download Report
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
+                    <span class="fourth"></span>
+                </button>
+            </a>
+            <br>
+            <br>
+            <br>
+            <a href="{% url 'send_report' id %}" class="button"  id="report-link" hidden>
+                <button>
+                    Send Report to WhatsApp
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
+                    <span class="fourth"></span>
+                </button>
+            </a>
+
+            <input type="checkbox" name="send" id="send" />
+            <label for="send" class="send">
+                <div class="rotate">
+                    <div class="move">
+                        <div class="part left"></div>
+                        <div class="part right"></div>
+                    </div>
+                </div>
+            </label>
+            
+
+        </div>
+        </div>
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="table-container">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Test Date</th>
+                        <th>Total Marks</th>
+                        <th>Obtained</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for student in students %}
+                    <tr>
+                        <td>{{ student.subject }}</td>
+                        <td>{{ student.test_date }}</td>
+                        <td>{{ student.total_marks }}</td>
+                        <td>{{ student.obtained }}</td>
+                        <td 
+                        style="background-color:
+                            {% if student.percentage >= 90 %}
+                                #00cc00; color: white;  /* Green */
+                            {% elif student.percentage >= 80 %}
+                                #ffcc00; color: black;  /* Yellow */
+                            {% elif student.percentage >= 60 %}
+                                #ff9900; color: black;  /* Orange */
+                            {% else %}
+                                #ff3300; color: white;  /* Red */
+                            {% endif %}"
+                        >{{ student.percentage }} %</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Loading overlay with processing GIF -->
+    
+    
+    <script>
+        document.querySelector('.send').addEventListener('click', function() {
+            document.querySelector('#report-link button').click();
+        });
+        // Function to start the progress animation and show the blurred background and loading overlay
+        function startProgressAnimation() {
+            console.log("Button clicked!");
+            var progressBar = document.getElementById('progress-bar');
+            progressBar.style.width = '100%';
+            
+            var blurBackground = document.getElementById('blur-background');
+            blurBackground.style.display = 'block';
+    
+            var loadingOverlay = document.getElementById('loading-overlay');
+            loadingOverlay.hidden = false; // Show the loading overlay
+        }
+
+        document.getElementById('generate-pdf-button').addEventListener('click', function () {
+        // Add logic here to generate and download the PDF
+        var pdfLink = document.createElement('a');
+        pdfLink.href = "{% url 'generate_pdf_report' id %}";
+        pdfLink.download = "test_report.pdf";
+        pdfLink.click();
+        
+        // Add logic here to redirect after PDF is generated and downloaded
+        window.location.href = "{% url 'view_student' id %}";
+    });
+
+    // document.getElementById("send_whatsapp").addEventListener("click", function () {
+    // const id = this.value;
+    // console.log("ID FOR REPORT", id)
+    // var pdfLink = document.createElement('a');
+    // pdfLink.href = "{% url 'send_report' id %}";
+    // pdfLink.download = "test_report.pdf";
+    // pdfLink.click();
+    // executeSeleniumAction(id);
+// });
+
+function executeSeleniumAction(id) {
+    // Send an AJAX request with the argument in the URL
+    fetch(`/send_report/${id}/`)  // Modify the URL to include the argument
+    .then(response => response.text())
+    .then(data => {
+        alert(data);  // Display the response from the Django view
+    })
+    .catch(error => {
+        console.error('Error: 000000000000000', error);
+    });
+}
+    </script>
+{% endblock %}
+{% endblock %}

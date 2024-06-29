@@ -1,0 +1,104 @@
+{% extends 'admin/admin_base.html' %}
+
+{% block title %}
+    Admin - Manage Tests
+{% endblock %}
+
+<!-- {% block extra_css %}
+    <style>
+        .center-button {
+            text-align: center;
+        }
+
+        .submit-button {
+            background-color: blue;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: darkblue;
+        }
+    </style>
+{% endblock %} -->
+
+{% block body %}
+
+<script>
+console.log("lllllllllllllllllllllllllllllllllllllll")
+</script>
+
+
+<div class="container mt-5">
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Test Details</h4>
+        </div>
+        
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="mb-1"><strong>Test ID:</strong> {{ test_instance.id }}</p>
+                    <p class="mb-1"><strong>Test Date:</strong> {{ test_instance.test_date }}</p>
+                    <p class="mb-1"><strong>Subject:</strong> {{ test_instance.subject }}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-1"><strong>Standard:</strong> {{ test_instance.standard }}</p>
+                    <p class="mb-1"><strong>Medium:</strong> {{ test_instance.medium }}</p>
+                    <p class="mb-1"><strong>Total Marks:</strong> {{ test_instance.total_marks }}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-0"><strong>Chapters:</strong> {{ test_instance.chapters }}</p>
+                    <p class="mb-0"><strong>Test Type:</strong> {{ test_instance.test_type }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form method="post" class="mt-4">
+        {% csrf_token %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Student Roll Number</th>
+                    <th>Student Name</th>
+                    {% if test_instance.test_type == 'NEET' or test_instance.test_type == 'GUJCET' or test_instance.test_type == 'JEE' %}
+                        <th>Correct Answers</th>
+                        <th>Incorrect Answers</th>
+                    {% else %}
+                        <th>Marks Gained</th>
+                    {% endif %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in student_list %}
+                <tr>
+                    <td>{{ student.id }}</td>
+                    <td>{{ student.full_name }}</td>
+                    {% if test_instance.test_type == 'NEET' or test_instance.test_type == 'GUJCET' or test_instance.test_type == 'JEE' %}
+                        <td>
+                            <input type="number" class="form-control" name="correct_answers_{{ student.id }}" min="0">
+                        </td>
+                        <td>
+                            <input type="number" class="form-control" name="incorrect_answers_{{ student.id }}" min="0">
+                        </td>
+                    {% else %}
+                        <td>
+                            <input type="number" class="form-control" name="{{ student.id }}" min="0" max="{{ test_instance.total_marks }}">
+                        </td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <input type="hidden" id="hiddenTestId" name="test_id" value="{{ test_instance.id }}">
+        <br>
+        <div class="text-center mt-4"> <!-- Center-aligning div -->
+            <button type="submit" class="btn btn-primary submit-button" name="submit_marks">Submit Marks</button>
+        </div>
+        <br>
+    </form>
+</div>
+
+{% endblock %}

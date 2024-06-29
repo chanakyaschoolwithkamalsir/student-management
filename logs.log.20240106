@@ -1,0 +1,147 @@
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 40 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 40 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 40 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 40 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 41 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 41 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 41 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 41 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 42 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 42 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 42 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 42 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 43 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 43 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 43 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 43 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 44 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 44 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 44 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 44 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 45 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 45 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 45 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 45 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 46 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 46 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 46 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 46 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 47 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 47 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 47 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 47 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 48 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 48 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 48 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 48 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 49 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 49 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 49 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 49 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 50 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 50 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 50 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 50 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 51 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 51 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 51 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 51 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 52 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 52 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 52 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 52 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 53 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 53 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 53 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 53 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 54 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 54 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 54 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 54 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 55 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 55 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 55 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 55 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 56 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 56 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 56 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 56 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 57 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 57 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 57 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 57 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 58 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 58 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 58 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 58 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 59 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 59 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 59 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 59 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 60 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 60 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 60 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 60 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 61 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 61 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 61 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 61 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 62 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 62 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 62 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 62 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 63 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 63 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 63 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 63 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 64 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 64 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 64 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 64 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 65 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 65 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 65 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 65 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 72 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 72 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 72 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 72 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 73 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 73 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 73 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 73 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-614]:Test ID: 1: Student ID: 74 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-615]:Test ID: 1: Student ID: 74 - 0
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-620]:Test ID: 1: Student ID: 74 - None
+[2024-01-06 14:03:34-INFO]-views.py-view_test-Thread-1 (process_request_thread)-[Line-642]:Test ID: 1: Student ID: 74 - None                             Correct - None
+                            Incorrect - None
+[2024-01-06 14:03:37-INFO]-views.py-show_test_marks-Thread-1 (process_request_thread)-[Line-687]:Test ID: 1 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2024-01-06 14:04:27-INFO]-views.py-show_test_marks-Thread-1 (process_request_thread)-[Line-686]:Test ID: 1 - Standard: 11 - Medium: Gujarati Medium -> show test marks

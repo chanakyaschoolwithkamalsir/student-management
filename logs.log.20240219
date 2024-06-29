@@ -1,0 +1,3 @@
+[2024-02-19 10:52:41-INFO]-views.py-show_test_marks-Thread-4 (process_request_thread)-[Line-689]:Test ID: 1 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2024-02-19 10:52:49-INFO]-views.py-whatsapp_button-Thread-4 (process_request_thread)-[Line-310]:connecting to whatsapp
+[2024-02-19 12:34:55-INFO]-views.py-show_test_marks-Thread-1 (process_request_thread)-[Line-689]:Test ID: 1 - Standard: 11 - Medium: Gujarati Medium -> show test marks

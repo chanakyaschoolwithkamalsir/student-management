@@ -1,0 +1,63 @@
+{% extends 'admin/admin_base.html' %}
+
+{% block title %}
+    Admin - Manage Tests
+{% endblock %}
+
+{% block body %}
+
+<div class="container mt-5">
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Test Details</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="mb-1"><strong>Test ID:</strong> {{ test_instance.id }}</p>
+                    <p class="mb-1"><strong>Test Date:</strong> {{ test_instance.test_date }}</p>
+                    <p class="mb-1"><strong>Subject:</strong> {{ test_instance.subject }}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-1"><strong>Standard:</strong> {{ test_instance.standard }}</p>
+                    <p class="mb-1"><strong>Medium:</strong> {{ test_instance.medium }}</p>
+                    <p class="mb-1"><strong>Total Marks:</strong> {{ test_instance.total_marks }}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-0"><strong>Chapters:</strong> {{ test_instance.chapters }}</p>
+                    <p class="mb-0"><strong>Test Type:</strong> {{ test_instance.test_type }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form method="post" class="mt-4">
+        {% csrf_token %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Student Roll Number</th>
+                    <th>Student Name</th>
+                    <th>Total Marks</th>
+                    <th>Obtained</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in student_list %}
+                <tr>
+                    <td>{{ student.roll_no }}</td>
+                    <td>{{ student.name }}</td>
+                    <td>{{ test_instance.total_marks }}</td>
+                    <td>{{ student.obtained }}</td>
+                    <td>{{ student.pct }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <input type="hidden" id="hiddenTestId" name="test_id" value="{{ test_instance.id }}">
+    </form>
+</div>
+
+{% endblock %}

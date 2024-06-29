@@ -1,0 +1,92 @@
+{% extends 'admin/admin_base.html' %}
+
+{% block title %}
+    Admin - Dashboard
+{% endblock %}
+
+{% block body %}
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        background-color: #ffffff; /* Light background */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 0;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px; /* Navbar height */
+    }
+
+    .navbar-brand img {
+        height: 280%;
+        box-shadow: #f7f7f7;
+        border-style: hidden;
+    }
+
+    .offcanvas {
+        background-color: #444; /* Dark offcanvas background */
+    }
+
+    .navbar-toggler-icon {
+        background-color: rgb(43, 152, 255); /* Blue color */
+    }
+
+    .navbar-nav .nav-link {
+        color: rgb(0, 0, 0); /* Black color */
+    }
+
+    .dropdown-menu-dark {
+        background-color: #ffffff; /* Light dropdown background */
+    }
+
+    .dropdown-item {
+        color: rgb(0, 0, 0); /* Black color */
+        transition: background-color 0.3s;
+    }
+
+    .dropdown-item:hover {
+        background-color: #2aaaff; /* Hover background color */
+    }
+
+    .container {
+        padding-top: 100px;
+    }
+
+    .card {
+        box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.1);
+        cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05); /* Scale up on hover */
+    }
+
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+            <a href="{% url 'manage_students' %}" class="text-decoration-none">
+                <div class="card text-center p-4">
+                    <h1 class="card-title text-danger">{{ students.count }}</h1>
+                    <h4 class="card-text">Students</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

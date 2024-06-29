@@ -1,0 +1,4 @@
+[2024-04-14 09:49:50-INFO]-views.py-whatsapp_button-Thread-5 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-04-14 09:49:57-INFO]-views.py-whatsapp_button-Thread-3 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-04-14 09:51:29-INFO]-views.py-whatsapp_button-Thread-1 (process_request_thread)-[Line-317]:connecting to whatsapp
+[2024-04-14 09:51:35-INFO]-views.py-whatsapp_button-Thread-2 (process_request_thread)-[Line-317]:connecting to whatsapp

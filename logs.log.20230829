@@ -1,0 +1,1118 @@
+[2023-08-24 11:09:58-INFO]-views.py-whatsapp_button-Thread-1-[Line-253]:Automation URL name -> WhatsApp Web
+[2023-08-24 11:21:52-INFO]-views.py-whatsapp_button-Thread-1-[Line-253]:Automation URL name -> WhatsApp Web
+[2023-08-24 15:54:45-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-266]:Received argument: 9
+[2023-08-24 15:55:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-45]:9 - report generation starts
+[2023-08-24 15:55:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-56]:9 - 120 data collected
+[2023-08-24 15:55:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-67]:9 - creating pdf object
+[2023-08-24 15:55:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - preparing student all data table
+[2023-08-24 15:55:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-91]:9 - start generating charts
+[2023-08-24 15:55:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Biology chart is getting generated
+[2023-08-24 15:55:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Biology chapter wise chart is getting generated
+[2023-08-24 15:55:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Chemistry chart is getting generated
+[2023-08-24 15:55:31-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-24 15:55:31-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Physics chart is getting generated
+[2023-08-24 15:55:34-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Physics chapter wise chart is getting generated
+[2023-08-24 15:55:34-INFO]-views.py-generate_pdf_report-Thread-1-[Line-178]:9 - adding data table
+[2023-08-24 15:55:34-INFO]-views.py-generate_pdf_report-Thread-1-[Line-199]:9 - saving pdf
+[2023-08-24 15:56:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-45]:9 - report generation starts
+[2023-08-24 15:56:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-56]:9 - 120 data collected
+[2023-08-24 15:56:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-67]:9 - creating pdf object
+[2023-08-24 15:56:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - preparing student all data table
+[2023-08-24 15:56:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-91]:9 - start generating charts
+[2023-08-24 15:56:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Biology chart is getting generated
+[2023-08-24 15:56:24-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Biology chapter wise chart is getting generated
+[2023-08-24 15:56:25-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Chemistry chart is getting generated
+[2023-08-24 15:56:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-24 15:56:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Physics chart is getting generated
+[2023-08-24 15:56:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Physics chapter wise chart is getting generated
+[2023-08-24 15:56:28-INFO]-views.py-generate_pdf_report-Thread-1-[Line-178]:9 - adding data table
+[2023-08-24 15:56:28-INFO]-views.py-generate_pdf_report-Thread-1-[Line-199]:9 - saving pdf
+[2023-08-24 15:57:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-45]:9 - report generation starts
+[2023-08-24 15:57:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-56]:9 - 120 data collected
+[2023-08-24 15:57:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-67]:9 - creating pdf object
+[2023-08-24 15:57:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - preparing student all data table
+[2023-08-24 15:57:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-91]:9 - start generating charts
+[2023-08-24 15:57:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Biology chart is getting generated
+[2023-08-24 15:57:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Biology chapter wise chart is getting generated
+[2023-08-24 15:57:18-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Chemistry chart is getting generated
+[2023-08-24 15:57:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-24 15:57:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Physics chart is getting generated
+[2023-08-24 15:57:21-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Physics chapter wise chart is getting generated
+[2023-08-24 15:57:21-INFO]-views.py-generate_pdf_report-Thread-1-[Line-178]:9 - adding data table
+[2023-08-24 15:57:21-INFO]-views.py-generate_pdf_report-Thread-1-[Line-199]:9 - saving pdf
+[2023-08-24 15:58:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-45]:9 - report generation starts
+[2023-08-24 15:58:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-56]:9 - 120 data collected
+[2023-08-24 15:58:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-67]:9 - creating pdf object
+[2023-08-24 15:58:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - preparing student all data table
+[2023-08-24 15:58:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-91]:9 - start generating charts
+[2023-08-24 15:58:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Biology chart is getting generated
+[2023-08-24 15:58:04-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Biology chapter wise chart is getting generated
+[2023-08-24 15:58:04-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Chemistry chart is getting generated
+[2023-08-24 15:58:05-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-24 15:58:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Physics chart is getting generated
+[2023-08-24 15:58:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Physics chapter wise chart is getting generated
+[2023-08-24 15:58:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-178]:9 - adding data table
+[2023-08-24 15:58:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-199]:9 - saving pdf
+[2023-08-24 10:31:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-45]:9 - report generation starts
+[2023-08-24 10:31:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-56]:9 - 120 data collected
+[2023-08-24 10:31:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-67]:9 - creating pdf object
+[2023-08-24 10:31:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - preparing student all data table
+[2023-08-24 10:31:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-91]:9 - start generating charts
+[2023-08-24 10:31:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Biology chart is getting generated
+[2023-08-24 10:31:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Biology chapter wise chart is getting generated
+[2023-08-24 10:31:09-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Chemistry chart is getting generated
+[2023-08-24 10:31:11-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-24 10:31:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Physics chart is getting generated
+[2023-08-24 10:31:14-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Physics chapter wise chart is getting generated
+[2023-08-24 10:31:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-178]:9 - adding data table
+[2023-08-24 10:31:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-199]:9 - saving pdf
+[2023-08-24 10:31:43-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-266]:Received argument: 9
+[2023-08-24 10:38:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-45]:9 - report generation starts
+[2023-08-24 10:38:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-56]:9 - 120 data collected
+[2023-08-24 10:38:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-67]:9 - creating pdf object
+[2023-08-24 10:38:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - preparing student all data table
+[2023-08-24 10:38:43-INFO]-views.py-generate_pdf_report-Thread-1-[Line-91]:9 - start generating charts
+[2023-08-24 10:38:43-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Biology chart is getting generated
+[2023-08-24 10:38:44-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Biology chapter wise chart is getting generated
+[2023-08-24 10:38:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Chemistry chart is getting generated
+[2023-08-24 10:38:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-24 10:38:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-94]:9 - Physics chart is getting generated
+[2023-08-24 10:38:50-INFO]-views.py-generate_pdf_report-Thread-1-[Line-143]:9 - Physics chapter wise chart is getting generated
+[2023-08-24 10:38:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-178]:9 - adding data table
+[2023-08-24 10:38:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-212]:9 - saving pdf
+[2023-08-24 10:45:07-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 10:46:15-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 10:46:43-INFO]-views.py-whatsapp_button-Thread-1-[Line-269]:Error in getting WhatsApp Drivers : Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+[2023-08-24 16:17:10-INFO]-views.py-whatsapp_button-Thread-1-[Line-265]:Automation URL name -> WhatsApp Web
+[2023-08-24 16:17:54-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:26:10-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:26:24-INFO]-views.py-whatsapp_button-Thread-1-[Line-265]:Automation URL name -> WhatsApp Web
+[2023-08-24 16:27:05-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:28:32-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:28:51-INFO]-views.py-whatsapp_button-Thread-1-[Line-265]:Automation URL name -> WhatsApp Web
+[2023-08-24 16:29:27-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:30:05-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:31:08-INFO]-views.py-whatsapp_button-Thread-1-[Line-265]:Automation URL name -> WhatsApp Web
+[2023-08-24 16:31:36-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:32:09-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:32:34-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:32:51-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:37:12-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:47:30-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 16:47:34-INFO]-views.py-whatsapp_button-Thread-1-[Line-265]:Automation URL name -> WhatsApp Web
+[2023-08-24 11:23:47-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-280]:Received argument: 9
+[2023-08-24 11:23:47-INFO]-views.py-whatsapp_button-Thread-1-[Line-269]:Error in getting WhatsApp Drivers : Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+[2023-08-24 11:26:21-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-284]:Received argument: 9
+[2023-08-24 11:26:21-INFO]-views.py-whatsapp_button-Thread-1-[Line-273]:Error in getting WhatsApp Drivers : name 'sys' is not defined
+[2023-08-24 11:26:44-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-284]:Received argument: 9
+[2023-08-24 11:26:49-INFO]-views.py-whatsapp_button-Thread-1-[Line-269]:Automation URL name -> WhatsApp Web
+[2023-08-24 11:55:04-INFO]-views.py-whatsapp_button-Thread-1-[Line-274]:Automation URL name -> WhatsApp Web
+[2023-08-24 11:56:20-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-289]:Received argument: 10
+[2023-08-24 11:57:32-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-289]:Received argument: 10
+[2023-08-24 11:57:36-INFO]-views.py-whatsapp_button-Thread-1-[Line-274]:Automation URL name -> WhatsApp Web
+[2023-08-24 11:58:30-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-289]:Received argument: 10
+[2023-08-24 13:09:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-60]:10 - report generation starts
+[2023-08-24 13:09:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-71]:10 - 120 data collected
+[2023-08-24 13:09:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-82]:10 - creating pdf object
+[2023-08-24 13:09:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-87]:10 - preparing student all data table
+[2023-08-24 13:09:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-106]:10 - start generating charts
+[2023-08-24 13:09:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:10 - Biology chart is getting generated
+[2023-08-24 13:09:03-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:10 - Biology chapter wise chart is getting generated
+[2023-08-24 13:09:05-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:10 - Chemistry chart is getting generated
+[2023-08-24 13:09:06-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:10 - Chemistry chapter wise chart is getting generated
+[2023-08-24 13:09:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:10 - Physics chart is getting generated
+[2023-08-24 13:09:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:10 - Physics chapter wise chart is getting generated
+[2023-08-24 13:09:11-INFO]-views.py-generate_pdf_report-Thread-1-[Line-193]:10 - adding data table
+[2023-08-24 13:09:11-INFO]-views.py-generate_pdf_report-Thread-1-[Line-227]:10 - saving pdf
+[2023-08-25 11:38:59-INFO]-views.py-view_test-Thread-1-[Line-490]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 34) already exists.
+
+[2023-08-25 12:03:28-INFO]-views.py-view_test-Thread-1-[Line-476]:the JSON object must be str, bytes or bytearray, not dict getting test
+[2023-08-25 12:04:28-INFO]-views.py-view_test-Thread-1-[Line-475]:the JSON object must be str, bytes or bytearray, not dict getting test
+[2023-08-25 12:08:23-INFO]-views.py-view_test-Thread-1-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 149) already exists.
+
+[2023-08-25 14:33:03-INFO]-views.py-view_test-Thread-4-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 150) already exists.
+
+[2023-08-25 14:36:47-INFO]-views.py-view_test-Thread-1-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 151) already exists.
+
+[2023-08-25 15:41:44-INFO]-views.py-view_test-Thread-2-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 152) already exists.
+
+[2023-08-25 15:44:10-INFO]-views.py-view_test-Thread-1-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 153) already exists.
+
+[2023-08-25 15:44:22-INFO]-views.py-view_test-Thread-1-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 153) already exists.
+
+[2023-08-25 15:47:07-INFO]-views.py-view_test-Thread-1-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 154) already exists.
+
+[2023-08-25 15:47:35-INFO]-views.py-view_test-Thread-1-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 154) already exists.
+
+[2023-08-26 10:25:05-INFO]-views.py-view_test-Thread-3-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 157) already exists.
+
+[2023-08-26 10:26:27-INFO]-views.py-view_test-Thread-3-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 157) already exists.
+
+[2023-08-26 10:27:10-INFO]-views.py-view_test-Thread-3-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 157) already exists.
+
+[2023-08-26 10:27:47-INFO]-views.py-view_test-Thread-3-[Line-498]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 157) already exists.
+
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:53
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:10
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:90
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:12
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:100
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:20
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:150
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:25
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:38:56-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:50
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:10
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:100
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:10
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:120
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:12
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:120
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:5
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:40:02-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:120
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:12
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:110
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:11
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:150
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:25
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-502]:
+[2023-08-26 10:41:49-INFO]-views.py-view_test-Thread-1-[Line-503]:
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 9 - 120
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 9 - 20
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-499]:Test ID: 157: Student ID: 9 - NEET
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 9 - NEET                             Correct - 480
+                            Incorrect - 20
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 10 - 50
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 10 - 20
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-499]:Test ID: 157: Student ID: 10 - NEET
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 10 - NEET                             Correct - 200
+                            Incorrect - 20
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 11 - 10
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 11 - 30
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-499]:Test ID: 157: Student ID: 11 - NEET
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 11 - NEET                             Correct - 40
+                            Incorrect - 30
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 12 - 100
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 12 - 100
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-499]:Test ID: 157: Student ID: 12 - NEET
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 12 - NEET                             Correct - 400
+                            Incorrect - 100
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 13 - 
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 13 - 
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 13 - NEET                             Correct - 400
+                            Incorrect - 100
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 14 - 
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 14 - 
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 14 - NEET                             Correct - 400
+                            Incorrect - 100
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 157: Student ID: 15 - 
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 157: Student ID: 15 - 
+[2023-08-26 10:51:33-INFO]-views.py-view_test-Thread-1-[Line-519]:Test ID: 157: Student ID: 15 - NEET                             Correct - 400
+                            Incorrect - 100
+[2023-08-26 10:53:22-INFO]-views.py-view_test-Thread-1-[Line-493]:Test ID: 146: Student ID: 9 - 0
+[2023-08-26 10:53:22-INFO]-views.py-view_test-Thread-1-[Line-494]:Test ID: 146: Student ID: 9 - 0
+[2023-08-26 11:09:01-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:09:43-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:11:41-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:11:47-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:11:56-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:12:15-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 155 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:12:25-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 50 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:13:51-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:13:51-INFO]-views.py-show_test_marks-Thread-1-[Line-567]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 892 Records
+[2023-08-26 11:15:07-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:15:32-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:15:33-INFO]-views.py-show_test_marks-Thread-1-[Line-568]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:15:52-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:15:52-INFO]-views.py-show_test_marks-Thread-1-[Line-568]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:16:51-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:16:51-INFO]-views.py-show_test_marks-Thread-1-[Line-569]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:17:47-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:17:47-INFO]-views.py-show_test_marks-Thread-1-[Line-569]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:19:32-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:19:32-INFO]-views.py-show_test_marks-Thread-1-[Line-569]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:20:44-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:20:44-INFO]-views.py-show_test_marks-Thread-1-[Line-569]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:22:51-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:22:51-INFO]-views.py-show_test_marks-Thread-1-[Line-569]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:23:24-INFO]-views.py-show_test_marks-Thread-1-[Line-556]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-26 11:23:24-INFO]-views.py-show_test_marks-Thread-1-[Line-569]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-26 11:24:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-60]:9 - report generation starts
+[2023-08-26 11:24:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-71]:9 - 128 data collected
+[2023-08-26 11:27:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-60]:9 - report generation starts
+[2023-08-26 11:27:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-71]:9 - 128 data collected
+[2023-08-26 11:28:13-INFO]-views.py-generate_pdf_report-Thread-1-[Line-60]:9 - report generation starts
+[2023-08-26 11:28:13-INFO]-views.py-generate_pdf_report-Thread-1-[Line-71]:9 - 128 data collected
+[2023-08-26 11:28:13-INFO]-views.py-generate_pdf_report-Thread-1-[Line-82]:9 - creating pdf object
+[2023-08-26 11:28:14-INFO]-views.py-generate_pdf_report-Thread-1-[Line-87]:9 - preparing student all data table
+[2023-08-26 11:28:14-INFO]-views.py-generate_pdf_report-Thread-1-[Line-106]:9 - start generating charts
+[2023-08-26 11:28:14-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:9 - Physics chart is getting generated
+[2023-08-26 11:28:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 11:28:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:9 - Chemistry chart is getting generated
+[2023-08-26 11:28:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 11:28:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:9 - Biology chart is getting generated
+[2023-08-26 11:28:22-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 11:28:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-193]:9 - adding data table
+[2023-08-26 11:28:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-227]:9 - saving pdf
+[2023-08-26 11:31:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-60]:9 - report generation starts
+[2023-08-26 11:31:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-71]:9 - 128 data collected
+[2023-08-26 11:31:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-82]:9 - creating pdf object
+[2023-08-26 11:31:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-87]:9 - preparing student all data table
+[2023-08-26 11:31:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-106]:9 - start generating charts
+[2023-08-26 11:31:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:9 - Physics chart is getting generated
+[2023-08-26 11:31:51-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 11:31:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:9 - Chemistry chart is getting generated
+[2023-08-26 11:31:54-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 11:31:55-INFO]-views.py-generate_pdf_report-Thread-1-[Line-109]:9 - Biology chart is getting generated
+[2023-08-26 11:31:57-INFO]-views.py-generate_pdf_report-Thread-1-[Line-158]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 11:31:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-193]:9 - adding data table
+[2023-08-26 11:31:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-227]:9 - saving pdf
+[2023-08-26 11:33:45-INFO]-views.py-generate_pdf_report-Thread-1-[Line-60]:9 - report generation starts
+[2023-08-26 11:33:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-71]:9 - 128 data collected
+[2023-08-26 11:33:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-82]:9 - creating pdf object
+[2023-08-26 11:33:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-96]:9 - preparing student all data table
+[2023-08-26 11:33:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - start generating charts
+[2023-08-26 11:33:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - Physics chart is getting generated
+[2023-08-26 11:33:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-167]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 11:33:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - Chemistry chart is getting generated
+[2023-08-26 11:33:51-INFO]-views.py-generate_pdf_report-Thread-1-[Line-167]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 11:33:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - Biology chart is getting generated
+[2023-08-26 11:33:54-INFO]-views.py-generate_pdf_report-Thread-1-[Line-167]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 11:33:55-INFO]-views.py-generate_pdf_report-Thread-1-[Line-202]:9 - adding data table
+[2023-08-26 11:33:55-INFO]-views.py-generate_pdf_report-Thread-1-[Line-236]:9 - saving pdf
+[2023-08-26 11:42:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-61]:9 - report generation starts
+[2023-08-26 11:42:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-72]:9 - 128 data collected
+[2023-08-26 11:42:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-83]:9 - creating pdf object
+[2023-08-26 11:42:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-66]:9 - report generation starts
+[2023-08-26 11:42:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-77]:9 - 128 data collected
+[2023-08-26 11:42:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-88]:9 - creating pdf object
+[2023-08-26 11:56:14-INFO]-views.py-generate_pdf_report-Thread-2-[Line-84]:9 - report generation starts
+[2023-08-26 11:56:14-INFO]-views.py-generate_pdf_report-Thread-2-[Line-95]:9 - 128 data collected
+[2023-08-26 11:56:14-INFO]-views.py-generate_pdf_report-Thread-2-[Line-106]:9 - creating pdf object
+[2023-08-26 11:56:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 11:56:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 11:56:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 11:56:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 11:56:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 11:56:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 11:56:51-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 11:56:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 11:56:54-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 11:56:55-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 11:56:57-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 11:56:59-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 11:58:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 11:58:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 11:58:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 11:58:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 11:58:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 11:58:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 11:58:32-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 11:58:34-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 11:58:35-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 11:58:37-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 11:58:38-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 11:58:40-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 11:58:40-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 12:02:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 12:02:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 12:02:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 12:02:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 12:02:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 12:02:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 12:02:50-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 12:02:51-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 12:02:53-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 12:02:54-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 12:02:56-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 12:02:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 12:02:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:40:54-INFO]-views.py-generate_pdf_report-Thread-6-[Line-79]:9 - report generation starts
+[2023-08-26 16:40:54-INFO]-views.py-generate_pdf_report-Thread-6-[Line-90]:9 - 128 data collected
+[2023-08-26 16:40:54-INFO]-views.py-generate_pdf_report-Thread-6-[Line-101]:9 - creating pdf object
+[2023-08-26 16:40:55-INFO]-views.py-generate_pdf_report-Thread-6-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:40:55-INFO]-views.py-generate_pdf_report-Thread-6-[Line-134]:9 - start generating charts
+[2023-08-26 16:40:55-INFO]-views.py-generate_pdf_report-Thread-6-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:40:57-INFO]-views.py-generate_pdf_report-Thread-6-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:40:58-INFO]-views.py-generate_pdf_report-Thread-6-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:41:00-INFO]-views.py-generate_pdf_report-Thread-6-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:41:02-INFO]-views.py-generate_pdf_report-Thread-6-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:41:04-INFO]-views.py-generate_pdf_report-Thread-6-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:41:05-INFO]-views.py-generate_pdf_report-Thread-6-[Line-221]:9 - adding data table
+[2023-08-26 16:41:05-INFO]-views.py-generate_pdf_report-Thread-6-[Line-255]:9 - saving pdf
+[2023-08-26 16:46:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:46:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:46:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:46:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:46:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:46:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:46:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:46:43-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:46:45-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:46:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:46:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:46:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:46:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:47:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:47:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:47:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:47:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:47:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:47:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:47:32-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:47:33-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:47:35-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:47:36-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:47:38-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:47:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:47:39-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:48:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:48:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:48:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:48:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:48:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:48:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:48:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:48:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:48:22-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:48:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:48:25-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:48:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:48:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:49:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:49:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:49:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:49:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:49:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:49:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:49:44-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:49:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:49:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:49:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:49:50-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:49:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:49:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:50:18-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:50:18-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:50:18-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:50:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:50:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:50:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:50:21-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:50:22-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:50:24-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:50:25-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:50:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:50:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:50:29-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:51:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:51:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:51:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:51:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:51:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:51:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:51:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:51:11-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:51:13-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:51:14-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:51:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:51:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:51:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:51:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:51:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:51:47-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:51:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:51:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:51:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:51:50-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:51:51-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:51:53-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:51:54-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:51:56-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:51:57-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:51:57-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:52:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:52:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:52:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:52:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:52:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:52:58-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:53:01-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:53:02-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:53:04-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:53:05-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:53:07-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:53:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:53:08-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 16:54:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-79]:9 - report generation starts
+[2023-08-26 16:54:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-90]:9 - 128 data collected
+[2023-08-26 16:54:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-101]:9 - creating pdf object
+[2023-08-26 16:54:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-115]:9 - preparing student all data table
+[2023-08-26 16:54:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-134]:9 - start generating charts
+[2023-08-26 16:54:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Physics chart is getting generated
+[2023-08-26 16:54:22-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 16:54:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Chemistry chart is getting generated
+[2023-08-26 16:54:25-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 16:54:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - Biology chart is getting generated
+[2023-08-26 16:54:28-INFO]-views.py-generate_pdf_report-Thread-1-[Line-186]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 16:54:30-INFO]-views.py-generate_pdf_report-Thread-1-[Line-221]:9 - adding data table
+[2023-08-26 16:54:30-INFO]-views.py-generate_pdf_report-Thread-1-[Line-255]:9 - saving pdf
+[2023-08-26 17:01:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-81]:9 - report generation starts
+[2023-08-26 17:01:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-95]:9 - 128 data collected
+[2023-08-26 17:01:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-106]:9 - creating pdf object
+[2023-08-26 17:01:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-120]:9 - preparing student all data table
+[2023-08-26 17:01:18-INFO]-views.py-generate_pdf_report-Thread-1-[Line-139]:9 - start generating charts
+[2023-08-26 17:01:18-INFO]-views.py-generate_pdf_report-Thread-1-[Line-142]:9 - Physics chart is getting generated
+[2023-08-26 17:01:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-191]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 17:01:21-INFO]-views.py-generate_pdf_report-Thread-1-[Line-142]:9 - Chemistry chart is getting generated
+[2023-08-26 17:01:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-191]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 17:01:24-INFO]-views.py-generate_pdf_report-Thread-1-[Line-142]:9 - Biology chart is getting generated
+[2023-08-26 17:01:26-INFO]-views.py-generate_pdf_report-Thread-1-[Line-191]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 17:01:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-226]:9 - adding data table
+[2023-08-26 17:01:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-260]:9 - saving pdf
+[2023-08-26 17:01:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-265]:9 - adding watermark
+[2023-08-26 17:08:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-80]:9 - report generation starts
+[2023-08-26 17:08:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-93]:9 - 128 data collected
+[2023-08-26 17:08:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-104]:9 - creating pdf object
+[2023-08-26 17:08:28-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - preparing student all data table
+[2023-08-26 17:08:28-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - start generating charts
+[2023-08-26 17:08:28-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Physics chart is getting generated
+[2023-08-26 17:08:30-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 17:08:31-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-26 17:08:33-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 17:08:34-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Biology chart is getting generated
+[2023-08-26 17:08:36-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 17:08:37-INFO]-views.py-generate_pdf_report-Thread-1-[Line-224]:9 - adding data table
+[2023-08-26 17:08:37-INFO]-views.py-generate_pdf_report-Thread-1-[Line-259]:9 - saving pdf
+[2023-08-26 17:08:38-INFO]-views.py-generate_pdf_report-Thread-1-[Line-264]:9 - adding watermark
+[2023-08-26 17:09:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-80]:9 - report generation starts
+[2023-08-26 17:09:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-93]:9 - 128 data collected
+[2023-08-26 17:09:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-104]:9 - creating pdf object
+[2023-08-26 17:09:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - preparing student all data table
+[2023-08-26 17:09:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - start generating charts
+[2023-08-26 17:09:42-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Physics chart is getting generated
+[2023-08-26 17:09:45-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 17:09:46-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-26 17:09:48-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 17:09:49-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Biology chart is getting generated
+[2023-08-26 17:09:51-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 17:09:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-224]:9 - adding data table
+[2023-08-26 17:09:52-INFO]-views.py-generate_pdf_report-Thread-1-[Line-259]:9 - saving pdf
+[2023-08-26 17:09:53-INFO]-views.py-generate_pdf_report-Thread-1-[Line-264]:9 - adding watermark
+[2023-08-26 17:11:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-80]:9 - report generation starts
+[2023-08-26 17:11:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-93]:9 - 128 data collected
+[2023-08-26 17:11:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-104]:9 - creating pdf object
+[2023-08-26 17:11:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - preparing student all data table
+[2023-08-26 17:11:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - start generating charts
+[2023-08-26 17:11:12-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Physics chart is getting generated
+[2023-08-26 17:11:15-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-26 17:11:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-26 17:11:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-26 17:11:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Biology chart is getting generated
+[2023-08-26 17:11:22-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-26 17:11:24-INFO]-views.py-generate_pdf_report-Thread-1-[Line-224]:9 - adding data table
+[2023-08-26 17:11:24-INFO]-views.py-generate_pdf_report-Thread-1-[Line-259]:9 - saving pdf
+[2023-08-26 17:11:24-INFO]-views.py-generate_pdf_report-Thread-1-[Line-264]:9 - adding watermark
+[2023-08-26 19:38:17-INFO]-views.py-download_test_paper-Thread-1-[Line-701]:Test ID: 161 for downloading test paper
+[2023-08-26 19:38:38-INFO]-views.py-download_test_paper-Thread-1-[Line-701]:Test ID: 167 for downloading test paper
+[2023-08-26 19:42:56-INFO]-views.py-download_test_paper-Thread-1-[Line-701]:Test ID: 169 for downloading test paper
+[2023-08-26 19:44:27-INFO]-views.py-download_test_paper-Thread-1-[Line-701]:Test ID: 170 for downloading test paper
+[2023-08-27 07:51:22-INFO]-backup.py-backup_db-Thread-3-[Line-29]:backup start
+[2023-08-27 13:55:16-INFO]-backup.py-backup_db-Thread-1-[Line-36]:backup start
+[2023-08-27 14:00:09-INFO]-backup.py-backup_db-Thread-1-[Line-37]:backup start
+[2023-08-27 14:00:33-INFO]-backup.py-backup_db-Thread-1-[Line-37]:backup start
+[2023-08-27 14:02:15-INFO]-backup.py-backup_db-Thread-1-[Line-37]:backup start
+[2023-08-27 14:04:43-INFO]-backup.py-backup_db-Thread-1-[Line-39]:backup start
+[2023-08-27 14:04:43-INFO]-backup.py-backup_db-Thread-1-[Line-55]:[Errno 2] No such file or directory: '/mnt/c/Program\\\\ Files/PostgreSQL/14/bin/pg_dump.exe'
+[2023-08-27 14:05:58-INFO]-backup.py-backup_db-Thread-1-[Line-39]:backup start
+[2023-08-27 14:06:05-INFO]-backup.py-backup_db-Thread-1-[Line-46]:Database backup completed successfully.
+[2023-08-27 14:08:24-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:08:29-INFO]-backup.py-backup_db-Thread-1-[Line-48]:Database backup completed successfully.
+[2023-08-27 14:09:16-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:09:24-INFO]-backup.py-backup_db-Thread-1-[Line-46]:Database backup completed successfully.
+[2023-08-27 14:13:19-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:13:24-INFO]-backup.py-backup_db-Thread-1-[Line-54]:Database backup completed successfully.
+[2023-08-27 14:14:21-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:14:27-INFO]-backup.py-backup_db-Thread-1-[Line-56]:Database backup completed successfully.
+[2023-08-27 14:15:38-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:16:16-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:16:39-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:16:44-INFO]-backup.py-backup_db-Thread-1-[Line-56]:Database backup completed successfully.
+[2023-08-27 14:17:59-INFO]-backup.py-backup_db-Thread-2-[Line-40]:backup start
+[2023-08-27 14:20:15-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:20:20-INFO]-backup.py-backup_db-Thread-1-[Line-56]:Database backup completed successfully.
+[2023-08-27 14:20:58-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:21:06-INFO]-backup.py-backup_db-Thread-1-[Line-57]:Database backup completed successfully.
+[2023-08-27 14:23:31-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:23:35-INFO]-backup.py-backup_db-Thread-1-[Line-57]:Database backup completed successfully.
+[2023-08-27 14:25:09-INFO]-backup.py-backup_db-Thread-1-[Line-40]:backup start
+[2023-08-27 14:25:13-INFO]-backup.py-backup_db-Thread-1-[Line-57]:Database backup completed successfully.
+[2023-08-27 14:27:09-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:27:48-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:28:53-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:31:49-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:31:54-INFO]-backup.py-backup_db-Thread-1-[Line-58]:Database backup completed successfully.
+[2023-08-27 14:34:34-INFO]-backup.py-backup_db-Thread-1-[Line-47]:backup start
+[2023-08-27 14:34:38-INFO]-backup.py-backup_db-Thread-1-[Line-54]:Database backup completed successfully.
+[2023-08-27 14:43:50-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:43:50-INFO]-backup.py-backup_db-Thread-2-[Line-68]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\x08ackup\x08ackup_filename.dump"'
+[2023-08-27 14:44:42-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:44:42-INFO]-backup.py-backup_db-Thread-2-[Line-68]:[Errno 2] No such file or directory: '"/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe" -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:46:07-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:46:07-INFO]-backup.py-backup_db-Thread-2-[Line-70]:[Errno 2] No such file or directory: '"/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe" -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:46:28-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:46:28-INFO]-backup.py-backup_db-Thread-2-[Line-70]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:46:55-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:46:55-INFO]-backup.py-backup_db-Thread-2-[Line-70]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\x08ackup\x08ackup_filename.dump"'
+[2023-08-27 14:47:20-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:47:20-INFO]-backup.py-backup_db-Thread-2-[Line-70]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:48:44-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:48:44-INFO]-backup.py-backup_db-Thread-2-[Line-70]:system() takes at most 1 argument (2 given)
+[2023-08-27 14:49:15-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:49:22-INFO]-backup.py-backup_db-Thread-2-[Line-71]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:51:47-INFO]-backup.py-backup_db-Thread-4-[Line-41]:backup start
+[2023-08-27 14:51:59-INFO]-backup.py-backup_db-Thread-4-[Line-71]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:52:18-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:52:33-INFO]-backup.py-backup_db-Thread-2-[Line-71]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:52:57-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:53:08-INFO]-backup.py-backup_db-Thread-2-[Line-71]:local variable 'process' referenced before assignment
+[2023-08-27 14:54:27-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:54:37-INFO]-backup.py-backup_db-Thread-2-[Line-73]:local variable 'process' referenced before assignment
+[2023-08-27 14:56:11-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-27 14:56:11-INFO]-backup.py-backup_db-Thread-2-[Line-73]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 14:59:10-INFO]-backup.py-backup_db-Thread-3-[Line-41]:backup start
+[2023-08-27 14:59:21-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 14:59:21-INFO]-backup.py-backup_db-Thread-1-[Line-76]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 15:00:01-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 15:00:07-INFO]-backup.py-backup_db-Thread-1-[Line-76]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 15:01:53-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-27 15:02:00-INFO]-backup.py-backup_db-Thread-1-[Line-76]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-27 15:02:35-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:43:09-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:43:09-INFO]-backup.py-backup_db-Thread-1-[Line-76]:[Errno 2] No such file or directory: '/mnt/c/Program\\ Files/PostgreSQL/14/bin/pg_dump.exe -h localhost -p 5432 -U postgres -d academy -n sms_schema -F c -f "D:\\OTHERS\\practice_project\\backup\\backup_filename.dump"'
+[2023-08-28 04:43:40-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:43:40-INFO]-backup.py-backup_db-Thread-1-[Line-76]:'bytes' object has no attribute 'encode'
+[2023-08-28 04:44:06-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:44:11-INFO]-backup.py-backup_db-Thread-1-[Line-67]:Database backup completed successfully.
+[2023-08-28 04:44:41-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:44:41-INFO]-backup.py-backup_db-Thread-1-[Line-76]:'bytes' object has no attribute 'encode'
+[2023-08-28 04:45:42-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:45:47-INFO]-backup.py-backup_db-Thread-1-[Line-67]:Database backup completed successfully.
+[2023-08-28 04:47:02-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:47:06-INFO]-backup.py-backup_db-Thread-1-[Line-67]:Database backup completed successfully.
+[2023-08-28 04:50:06-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:50:06-INFO]-backup.py-backup_db-Thread-1-[Line-80]:[Errno 2] No such file or directory: 'D:/OTHERS/practice_project/backup/password_file.txt'
+[2023-08-28 04:51:52-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-28 04:51:52-INFO]-backup.py-backup_db-Thread-2-[Line-80]:[Errno 2] No such file or directory: 'D:/OTHERS/practice_project/backup/password_file.txt'
+[2023-08-28 04:52:16-INFO]-backup.py-backup_db-Thread-3-[Line-41]:backup start
+[2023-08-28 04:52:16-INFO]-backup.py-backup_db-Thread-3-[Line-80]:[Errno 2] No such file or directory: 'D:/OTHERS/practice_project/backup/password_file.txt'
+[2023-08-28 04:53:22-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:53:27-INFO]-backup.py-backup_db-Thread-1-[Line-71]:Database backup completed successfully.
+[2023-08-28 04:55:03-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:55:08-INFO]-backup.py-backup_db-Thread-1-[Line-72]:Database backup completed successfully.
+[2023-08-28 04:56:47-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 04:57:00-INFO]-backup.py-backup_db-Thread-1-[Line-72]:Database backup completed successfully.
+[2023-08-28 05:16:10-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:16:14-INFO]-backup.py-backup_db-Thread-1-[Line-80]:local variable 'stderr' referenced before assignment
+[2023-08-28 05:17:27-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:17:35-INFO]-backup.py-backup_db-Thread-1-[Line-80]:'CompletedProcess' object has no attribute 'communicate'
+[2023-08-28 05:18:42-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:18:47-INFO]-backup.py-backup_db-Thread-1-[Line-80]:'CompletedProcess' object has no attribute 'communicate'
+[2023-08-28 05:19:11-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:19:11-INFO]-backup.py-backup_db-Thread-1-[Line-80]:local variable 'stderr' referenced before assignment
+[2023-08-28 05:20:06-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:20:52-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-28 05:21:04-INFO]-backup.py-backup_db-Thread-1-[Line-81]:local variable 'stderr' referenced before assignment
+[2023-08-28 05:22:07-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:22:36-INFO]-backup.py-backup_db-Thread-2-[Line-41]:backup start
+[2023-08-28 05:22:51-INFO]-backup.py-backup_db-Thread-1-[Line-81]:local variable 'stderr' referenced before assignment
+[2023-08-28 05:25:14-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:29:24-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:29:24-INFO]-backup.py-backup_db-Thread-1-[Line-65]:Trying to input password
+[2023-08-28 05:29:37-INFO]-backup.py-backup_db-Thread-1-[Line-73]:Database backup completed successfully.
+[2023-08-28 05:30:07-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:30:07-INFO]-backup.py-backup_db-Thread-1-[Line-65]:Trying to input password
+[2023-08-28 05:30:49-INFO]-backup.py-backup_db-Thread-1-[Line-71]:Database backup completed successfully.
+[2023-08-28 05:31:16-INFO]-backup.py-backup_db-Thread-1-[Line-41]:backup start
+[2023-08-28 05:31:16-INFO]-backup.py-backup_db-Thread-1-[Line-65]:Trying to input password
+[2023-08-28 05:31:21-INFO]-backup.py-backup_db-Thread-1-[Line-71]:Database backup completed successfully.
+[2023-08-28 10:07:27-INFO]-backup_cron.py-backup_db-MainThread-[Line-11]:Backup File Created
+[2023-08-28 10:11:23-INFO]-backup_cron.py-backup_db-MainThread-[Line-12]:Backup File Created
+[2023-08-28 10:11:23-INFO]-backup_cron.py-backup_db-django-main-thread-[Line-12]:Backup File Created
+[2023-08-28 10:12:57-INFO]-backup_cron.py-backup_db-MainThread-[Line-14]:Backup File Created
+[2023-08-28 10:12:58-INFO]-backup_cron.py-backup_db-django-main-thread-[Line-14]:Backup File Created
+[2023-08-28 10:24:54-INFO]-backup_cron.py-backup_db-MainThread-[Line-14]:Backup File Created
+[2023-08-28 10:24:54-INFO]-backup_cron.py-backup_db-django-main-thread-[Line-14]:Backup File Created
+[2023-08-28 10:26:26-INFO]-backup_cron.py-backup_db-MainThread-[Line-14]:Backup File Created
+[2023-08-28 10:26:26-INFO]-backup_cron.py-backup_db-django-main-thread-[Line-14]:Backup File Created
+[2023-08-28 10:27:14-INFO]-backup_cron.py-backup_db-MainThread-[Line-14]:Backup File Created
+[2023-08-28 10:27:29-INFO]-backup_cron.py-backup_db-MainThread-[Line-14]:Backup File Created
+[2023-08-28 10:36:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-14]:Backup File Created
+[2023-08-28 10:37:02-INFO]-backup_cron.py-backup_db-Thread-2-[Line-14]:Backup File Created
+[2023-08-28 10:38:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-14]:Backup File Created
+[2023-08-28 10:39:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-14]:Backup File Created
+[2023-08-28 10:40:01-INFO]-backup_cron.py-backup_db-Thread-2-[Line-14]:Backup File Created
+[2023-08-28 10:40:35-INFO]-backup_cron.py-backup_db-Thread-3-[Line-14]:Backup File Created
+[2023-08-28 10:41:01-INFO]-backup_cron.py-backup_db-Thread-4-[Line-14]:Backup File Created
+[2023-08-28 10:42:02-INFO]-backup_cron.py-backup_db-Thread-5-[Line-14]:Backup File Created
+[2023-08-28 10:43:02-INFO]-backup_cron.py-backup_db-Thread-6-[Line-14]:Backup File Created
+[2023-08-28 10:44:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-16]:Backup File Created
+[2023-08-28 10:45:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:45:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-16]:Backup File Created
+[2023-08-28 10:46:01-INFO]-backup_cron.py-backup_db-Thread-2-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:46:01-INFO]-backup_cron.py-backup_db-Thread-2-[Line-16]:Backup File Created
+[2023-08-28 10:47:01-INFO]-backup_cron.py-backup_db-Thread-3-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:47:01-INFO]-backup_cron.py-backup_db-Thread-3-[Line-16]:Backup File Created
+[2023-08-28 10:48:01-INFO]-backup_cron.py-backup_db-Thread-4-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:48:04-INFO]-backup_cron.py-backup_db-Thread-4-[Line-16]:Backup File Created
+[2023-08-28 10:49:01-INFO]-backup_cron.py-backup_db-Thread-5-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:49:01-INFO]-backup_cron.py-backup_db-Thread-5-[Line-16]:Backup File Created
+[2023-08-28 10:50:01-INFO]-backup_cron.py-backup_db-Thread-6-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:50:01-INFO]-backup_cron.py-backup_db-Thread-6-[Line-16]:Backup File Created
+[2023-08-28 10:51:01-INFO]-backup_cron.py-backup_db-Thread-7-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:51:01-INFO]-backup_cron.py-backup_db-Thread-7-[Line-16]:Backup File Created
+[2023-08-28 10:52:01-INFO]-backup_cron.py-backup_db-Thread-8-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:52:02-INFO]-backup_cron.py-backup_db-Thread-8-[Line-16]:Backup File Created
+[2023-08-28 10:53:01-INFO]-backup_cron.py-backup_db-Thread-9-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:53:01-INFO]-backup_cron.py-backup_db-Thread-9-[Line-16]:Backup File Created
+[2023-08-28 10:54:01-INFO]-backup_cron.py-backup_db-Thread-10-[Line-14]:python3 D:\\OTHERS\\practice_project\\sms-main\\db_backup.py
+[2023-08-28 10:54:01-INFO]-backup_cron.py-backup_db-Thread-10-[Line-16]:Backup File Created
+[2023-08-28 10:56:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-14]:python3 db_backup.py
+[2023-08-28 10:56:28-INFO]-backup_cron.py-backup_db-Thread-1-[Line-16]:Backup File Created
+[2023-08-28 10:57:01-INFO]-backup_cron.py-backup_db-Thread-2-[Line-14]:python3 db_backup.py
+[2023-08-28 10:58:01-INFO]-backup_cron.py-backup_db-Thread-3-[Line-14]:python3 db_backup.py
+[2023-08-28 10:59:01-INFO]-backup_cron.py-backup_db-Thread-4-[Line-14]:python3 db_backup.py
+[2023-08-28 11:00:01-INFO]-backup_cron.py-backup_db-Thread-5-[Line-14]:python3 db_backup.py
+[2023-08-28 11:01:01-INFO]-backup_cron.py-backup_db-Thread-6-[Line-14]:python3 db_backup.py
+[2023-08-28 11:01:04-INFO]-backup_cron.py-backup_db-Thread-2-[Line-16]:Backup File Created
+[2023-08-28 11:02:01-INFO]-backup_cron.py-backup_db-Thread-7-[Line-14]:python3 db_backup.py
+[2023-08-28 11:03:01-INFO]-backup_cron.py-backup_db-Thread-8-[Line-14]:python3 db_backup.py
+[2023-08-28 11:04:01-INFO]-backup_cron.py-backup_db-Thread-9-[Line-14]:python3 db_backup.py
+[2023-08-28 11:05:01-INFO]-backup_cron.py-backup_db-Thread-10-[Line-14]:python3 db_backup.py
+[2023-08-28 11:06:01-INFO]-backup_cron.py-backup_db-Thread-11-[Line-14]:python3 db_backup.py
+[2023-08-28 16:51:01-INFO]-backup_cron.py-backup_db-Thread-1-[Line-14]:python3 db_backup.py
+[2023-08-28 16:51:02-INFO]-backup_cron.py-backup_db-Thread-1-[Line-16]:Backup File Created
+[2023-08-28 16:51:29-INFO]-views.py-download_test_paper-Thread-2-[Line-724]:Test ID: 170 for downloading test paper
+[2023-08-28 16:51:29-INFO]-views.py-download_test_paper-Thread-2-[Line-729]:Test ID: 170 - Sending file response as chart.png
+[2023-08-28 16:51:35-INFO]-views.py-download_test_paper-Thread-2-[Line-724]:Test ID: 169 for downloading test paper
+[2023-08-28 16:51:35-INFO]-views.py-download_test_paper-Thread-2-[Line-729]:Test ID: 169 - Sending file response as test_report_9.pdf
+[2023-08-28 16:52:01-INFO]-backup_cron.py-backup_db-Thread-4-[Line-14]:python3 db_backup.py
+[2023-08-28 16:52:02-INFO]-backup_cron.py-backup_db-Thread-4-[Line-16]:Backup File Created
+[2023-08-28 16:52:21-INFO]-views.py-view_test-Thread-2-[Line-545]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:52:21-INFO]-views.py-view_test-Thread-2-[Line-546]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:53:01-INFO]-backup_cron.py-backup_db-Thread-6-[Line-14]:python3 db_backup.py
+[2023-08-28 16:53:06-INFO]-backup_cron.py-backup_db-Thread-6-[Line-16]:Backup File Created
+[2023-08-28 16:53:26-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:53:26-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:53:26-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 9 - Board
+[2023-08-28 16:54:02-INFO]-backup_cron.py-backup_db-Thread-3-[Line-14]:python3 db_backup.py
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 9 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 9 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 10 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 10 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 10 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 10 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 11 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 11 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 11 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 11 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 12 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 12 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 12 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 12 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 13 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 13 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 13 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 13 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 14 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 14 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 14 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 14 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 15 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 15 - 0
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 15 - Board
+[2023-08-28 16:54:14-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 15 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:54:20-INFO]-views.py-show_test_marks-Thread-1-[Line-613]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 16:54:20-INFO]-views.py-show_test_marks-Thread-1-[Line-626]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 16:55:01-INFO]-backup_cron.py-backup_db-Thread-3-[Line-14]:python3 db_backup.py
+[2023-08-28 16:55:01-INFO]-backup_cron.py-backup_db-Thread-3-[Line-16]:Backup File Created
+[2023-08-28 16:55:40-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:55:40-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 170: Student ID: 9 - 0
+[2023-08-28 16:55:40-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 170: Student ID: 9 - Board
+[2023-08-28 16:55:40-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 170: Student ID: 9 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:55:40-INFO]-views.py-view_test-Thread-1-[Line-585]:Error :- duplicate key value violates unique constraint "unique_idx"
+DETAIL:  Key (student_id, test_id)=(9, 170) already exists.
+
+[2023-08-28 16:56:02-INFO]-backup_cron.py-backup_db-Thread-5-[Line-14]:python3 db_backup.py
+[2023-08-28 16:56:02-INFO]-backup_cron.py-backup_db-Thread-5-[Line-16]:Backup File Created
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 9 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 9 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 9 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 9 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 10 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 10 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 10 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 10 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 11 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 11 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 11 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 11 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 12 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 12 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 12 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 12 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 13 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 13 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 13 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 13 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 14 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 14 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 14 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 14 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-545]:Test ID: 169: Student ID: 15 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 169: Student ID: 15 - 0
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-551]:Test ID: 169: Student ID: 15 - Board
+[2023-08-28 16:56:58-INFO]-views.py-view_test-Thread-1-[Line-575]:Test ID: 169: Student ID: 15 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 16:57:01-INFO]-backup_cron.py-backup_db-Thread-7-[Line-14]:python3 db_backup.py
+[2023-08-28 16:57:02-INFO]-backup_cron.py-backup_db-Thread-7-[Line-16]:Backup File Created
+[2023-08-28 16:58:01-INFO]-backup_cron.py-backup_db-Thread-8-[Line-14]:python3 db_backup.py
+[2023-08-28 16:58:02-INFO]-backup_cron.py-backup_db-Thread-8-[Line-16]:Backup File Created
+[2023-08-28 16:59:01-INFO]-backup_cron.py-backup_db-Thread-3-[Line-14]:python3 db_backup.py
+[2023-08-28 16:59:02-INFO]-backup_cron.py-backup_db-Thread-3-[Line-16]:Backup File Created
+[2023-08-28 17:00:01-INFO]-backup_cron.py-backup_db-Thread-4-[Line-14]:python3 db_backup.py
+[2023-08-28 17:00:02-INFO]-backup_cron.py-backup_db-Thread-4-[Line-16]:Backup File Created
+[2023-08-28 18:00:01-INFO]-backup_cron.py-backup_db-Thread-5-[Line-14]:python3 db_backup.py
+[2023-08-28 18:00:02-INFO]-backup_cron.py-backup_db-Thread-5-[Line-16]:Backup File Created
+[2023-08-28 18:11:48-INFO]-views.py-show_test_marks-Thread-1-[Line-617]:Test ID: 169 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 18:11:48-INFO]-views.py-show_test_marks-Thread-1-[Line-630]:Test ID: 169 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 18:11:56-INFO]-views.py-show_test_marks-Thread-1-[Line-617]:Test ID: 50 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 18:11:56-INFO]-views.py-show_test_marks-Thread-1-[Line-630]:Test ID: 50 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 18:12:09-INFO]-views.py-download_test_paper-Thread-1-[Line-730]:Test ID: 36 for downloading test paper
+[2023-08-28 18:12:09-INFO]-views.py-download_test_paper-Thread-1-[Line-735]:Test ID: 36 - Sending file response as None
+[2023-08-28 18:15:03-INFO]-views.py-download_test_paper-Thread-1-[Line-730]:Test ID: 36 for downloading test paper
+[2023-08-28 18:15:03-INFO]-views.py-download_test_paper-Thread-1-[Line-741]:Test ID: 36 - No file to download
+[2023-08-28 13:07:37-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:07:37-INFO]-views.py-show_test_marks-Thread-1-[Line-632]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> 0 Records
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 9 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 9 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 9 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 9 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 10 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 10 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 10 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 10 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 11 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 11 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 11 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 11 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 12 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 12 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 12 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 12 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 13 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 13 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 13 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 13 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 14 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 14 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 14 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 14 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 165: Student ID: 15 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 165: Student ID: 15 - 0
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 165: Student ID: 15 - Board
+[2023-08-28 13:07:53-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 165: Student ID: 15 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:07:59-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 169 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:07:59-INFO]-views.py-show_test_marks-Thread-1-[Line-632]:Test ID: 169 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 13:15:05-INFO]-views.py-show_test_marks-Thread-1-[Line-624]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:15:05-INFO]-views.py-show_test_marks-Thread-1-[Line-637]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> 0 Records
+[2023-08-28 13:18:00-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:18:00-INFO]-views.py-show_test_marks-Thread-1-[Line-632]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> 0 Records
+[2023-08-28 13:18:06-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:18:06-INFO]-views.py-show_test_marks-Thread-1-[Line-632]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> 0 Records
+[2023-08-28 13:21:19-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:21:19-INFO]-views.py-show_test_marks-Thread-1-[Line-632]:Test ID: 157 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 9 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 9 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 9 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 9 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 10 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 10 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 10 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 10 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 11 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 11 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 11 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 11 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 12 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 12 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 12 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 12 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 13 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 13 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 13 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 13 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 14 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 14 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 14 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 14 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-546]:Test ID: 172: Student ID: 15 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-547]:Test ID: 172: Student ID: 15 - 0
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-552]:Test ID: 172: Student ID: 15 - Board
+[2023-08-28 13:23:00-INFO]-views.py-view_test-Thread-1-[Line-574]:Test ID: 172: Student ID: 15 - Board                                 Correct - None
+                                Incorrect - None
+[2023-08-28 13:30:01-INFO]-backup_cron.py-backup_db-Thread-5-[Line-14]:python3 db_backup.py
+[2023-08-28 13:35:11-INFO]-views.py-show_test_marks-Thread-6-[Line-619]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:35:11-INFO]-views.py-show_test_marks-Thread-6-[Line-632]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 13:36:27-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:37:02-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:37:02-INFO]-views.py-show_test_marks-Thread-1-[Line-633]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 13:37:58-INFO]-views.py-show_test_marks-Thread-1-[Line-619]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-28 13:37:58-INFO]-views.py-show_test_marks-Thread-1-[Line-634]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-28 14:30:01-INFO]-backup_cron.py-backup_db-Thread-6-[Line-14]:python3 db_backup.py
+[2023-08-28 15:20:43-INFO]-views.py-whatsapp_button-Thread-13-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 15:30:01-INFO]-backup_cron.py-backup_db-Thread-24-[Line-14]:python3 db_backup.py
+[2023-08-28 15:57:30-INFO]-views.py-generate_pdf_report-Thread-25-[Line-80]:9 - report generation starts
+[2023-08-28 15:57:30-INFO]-views.py-generate_pdf_report-Thread-25-[Line-93]:9 - 132 data collected
+[2023-08-28 15:57:30-INFO]-views.py-generate_pdf_report-Thread-25-[Line-104]:9 - creating pdf object
+[2023-08-28 15:57:31-INFO]-views.py-generate_pdf_report-Thread-25-[Line-118]:9 - preparing student all data table
+[2023-08-28 15:57:31-INFO]-views.py-generate_pdf_report-Thread-25-[Line-137]:9 - start generating charts
+[2023-08-28 15:57:32-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 15:57:38-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 15:57:40-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 15:57:44-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 15:57:47-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 15:57:51-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 15:57:54-INFO]-views.py-generate_pdf_report-Thread-25-[Line-224]:9 - adding data table
+[2023-08-28 15:57:54-INFO]-views.py-generate_pdf_report-Thread-25-[Line-259]:9 - saving pdf
+[2023-08-28 16:02:02-INFO]-views.py-generate_pdf_report-Thread-25-[Line-80]:9 - report generation starts
+[2023-08-28 16:02:02-INFO]-views.py-generate_pdf_report-Thread-25-[Line-93]:9 - 132 data collected
+[2023-08-28 16:02:02-INFO]-views.py-generate_pdf_report-Thread-25-[Line-104]:9 - creating pdf object
+[2023-08-28 16:02:03-INFO]-views.py-generate_pdf_report-Thread-25-[Line-118]:9 - preparing student all data table
+[2023-08-28 16:02:03-INFO]-views.py-generate_pdf_report-Thread-25-[Line-137]:9 - start generating charts
+[2023-08-28 16:02:03-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 16:02:06-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 16:02:08-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 16:02:11-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 16:02:13-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 16:02:18-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 16:02:23-INFO]-views.py-generate_pdf_report-Thread-25-[Line-224]:9 - adding data table
+[2023-08-28 16:02:23-INFO]-views.py-generate_pdf_report-Thread-25-[Line-259]:9 - saving pdf
+[2023-08-28 16:14:05-INFO]-views.py-generate_pdf_report-Thread-25-[Line-80]:9 - report generation starts
+[2023-08-28 16:14:06-INFO]-views.py-generate_pdf_report-Thread-25-[Line-93]:9 - 132 data collected
+[2023-08-28 16:14:06-INFO]-views.py-generate_pdf_report-Thread-25-[Line-104]:9 - creating pdf object
+[2023-08-28 16:14:06-INFO]-views.py-generate_pdf_report-Thread-25-[Line-118]:9 - preparing student all data table
+[2023-08-28 16:14:06-INFO]-views.py-generate_pdf_report-Thread-25-[Line-137]:9 - start generating charts
+[2023-08-28 16:14:06-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 16:14:09-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 16:14:10-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 16:14:12-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 16:14:14-INFO]-views.py-generate_pdf_report-Thread-49-[Line-80]:9 - report generation starts
+[2023-08-28 16:14:14-INFO]-views.py-generate_pdf_report-Thread-49-[Line-93]:9 - 132 data collected
+[2023-08-28 16:14:14-INFO]-views.py-generate_pdf_report-Thread-49-[Line-104]:9 - creating pdf object
+[2023-08-28 16:14:16-INFO]-views.py-generate_pdf_report-Thread-49-[Line-118]:9 - preparing student all data table
+[2023-08-28 16:14:16-INFO]-views.py-generate_pdf_report-Thread-49-[Line-137]:9 - start generating charts
+[2023-08-28 16:14:16-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 16:14:16-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 16:14:19-INFO]-views.py-generate_pdf_report-Thread-25-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 16:14:24-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 16:14:28-INFO]-views.py-generate_pdf_report-Thread-25-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 16:14:31-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 16:14:32-INFO]-views.py-generate_pdf_report-Thread-25-[Line-224]:9 - adding data table
+[2023-08-28 16:14:32-INFO]-views.py-generate_pdf_report-Thread-25-[Line-259]:9 - saving pdf
+[2023-08-28 16:14:35-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 16:14:41-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 16:14:44-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 16:14:47-INFO]-views.py-generate_pdf_report-Thread-49-[Line-224]:9 - adding data table
+[2023-08-28 16:14:47-INFO]-views.py-generate_pdf_report-Thread-49-[Line-259]:9 - saving pdf
+[2023-08-28 16:17:06-INFO]-views.py-generate_pdf_report-Thread-49-[Line-80]:9 - report generation starts
+[2023-08-28 16:17:07-INFO]-views.py-generate_pdf_report-Thread-49-[Line-93]:9 - 132 data collected
+[2023-08-28 16:17:07-INFO]-views.py-generate_pdf_report-Thread-49-[Line-104]:9 - creating pdf object
+[2023-08-28 16:17:07-INFO]-views.py-generate_pdf_report-Thread-49-[Line-118]:9 - preparing student all data table
+[2023-08-28 16:17:07-INFO]-views.py-generate_pdf_report-Thread-49-[Line-137]:9 - start generating charts
+[2023-08-28 16:17:07-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 16:17:11-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 16:17:13-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 16:17:16-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 16:17:18-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 16:17:22-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 16:17:23-INFO]-views.py-generate_pdf_report-Thread-49-[Line-224]:9 - adding data table
+[2023-08-28 16:17:23-INFO]-views.py-generate_pdf_report-Thread-49-[Line-259]:9 - saving pdf
+[2023-08-28 16:28:33-INFO]-views.py-generate_pdf_report-Thread-49-[Line-80]:9 - report generation starts
+[2023-08-28 16:28:33-INFO]-views.py-generate_pdf_report-Thread-49-[Line-93]:9 - 132 data collected
+[2023-08-28 16:28:33-INFO]-views.py-generate_pdf_report-Thread-49-[Line-104]:9 - creating pdf object
+[2023-08-28 16:28:34-INFO]-views.py-generate_pdf_report-Thread-49-[Line-118]:9 - preparing student all data table
+[2023-08-28 16:28:34-INFO]-views.py-generate_pdf_report-Thread-49-[Line-137]:9 - start generating charts
+[2023-08-28 16:28:34-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 16:28:37-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 16:28:39-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 16:28:41-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 16:28:44-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 16:28:47-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 16:28:49-INFO]-views.py-generate_pdf_report-Thread-49-[Line-224]:9 - adding data table
+[2023-08-28 16:28:49-INFO]-views.py-generate_pdf_report-Thread-49-[Line-259]:9 - saving pdf
+[2023-08-28 16:28:56-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 16:30:02-INFO]-backup_cron.py-backup_db-Thread-62-[Line-14]:python3 db_backup.py
+[2023-08-28 16:38:25-INFO]-views.py-generate_pdf_report-Thread-49-[Line-80]:9 - report generation starts
+[2023-08-28 16:38:25-INFO]-views.py-generate_pdf_report-Thread-49-[Line-93]:9 - 132 data collected
+[2023-08-28 16:38:25-INFO]-views.py-generate_pdf_report-Thread-49-[Line-104]:9 - creating pdf object
+[2023-08-28 16:38:26-INFO]-views.py-generate_pdf_report-Thread-49-[Line-118]:9 - preparing student all data table
+[2023-08-28 16:38:26-INFO]-views.py-generate_pdf_report-Thread-49-[Line-137]:9 - start generating charts
+[2023-08-28 16:38:26-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 16:38:29-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 16:38:31-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 16:38:35-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 16:38:37-INFO]-views.py-generate_pdf_report-Thread-49-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 16:38:41-INFO]-views.py-generate_pdf_report-Thread-49-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 16:38:44-INFO]-views.py-generate_pdf_report-Thread-49-[Line-224]:9 - adding data table
+[2023-08-28 16:38:44-INFO]-views.py-generate_pdf_report-Thread-49-[Line-259]:9 - saving pdf
+[2023-08-28 16:43:42-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 16:43:48-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 16:47:09-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 16:48:01-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 16:48:09-INFO]-views.py-send_report_whatsapp-Thread-49-[Line-325]:Received argument: 9
+[2023-08-28 17:03:05-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:04:24-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:04:30-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 17:05:54-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:06:00-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 17:08:04-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:09:57-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:10:03-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 17:29:43-INFO]-views.py-send_report_whatsapp-Thread-7-[Line-325]:Received argument: 9
+[2023-08-28 17:30:02-INFO]-backup_cron.py-backup_db-Thread-10-[Line-14]:python3 db_backup.py
+[2023-08-28 17:31:16-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:31:22-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 17:31:51-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:31:54-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:31:56-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:33:43-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:33:49-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 17:33:57-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:33:58-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:35:04-INFO]-views.py-send_report_whatsapp-Thread-1-[Line-325]:Received argument: 9
+[2023-08-28 17:35:09-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-28 17:37:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-80]:9 - report generation starts
+[2023-08-28 17:37:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-93]:9 - 132 data collected
+[2023-08-28 17:37:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-104]:9 - creating pdf object
+[2023-08-28 17:37:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-118]:9 - preparing student all data table
+[2023-08-28 17:37:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-137]:9 - start generating charts
+[2023-08-28 17:37:10-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Physics chart is getting generated
+[2023-08-28 17:37:15-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-08-28 17:37:17-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Chemistry chart is getting generated
+[2023-08-28 17:37:20-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-08-28 17:37:23-INFO]-views.py-generate_pdf_report-Thread-1-[Line-140]:9 - Biology chart is getting generated
+[2023-08-28 17:37:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-08-28 17:37:31-INFO]-views.py-generate_pdf_report-Thread-1-[Line-224]:9 - adding data table
+[2023-08-28 17:37:31-INFO]-views.py-generate_pdf_report-Thread-1-[Line-259]:9 - saving pdf
+[2023-08-29 04:43:02-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-29 04:53:09-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-29 04:54:45-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-29 04:56:16-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp
+[2023-08-29 11:08:30-INFO]-views.py-show_test_marks-Thread-45-[Line-629]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-29 11:08:30-INFO]-views.py-show_test_marks-Thread-45-[Line-644]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-29 11:08:39-INFO]-views.py-download_test_paper-Thread-45-[Line-744]:Test ID: 172 for downloading test paper
+[2023-08-29 11:08:39-INFO]-views.py-download_test_paper-Thread-45-[Line-750]:Test ID: 172 - Sending file response as test_report_9 (5).pdf
+[2023-08-29 11:08:46-INFO]-views.py-download_test_paper-Thread-45-[Line-744]:Test ID: 169 for downloading test paper
+[2023-08-29 11:08:46-INFO]-views.py-download_test_paper-Thread-45-[Line-750]:Test ID: 169 - Sending file response as test_report_9.pdf
+[2023-08-29 12:15:55-INFO]-views.py-show_test_marks-Thread-1-[Line-629]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-29 12:15:55-INFO]-views.py-show_test_marks-Thread-1-[Line-644]:Test ID: 172 - Standard: 12 - Medium: Gujarati Medium -> 7 Records
+[2023-08-29 12:16:31-INFO]-views.py-download_test_paper-Thread-1-[Line-744]:Test ID: 172 for downloading test paper
+[2023-08-29 12:16:31-INFO]-views.py-download_test_paper-Thread-1-[Line-750]:Test ID: 172 - Sending file response as test_report_9 (5).pdf
+[2023-08-29 12:16:40-INFO]-views.py-whatsapp_button-Thread-1-[Line-310]:Automation URL name -> WhatsApp Web
+[2023-08-29 12:21:32-INFO]-views.py-download_test_paper-Thread-1-[Line-745]:Test ID: 169 for downloading test paper
+[2023-08-29 12:21:33-INFO]-views.py-download_test_paper-Thread-1-[Line-751]:Test ID: 169 - Sending file response as test_report_9.pdf
+[2023-08-29 12:21:35-INFO]-views.py-whatsapp_button-Thread-1-[Line-308]:connecting to whatsapp
+[2023-08-29 12:21:39-INFO]-views.py-whatsapp_button-Thread-1-[Line-315]:Error in getting WhatsApp Drivers : Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FD1452A2+57122]
+	(No symbol) [0x00007FF6FD0BEA92]
+	(No symbol) [0x00007FF6FCF8E3AB]
+	(No symbol) [0x00007FF6FCF9190C]
+	(No symbol) [0x00007FF6FCF93D2F]
+	(No symbol) [0x00007FF6FCF93E20]
+	(No symbol) [0x00007FF6FCFEFF28]
+	(No symbol) [0x00007FF6FCFEE5B0]
+	(No symbol) [0x00007FF6FCFE6DB3]
+	(No symbol) [0x00007FF6FCFBD2B1]
+	(No symbol) [0x00007FF6FCFBE494]
+	GetHandleVerifier [0x00007FF6FD3EEF82+2849794]
+	GetHandleVerifier [0x00007FF6FD441D24+3189156]
+	GetHandleVerifier [0x00007FF6FD43ACAF+3160367]
+	GetHandleVerifier [0x00007FF6FD1D6D06+653702]
+	(No symbol) [0x00007FF6FD0CA208]
+	(No symbol) [0x00007FF6FD0C62C4]
+	(No symbol) [0x00007FF6FD0C63F6]
+	(No symbol) [0x00007FF6FD0B67A3]
+	BaseThreadInitThunk [0x00007FFC50527614+20]
+	RtlUserThreadStart [0x00007FFC518A26B1+33]
+
+[2023-08-29 12:22:43-INFO]-views.py-whatsapp_button-Thread-1-[Line-308]:connecting to whatsapp
+[2023-08-29 12:22:47-INFO]-views.py-whatsapp_button-Thread-1-[Line-311]:Automation URL name -> WhatsApp Web
+[2023-08-29 13:19:41-INFO]-views.py-show_test_marks-Thread-18-[Line-630]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2023-08-29 13:19:41-INFO]-views.py-show_test_marks-Thread-18-[Line-645]:Test ID: 171 - Standard: 11 - Medium: Gujarati Medium -> 0 Records
+[2023-08-29 13:19:47-INFO]-views.py-show_test_marks-Thread-18-[Line-630]:Test ID: 170 - Standard: 12 - Medium: Gujarati Medium -> show test marks
+[2023-08-29 13:19:47-INFO]-views.py-show_test_marks-Thread-18-[Line-645]:Test ID: 170 - Standard: 12 - Medium: Gujarati Medium -> 7 Records

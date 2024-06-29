@@ -1,0 +1,453 @@
+{% extends 'temp/temp_admin_base.html' %}
+{% load static %}
+
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+div {
+  margin: 10px auto;
+  position: relative;
+  height: auto;
+  width: 600px;
+}
+/* body {
+  background: #ece9e2;
+} */
+.custom {
+  margin: 0px;
+  appearance: none;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #fff;
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.custom:hover {
+  border-color: #c4c4c4;
+}
+.custom:focus {
+  border-color: #1b7b5b;
+  color: #1b7b5b;
+  background: transparent;
+  outline: none;
+}
+.custom[type=search] {
+  padding-right: 50px;
+}
+.custom[type=search] + label,
+select.custom + label {
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  height: 100%;
+  font-weight: 100;
+  width: 60px;
+  right: 0px;
+  top: 0px;
+  border-left: 1px solid #c4c4c4;
+}
+.custom[type=search]:hover,
+select.custom:hover {
+  border-color: #fff;
+}
+.custom[type=search]:focus,
+select.custom:focus {
+  border-color: #1b7b5b;
+}
+select.custom:focus {
+  background: #fff;
+}
+.custom[type=search]:focus + label,
+.custom[type=search]:hover + label,
+select:focus + label,
+select:hover + label {
+  background: #1b7b5b;
+  border-left: 1px solid #1b7b5b;
+  color: #fff;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.custom[type=radio],
+.custom[type=checkbox] {
+  vertical-align: middle;
+  margin: 10px;
+  padding: 20px;
+  width: 10px;
+  line-height: 2px;
+  text-indent: -12px;
+  height: 10px;
+  border-color: #c4c4c4;
+  display: inline-block;
+}
+.custom[type=radio] {
+  border-radius: 40px;
+}
+.custom[type=radio]:hover,
+.custom[type=checkbox]:hover,
+.custom[type=radio]:focus,
+.custom[type=radio]:checked {
+  border-color: #1b7b5b;
+}
+.custom[type=radio]:checked,
+.custom[type=checkbox]:checked {
+  background: #1b7b5b;
+}
+.custom[type=radio]:checked::before,
+.custom[type=checkbox]:checked::before {
+  font-family: FontAwesome;
+  color: #fff;
+  content: '\f00c';
+}
+.custom[type=radio] + label {
+  font-size: 24px;
+  vertical-align: middle;
+  font-family: 'Ubuntu', sans-serif;
+}
+.custom[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  width: 50px;
+  background-color: #c4c4c4;
+}
+input[type="number"]::-webkit-inner-spin-button::before,
+input[type="number"]::-webkit-inner-spin-button::after {
+  font-family: FontAwesome;
+  content: "\f106";
+  display: block;
+  color: #000;
+  line-height: 30px;
+  text-align: center;
+}
+input[type="number"]::-webkit-inner-spin-button::after {
+  content: "\f107";
+}
+input[type="number"]:focus::-webkit-inner-spin-button::after,
+input[type="number"]:focus::-webkit-inner-spin-button::before {
+  color: #fff;
+}
+input[type="number"]:focus::-webkit-inner-spin-button {
+  background-color: #1b7b5b;
+}
+
+.custom-checkbox {
+            position: relative;
+            padding-left: 30px;
+            cursor: pointer;
+        }
+
+        .custom-checkbox::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Style the custom checkboxes when checked */
+        .custom-checkbox input:checked + .custom-checkbox::before {
+            background-color: #2196F3;
+            border: 2px solid #2196F3;
+        }
+
+        /* Style the checkmark inside the custom checkboxes */
+        .custom-checkbox input:checked + .custom-checkbox::before::after {
+            content: "\f00c"; /* Font Awesome checkmark icon */
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Style the total marks in green color */
+        #totalMarks {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .custom-file-input {
+            display: none;
+        }
+
+        /* Style the custom label to look like a button */
+        .custom-file-label.btn {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            padding: 8px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Change background color on hover */
+        .custom-file-label.btn:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+  <div class="controls">
+	
+    <a href="#0" id="modal-button" class="button good">Open modal</a>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+
+<div class="container">
+<form action="#" method="post">
+  {% csrf_token %}
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+
+<div>
+  <input name="test_type" class="custom" type="radio" value="Board" id="testTypeDropdown"/>
+  <label>Board</label>
+  <input name="test_type" class="custom" type="radio" value="GUJCET" id="testTypeDropdown" />
+  <label>GUJCET</label>
+  <input name="test_type" class="custom" type="radio" value="JEE" id="testTypeDropdown" />
+  <label>JEE</label>
+  <input name="test_type" class="custom" type="radio" value="NEET" id="testTypeDropdown" />
+  <label>NEET</label>
+</div>
+<div>
+  <input name="standard" class="custom" type="radio" value="11" id="standardDropdown" />
+  <label>11</label>
+  <input name="standard" class="custom" type="radio" value="12"id="standardDropdown" />
+  <label>12</label>
+</div>
+<div>
+  <input name="medium" class="custom" type="radio" value="Gujarati Medium" id="mediumDropdown" />
+  <label>Gujarati Medium</label>
+  <input name="medium" class="custom" type="radio" value="English Medium" id="mediumDropdown" />
+  <label>English Medium</label>
+</div>
+<div>
+  <input name="subjectDropdown" class="custom" type="radio" value="Biology" id="subjectDropdown" />
+  <label>Biology</label>
+  <input name="subjectDropdown" class="custom" type="radio" value="Chemistry" id="subjectDropdown" />
+  <label>Chemistry</label>
+  <input name="subjectDropdown" class="custom" type="radio" value="Maths" id="subjectDropdown" />
+  <label>Maths</label>
+  <input name="subjectDropdown" class="custom" type="radio" value="Physics" id="subjectDropdown" />
+  <label>Physics</label>
+</div>
+<div class="mb-3">
+  <label class="form-label" for="dateField">Select Test Date:</label>
+  <input class="form-control" type="date" id="dateField" name="test_date" pattern="\d{2}-\d{2}-\d{4}">
+</div>
+
+<div class="input-group mb-3">
+  <label class="input-group-text" for="totalOrChapterWiseDropDown">Select Marks</label>
+  <select class="form-select" name="is_total" id="totalOrChapterWiseDropDown" name="totalOrChapterWiseDropDown" onchange="updateChapters()">
+    <option selected>Choose...</option>
+    <option value="Total Marks Only">Total Marks Only</option>
+    <option value="Chapter Wise">Chapter Wise</option>
+  </select>
+</div>
+<div id="chapterContainer"></div>
+        <input type="text" name="total_marks" id="totalMarksInput" placeholder="Enter Total Marks Here ..." style="display: none;" onchange="updateChapters()">
+
+
+<script>
+  function updateChapters() {
+        var selectedStandard = document.getElementById ("standardDropdown").value;
+        var selectedMedium = document.getElementById ("mediumDropdown").value;
+        var selectedSubject = document.getElementById ("subjectDropdown").value;
+        var selectedTestType = document.getElementById ("totalOrChapterWiseDropDown").value;
+        console.log(selectedTestType, 'lllllllllllllllll');
+        if (selectedTestType=="Chapter Wise") {
+            // Send an AJAX request to get the chapters for the selected standard and medium
+            console.log(totalMarksInput); // Check if the element is selected
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://127.0.0.1:8000/admin_panel/get_chapters/?standard=' + selectedStandard + '&medium=' + selectedMedium + '&subject=' + selectedSubject, true);
+            console.log('http://127.0.0.1:8000/admin_panel/get_chapters/?standard=' + selectedStandard + '&medium=' + selectedMedium + '&subject=' + selectedSubject);
+            console.log(xhr.responseURL);
+            try {
+              var totalMarksInput = document.getElementById("totalMarksInput");
+              totalMarksInput.style.display = "none";
+            }
+            catch (error) {
+                    // Handle any exception that may occur during the AJAX request
+                    console.error('An error occurred:', error);
+                }
+            
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        // Parse the JSON response and get the chapters data
+                        var response = JSON.parse(xhr.responseText);
+                        var chapters = response.chapters;
+
+                        // Clear any existing checkboxes and input fields
+                        var chapterContainer = document.getElementById("chapterContainer");
+                        chapterContainer.innerHTML = "";
+
+                        // Create new checkboxes for the fetched chapters
+                        chapters.forEach(function (chapter) {
+                            createChapterInput(chapter.chapter_no, chapter.chapter_name);
+                        });
+                    } else {
+                        // Handle error if needed
+                    }
+                }
+            };
+            xhr.send();
+        }
+        else {
+            console.log("Entering the else block");
+            var totalMarksInput = document.getElementById("totalMarksInput");
+            console.log(totalMarksInput); // Check if the element is selected
+            totalMarksInput.style.display = "block";
+            chapterContainer.innerHTML = "";
+        }
+    }
+
+            function createChapterInput(chapterNo, chapterName) {
+            chapterNo = parseInt(chapterNo);
+            var div = document.createElement("div");
+            div.className = "form-check";
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.value = chapterNo;
+            checkbox.name = "chapters";
+            checkbox.id = "chapter" + chapterNo;
+            checkbox.className = "form-check-input";
+            var label = document.createElement("label");
+            label.className = "form-check-label custom-checkbox";
+            label.setAttribute("for", checkbox.id);
+            label.appendChild(document.createTextNode(chapterNo + " - " + chapterName));
+            div.appendChild(checkbox);
+            div.appendChild(label);
+
+            var input = document.createElement("input");
+            input.type = "number";
+            input.name = `marks_${chapterNo}`;
+            input.placeholder = "Enter marks";
+            input.className = "form-control mt-2";
+            input.style.display = "none"; // Hide the input initially
+
+            // Add event listener to toggle "Enter marks" field when checkbox is clicked
+            checkbox.addEventListener("click", function() {
+                if (this.checked) {
+                    input.style.display = "block"; // Show the input when checkbox is checked
+                } else {
+                    input.style.display = "none"; // Hide the input when checkbox is unchecked
+                }
+                calculateTotalMarks();
+            });
+
+            // Add input event listener to update total marks dynamically
+            input.addEventListener("input", function() {
+                calculateTotalMarks();
+            });
+
+            div.appendChild(input);
+            chapterContainer.appendChild(div);
+        }
+
+        function calculateTotalMarks() {
+        var totalMarks = 0;
+        var inputFields = document.querySelectorAll('input[type="number"]');
+        var isAnyInputFieldEnabled = false;
+
+        inputFields.forEach(function(inputField) {
+            if (!inputField.disabled && inputField.value !== '' && !isNaN(inputField.value)) {
+                totalMarks += parseInt(inputField.value);
+                isAnyInputFieldEnabled = true;
+            }
+        });
+
+        var totalMarksElement = document.getElementById('totalMarks');
+        if (isAnyInputFieldEnabled) {
+            totalMarksElement.innerText = "Total Marks: " + totalMarks;
+            // Set style for total marks (green color and bold)
+            totalMarksElement.style.color = "green";
+            totalMarksElement.style.fontWeight = "bold";
+            // Set the value of the hidden input field
+            var totalMarksInput = document.getElementById('totalMarksInput');
+            totalMarksInput.value = totalMarks;
+        } else {
+            totalMarksElement.innerText = "Total Marks: N/A";
+            // Set style for total marks (red color and normal weight)
+            totalMarksElement.style.color = "red";
+            totalMarksElement.style.fontWeight = "normal";
+            // Set the value of the hidden input field to -1 to indicate N/A
+            var totalMarksInput = document.getElementById('totalMarksInput');
+            totalMarksInput.value = -1;
+        }
+    }
+
+            // Set the default value for the date field to today's date
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+            var todayString = yyyy + '-' + mm + '-' + dd;
+            document.getElementById('dateField').value = todayString;
+
+            // Get elements
+var modal = document.getElementById("modal");
+var modalFrame = document.getElementById("modalFrame");
+var openModalBtn = document.getElementById("openModalBtn");
+var closeModalBtn = document.getElementsByClassName("close")[0];
+
+// Open the modal when the button is clicked
+openModalBtn.onclick = function() {
+    modal.style.display = "block";
+    modalFrame.src = ""; // Load the content of the other HTML file
+}
+
+// Close the modal when the close button is clicked
+closeModalBtn.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Close the modal when the background is clicked
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+        </script>
+
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="test_paper" name="test_paper" accept=".pdf, .jpeg, .jpg, .png, .gif">
+        <label class="custom-file-label btn" for="test_paper">
+            <i class="fa fa-upload"></i> Upload Test Paper
+        </label>
+      </div>
+      <br>
+      <div class="mt-4">
+        <input type="submit" class="btn btn-primary form-control" value="Add Test" name="add_test">
+      </div>
+
+      </form>
+    </div>
+    
+    </body>
+
+<!-- </html> -->

@@ -1,0 +1,262 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        img {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            /* left: 10px; */
+            height: 100px;
+            width: auto;
+            animation: 3s infinite alternate floating;
+        }
+
+        .shadow {
+    position: absolute;
+    top: 560px;
+    right: 10px; 
+    height: 2px;
+    width: 1px;
+    display: block;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.8);
+    animation: 3s infinite alternate shadow;
+}
+
+#menuToggle {
+            display: inline-block;
+            margin: 20px; /* Adjust the margin as needed */
+        }
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: rgb(31, 93, 112);
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  /* background: transparent; */
+  background: #b5f4ff;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.logo {
+            position: fixed;
+            top: 20px; /* Adjust the top position as needed */
+            right: 20px; /* Adjust the right position as needed */
+            z-index: 1000; /* Ensure the logo is above other content */
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 10;
+            width: 100%;
+            background-color: transparent;
+            z-index: 1000;
+        }
+
+
+    </style>
+</head>
+<body>
+
+  <nav role="navigation">
+    <div id="menuToggle">
+
+      <input type="checkbox" style="margin-left: 20px; margin-top: 20px;" />
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <a href="#"><li>Dashboard</li></a>
+        <a href="{% url 'add_student' %}"><li>Add Student</li></a>
+        <a href="{% url 'manage_students' %}"><li>Manage Students</li></a>
+        <a href="{% url 'top_5_students' %}"><li>Top 5 Students</li></a>
+        <a href="{% url 'add_test' %}"><li>Add Test</li></a>
+        <a href="{% url 'manage_tests' %}"><li>Manage Tests</li></a>
+        <a id="WhatsApp" onclick="executeSeleniumAction()"><li>Connect WhatsApp</li></a>
+      </ul>
+    </div>
+  </nav>
+
+    <img src="{% static 'images/kamal_sir_logo_cdr.png' %}" alt="img" class="logo">
+
+  {% block content %}
+  {% comment %} Content of child templates will go here {% endcomment %}
+  {% endblock %}
+
+
+</body>
+
+<script>
+  const menuOpener = document.getElementById('menu-opener');
+  const nav = document.querySelector('nav');
+
+  menuOpener.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      menuOpener.classList.toggle('open');
+  });
+
+  document.getElementById("WhatsApp").addEventListener("click", function () {
+      executeSeleniumAction();
+    });
+
+    function executeSeleniumAction() {
+      // Send an AJAX request to trigger the WhatsApp button action in Django
+      fetch('/whatsapp_button/')
+      .then(response => response.text())
+      .then(data => {
+        alert(data);  // Display the response from the Django view
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    }
+</script>
+
+</html>

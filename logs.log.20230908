@@ -1,0 +1,23 @@
+[2023-09-07 17:10:18-INFO]-views.py-whatsapp_button-Thread-8-[Line-308]:connecting to whatsapp
+[2023-09-07 17:13:27-INFO]-views.py-whatsapp_button-Thread-8-[Line-308]:connecting to whatsapp
+[2023-09-08 05:32:21-INFO]-views.py-whatsapp_button-Thread-11-[Line-308]:connecting to whatsapp
+[2023-09-08 05:32:29-INFO]-views.py-whatsapp_button-Thread-11-[Line-308]:connecting to whatsapp
+[2023-09-08 05:32:43-INFO]-views.py-whatsapp_button-Thread-11-[Line-308]:connecting to whatsapp
+[2023-09-08 06:43:13-INFO]-views.py-whatsapp_button-Thread-44-[Line-308]:connecting to whatsapp
+[2023-09-08 07:16:00-INFO]-views.py-whatsapp_button-Thread-74-[Line-308]:connecting to whatsapp
+[2023-09-08 07:21:16-INFO]-views.py-whatsapp_button-Thread-74-[Line-308]:connecting to whatsapp
+[2023-09-08 07:23:35-INFO]-views.py-whatsapp_button-Thread-74-[Line-308]:connecting to whatsapp
+[2023-09-08 07:23:39-INFO]-views.py-whatsapp_button-Thread-74-[Line-311]:Automation URL name -> WhatsApp Web
+[2023-09-08 14:39:24-INFO]-views.py-generate_pdf_report-Thread-13-[Line-80]:9 - report generation starts
+[2023-09-08 14:39:24-INFO]-views.py-generate_pdf_report-Thread-13-[Line-93]:9 - 132 data collected
+[2023-09-08 14:39:24-INFO]-views.py-generate_pdf_report-Thread-13-[Line-104]:9 - creating pdf object
+[2023-09-08 14:39:25-INFO]-views.py-generate_pdf_report-Thread-13-[Line-118]:9 - preparing student all data table
+[2023-09-08 14:39:25-INFO]-views.py-generate_pdf_report-Thread-13-[Line-137]:9 - start generating charts
+[2023-09-08 14:39:25-INFO]-views.py-generate_pdf_report-Thread-13-[Line-140]:9 - Physics chart is getting generated
+[2023-09-08 14:39:27-INFO]-views.py-generate_pdf_report-Thread-13-[Line-189]:9 - Physics chapter wise chart is getting generated
+[2023-09-08 14:39:28-INFO]-views.py-generate_pdf_report-Thread-13-[Line-140]:9 - Chemistry chart is getting generated
+[2023-09-08 14:39:30-INFO]-views.py-generate_pdf_report-Thread-13-[Line-189]:9 - Chemistry chapter wise chart is getting generated
+[2023-09-08 14:39:31-INFO]-views.py-generate_pdf_report-Thread-13-[Line-140]:9 - Biology chart is getting generated
+[2023-09-08 14:39:33-INFO]-views.py-generate_pdf_report-Thread-13-[Line-189]:9 - Biology chapter wise chart is getting generated
+[2023-09-08 14:39:34-INFO]-views.py-generate_pdf_report-Thread-13-[Line-224]:9 - adding data table
+[2023-09-08 14:39:34-INFO]-views.py-generate_pdf_report-Thread-13-[Line-259]:9 - saving pdf

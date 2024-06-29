@@ -1,0 +1,13 @@
+[2023-08-18 10:41:15-INFO]-views.py-generate_pdf_report-Thread-1-[Line-43]:10 - report generation starts
+[2023-08-18 10:41:15-INFO]-views.py-generate_pdf_report-Thread-1-[Line-54]:10 - 120 data collected
+[2023-08-18 10:41:15-INFO]-views.py-generate_pdf_report-Thread-1-[Line-65]:10 - creating pdf object
+[2023-08-18 10:41:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-70]:10 - preparing student all data table
+[2023-08-18 10:41:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-89]:10 - start generating charts
+[2023-08-18 10:41:16-INFO]-views.py-generate_pdf_report-Thread-1-[Line-92]:10 - Biology chart is getting generated
+[2023-08-18 10:41:19-INFO]-views.py-generate_pdf_report-Thread-1-[Line-141]:10 - Biology chapter wise chart is getting generated
+[2023-08-18 10:41:21-INFO]-views.py-generate_pdf_report-Thread-1-[Line-92]:10 - Chemistry chart is getting generated
+[2023-08-18 10:41:25-INFO]-views.py-generate_pdf_report-Thread-1-[Line-141]:10 - Chemistry chapter wise chart is getting generated
+[2023-08-18 10:41:27-INFO]-views.py-generate_pdf_report-Thread-1-[Line-92]:10 - Physics chart is getting generated
+[2023-08-18 10:41:30-INFO]-views.py-generate_pdf_report-Thread-1-[Line-141]:10 - Physics chapter wise chart is getting generated
+[2023-08-18 10:41:32-INFO]-views.py-generate_pdf_report-Thread-1-[Line-176]:10 - adding data table
+[2023-08-18 10:41:32-INFO]-views.py-generate_pdf_report-Thread-1-[Line-197]:10 - saving pdf

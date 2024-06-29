@@ -1,0 +1,4029 @@
+{% extends 'admin/admin_base.html' %}
+<!-- {% load static %} -->
+
+{% block content %}
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width">
+  <title>Manage Students</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Manage Students">
+  <meta property="og:description" content="Made with Framer">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manage Students">
+  <meta name="twitter:description" content="Made with Framer">
+
+
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <style >
+    html,
+    body,
+    #main {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    :root {
+      -webkit-font-smoothing: antialiased
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: inherit
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    figure {
+      margin: 0
+    }
+
+    body,
+    input,
+    textarea,
+    select,
+    button {
+      font-size: 12px;
+      font-family: sans-serif
+    }
+
+    #__framer-badge-container {
+      position: fixed;
+      bottom: 0;
+      padding: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: right;
+      pointer-events: none;
+      z-index: 314159
+    }
+
+    .__framer-badge {
+      pointer-events: auto
+    }
+
+    @font-face {
+      font-family: Gloock;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4NJhRakNrc.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Gloock;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4NJhhakNrc.woff2) format("woff2");
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Gloock;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4NJiBak.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Instrument Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-stretch: 100%;
+      font-display: block;
+      src: url(https://fonts.gstatic.com/s/instrumentsans/v1/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-Tf8kywf3w.woff2) format("woff2");
+      unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Instrument Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-stretch: 100%;
+      font-display: block;
+      src: url(https://fonts.gstatic.com/s/instrumentsans/v1/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-Tfykyw.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Gloock Placeholder;
+      ascent-override: 85.39%;
+      descent-override: 19.71%;
+      line-gap-override: 0%;
+      size-adjust: 114.18%;
+      src: local("Times New Roman")
+    }
+
+    @font-face {
+      font-family: Instrument Sans Placeholder;
+      ascent-override: 93.97%;
+      descent-override: 24.22%;
+      line-gap-override: 0%;
+      size-adjust: 103.22%;
+      src: local("Arial")
+    }
+
+    @font-face {
+      font-family: Inter Placeholder;
+      ascent-override: 90%;
+      descent-override: 22.43%;
+      line-gap-override: 0%;
+      size-adjust: 107.64%;
+      src: local("Arial")
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.cyrillic-ext-BHDA65O4.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.cyrillic-Q5IXHU2O.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.greek-ext-VVOQA2NE.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.greek-E3WNEUH6.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.latin-ext-5RC4NRHN.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.latin-GJ7CRGHG.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-Thin.vietnamese-Z3Y7DPWO.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.cyrillic-ext-7NWKXNAT.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.cyrillic-IBWUD6RJ.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.greek-ext-HUMDTRBU.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.greek-ZLLHEEN3.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.latin-ext-72JE5FGU.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.latin-2JHDAFAQ.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLight.vietnamese-VKRCA4VC.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.cyrillic-ext-G3OTPKE4.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.cyrillic-JO7ZJTP6.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.greek-ext-N63XCCK3.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.greek-5GVUXSXZ.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.latin-ext-RREJIMQ3.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.latin-EKF76FXR.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-Light.vietnamese-GVC2UOFS.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.cyrillic-ext-CFTLRB35.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.cyrillic-KKLZBALH.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.greek-ext-ULEBLIFV.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.greek-IRHSNFQB.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.latin-ext-VZDUGU3Q.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.latin-JLQMKCHE.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Regular.vietnamese-QK7VSWXK.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.cyrillic-ext-M4WHNGTS.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.cyrillic-JVU2PANX.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.greek-ext-4KCQBEIZ.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.greek-DPOQGN7L.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.latin-ext-J4DBSW7F.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.latin-Y3IVPL46.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-Medium.vietnamese-PJV76O4P.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.cyrillic-ext-C7KWUKA7.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.cyrillic-JWV7SOZ6.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.greek-ext-FBKSFTSU.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.greek-EQ3PSENU.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.latin-ext-ULRSO3ZR.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.latin-RDYY2AG2.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBold.vietnamese-ESQNSEQ3.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.cyrillic-ext-XOTVL7ZR.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.cyrillic-6LOMBC2V.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.greek-ext-WXWSJXLB.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.greek-YRST7ODZ.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.latin-ext-BASA5UL3.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.latin-UCM45LQF.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-Bold.vietnamese-OEVJMXEP.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.cyrillic-ext-7Q6SVIPE.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.cyrillic-JSLPE6KW.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.greek-ext-6OYGJJV7.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.greek-SHW2FPC4.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.latin-ext-A5DUFOP6.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.latin-OW4UGSRU.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBold.vietnamese-IBBC7NGV.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.cyrillic-ext-TU4ITVTR.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.cyrillic-JX7CGTYD.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.greek-ext-LS3GCBFI.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.greek-ZWCJHBP5.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.latin-ext-BZLEUMX6.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.latin-TETRYDF7.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-Black.vietnamese-RXQCC3EJ.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.cyrillic-ext-2RGKWUBV.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.cyrillic-TDYIP5HV.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.greek-ext-WR4TIDYZ.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.greek-V3WZMSP7.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.latin-ext-TXFTJONQ.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.latin-RVEBKP6O.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 100;
+      src: url(https://app.framerstatic.com/Inter-ThinItalic.vietnamese-WCBPP4MD.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.cyrillic-ext-OVCHMVPD.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.cyrillic-BRDZE5UH.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.greek-ext-YV64YFFH.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.greek-EJVCLASM.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.latin-ext-2MHTM56A.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.latin-JB3CJMMM.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 200;
+      src: url(https://app.framerstatic.com/Inter-ExtraLightItalic.vietnamese-3EJ3IQYS.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.cyrillic-ext-C2S5XS3D.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.cyrillic-E7CYPW5D.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.greek-ext-ROSAFPGE.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.greek-PAWWH37Z.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.latin-ext-N2Z67Z45.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.latin-SLSTLWEU.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 300;
+      src: url(https://app.framerstatic.com/Inter-LightItalic.vietnamese-RLGM2D3Y.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.cyrillic-ext-YDGMJOJO.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.cyrillic-BFOVMAQB.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.greek-ext-4KOU3AHC.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.greek-OJTBJNE6.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.latin-ext-H4B22QN6.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.latin-2DWX32EN.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 400;
+      src: url(https://app.framerstatic.com/Inter-Italic.vietnamese-TYMT6CKW.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.cyrillic-ext-QYBZQ2NF.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.cyrillic-ZHAJHZCC.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.greek-ext-W5ABYGZR.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.greek-RGNSYVNV.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.latin-ext-7DZEPSAS.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.latin-SKPQAMBJ.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 500;
+      src: url(https://app.framerstatic.com/Inter-MediumItalic.vietnamese-23WIFZV7.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.cyrillic-ext-MEHHCDC3.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.cyrillic-YACNRNDE.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.greek-ext-GFL7KADI.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.greek-5W77OPRT.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.latin-ext-OYJJ2W6R.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.latin-KBLJMBDH.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 600;
+      src: url(https://app.framerstatic.com/Inter-SemiBoldItalic.vietnamese-5ZFOV65G.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.cyrillic-ext-PEYDHC3S.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.cyrillic-7EIL6JWG.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.greek-ext-3DJOYQMH.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.greek-TJBTLTT7.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.latin-ext-FVPCPRBJ.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.latin-5ZFQS4XK.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 700;
+      src: url(https://app.framerstatic.com/Inter-BoldItalic.vietnamese-W2625PGF.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.cyrillic-ext-ACWDZ3VD.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.cyrillic-ZKBSDAI2.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.greek-ext-3CY5DPTP.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.greek-YL5CC63W.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.latin-ext-7IZFJI4D.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.latin-O5HH4IX3.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 800;
+      src: url(https://app.framerstatic.com/Inter-ExtraBoldItalic.vietnamese-UW3XUJOD.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.cyrillic-ext-TRM4ITYR.woff2) format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.cyrillic-FPHIQVZS.woff2) format("woff2");
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.greek-ext-JTGUUSP5.woff2) format("woff2");
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.greek-LUNA3RFO.woff2) format("woff2");
+      unicode-range: U+0370-03FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.latin-ext-KU7ICFYH.woff2) format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.latin-FRVXWQSB.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-display: block;
+      font-family: Inter;
+      font-style: italic;
+      font-weight: 900;
+      src: url(https://app.framerstatic.com/Inter-BlackItalic.vietnamese-2Q7MQKJX.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+    }
+
+    [data-framer-component-type] {
+      position: absolute
+    }
+
+    [data-framer-component-type=Text] {
+      cursor: inherit
+    }
+
+    [data-framer-component-text-autosized] * {
+      white-space: pre
+    }
+
+    [data-framer-component-type=Text]>* {
+      text-align: var(--framer-text-alignment, start)
+    }
+
+    [data-framer-component-type=Text] span span,
+    [data-framer-component-type=Text] p span,
+    [data-framer-component-type=Text] h1 span,
+    [data-framer-component-type=Text] h2 span,
+    [data-framer-component-type=Text] h3 span,
+    [data-framer-component-type=Text] h4 span,
+    [data-framer-component-type=Text] h5 span,
+    [data-framer-component-type=Text] h6 span {
+      display: block
+    }
+
+    [data-framer-component-type=Text] span span span,
+    [data-framer-component-type=Text] p span span,
+    [data-framer-component-type=Text] h1 span span,
+    [data-framer-component-type=Text] h2 span span,
+    [data-framer-component-type=Text] h3 span span,
+    [data-framer-component-type=Text] h4 span span,
+    [data-framer-component-type=Text] h5 span span,
+    [data-framer-component-type=Text] h6 span span {
+      display: unset
+    }
+
+    [data-framer-component-type=Text] div div span,
+    [data-framer-component-type=Text] a div span,
+    [data-framer-component-type=Text] span span span,
+    [data-framer-component-type=Text] p span span,
+    [data-framer-component-type=Text] h1 span span,
+    [data-framer-component-type=Text] h2 span span,
+    [data-framer-component-type=Text] h3 span span,
+    [data-framer-component-type=Text] h4 span span,
+    [data-framer-component-type=Text] h5 span span,
+    [data-framer-component-type=Text] h6 span span,
+    [data-framer-component-type=Text] a {
+      font-family: var(--font-family);
+      font-style: var(--font-style);
+      font-weight: min(calc(var(--framer-font-weight-increase, 0) + var(--font-weight, 400)), 900);
+      color: var(--text-color);
+      letter-spacing: var(--letter-spacing);
+      font-size: var(--font-size);
+      text-transform: var(--text-transform);
+      text-decoration: var(--text-decoration);
+      line-height: var(--line-height)
+    }
+
+    [data-framer-component-type=Text] div div span,
+    [data-framer-component-type=Text] a div span,
+    [data-framer-component-type=Text] span span span,
+    [data-framer-component-type=Text] p span span,
+    [data-framer-component-type=Text] h1 span span,
+    [data-framer-component-type=Text] h2 span span,
+    [data-framer-component-type=Text] h3 span span,
+    [data-framer-component-type=Text] h4 span span,
+    [data-framer-component-type=Text] h5 span span,
+    [data-framer-component-type=Text] h6 span span,
+    [data-framer-component-type=Text] a {
+      --font-family: var(--framer-font-family);
+      --font-style: var(--framer-font-style);
+      --font-weight: var(--framer-font-weight);
+      --text-color: var(--framer-text-color);
+      --letter-spacing: var(--framer-letter-spacing);
+      --font-size: var(--framer-font-size);
+      --text-transform: var(--framer-text-transform);
+      --text-decoration: var(--framer-text-decoration);
+      --line-height: var(--framer-line-height)
+    }
+
+    [data-framer-component-type=Text] a,
+    [data-framer-component-type=Text] a div span,
+    [data-framer-component-type=Text] a span span span,
+    [data-framer-component-type=Text] a p span span,
+    [data-framer-component-type=Text] a h1 span span,
+    [data-framer-component-type=Text] a h2 span span,
+    [data-framer-component-type=Text] a h3 span span,
+    [data-framer-component-type=Text] a h4 span span,
+    [data-framer-component-type=Text] a h5 span span,
+    [data-framer-component-type=Text] a h6 span span {
+      --font-family: var(--framer-link-font-family, var(--framer-font-family));
+      --font-style: var(--framer-link-font-style, var(--framer-font-style));
+      --font-weight: var(--framer-link-font-weight, var(--framer-font-weight));
+      --text-color: var(--framer-link-text-color, var(--framer-text-color));
+      --font-size: var(--framer-link-font-size, var(--framer-font-size));
+      --text-transform: var(--framer-link-text-transform, var(--framer-text-transform));
+      --text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration))
+    }
+
+    [data-framer-component-type=Text] a:hover,
+    [data-framer-component-type=Text] a div span:hover,
+    [data-framer-component-type=Text] a span span span:hover,
+    [data-framer-component-type=Text] a p span span:hover,
+    [data-framer-component-type=Text] a h1 span span:hover,
+    [data-framer-component-type=Text] a h2 span span:hover,
+    [data-framer-component-type=Text] a h3 span span:hover,
+    [data-framer-component-type=Text] a h4 span span:hover,
+    [data-framer-component-type=Text] a h5 span span:hover,
+    [data-framer-component-type=Text] a h6 span span:hover {
+      --font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+      --font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+      --font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+      --text-color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+      --font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+      --text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+      --text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+    }
+
+    [data-framer-component-type=Text].isCurrent a,
+    [data-framer-component-type=Text].isCurrent a div span,
+    [data-framer-component-type=Text].isCurrent a span span span,
+    [data-framer-component-type=Text].isCurrent a p span span,
+    [data-framer-component-type=Text].isCurrent a h1 span span,
+    [data-framer-component-type=Text].isCurrent a h2 span span,
+    [data-framer-component-type=Text].isCurrent a h3 span span,
+    [data-framer-component-type=Text].isCurrent a h4 span span,
+    [data-framer-component-type=Text].isCurrent a h5 span span,
+    [data-framer-component-type=Text].isCurrent a h6 span span {
+      --font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+      --font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+      --font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+      --text-color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+      --font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+      --text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+      --text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+    }
+
+    p.framer-text,
+    div.framer-text,
+    h1.framer-text,
+    h2.framer-text,
+    h3.framer-text,
+    h4.framer-text,
+    h5.framer-text,
+    h6.framer-text,
+    ol.framer-text,
+    ul.framer-text {
+      margin: 0;
+      padding: 0
+    }
+
+    p.framer-text,
+    div.framer-text,
+    h1.framer-text,
+    h2.framer-text,
+    h3.framer-text,
+    h4.framer-text,
+    h5.framer-text,
+    h6.framer-text,
+    li.framer-text,
+    ol.framer-text,
+    ul.framer-text,
+    span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+      font-style: var(--framer-font-style, normal);
+      font-weight: var(--framer-font-weight, 400);
+      color: var(--framer-text-color, #000);
+      font-size: calc(var(--framer-font-size, 16px) * var(--framer-font-size-scale, 1));
+      letter-spacing: var(--framer-letter-spacing, 0);
+      text-transform: var(--framer-text-transform, none);
+      text-decoration: var(--framer-text-decoration, none);
+      line-height: var(--framer-line-height, 1.2em);
+      text-align: var(--framer-text-alignment, start)
+    }
+
+    strong.framer-text {
+      font-weight: bolder
+    }
+
+    em.framer-text {
+      font-style: italic
+    }
+
+    p.framer-text:not(:first-child),
+    div.framer-text:not(:first-child),
+    h1.framer-text:not(:first-child),
+    h2.framer-text:not(:first-child),
+    h3.framer-text:not(:first-child),
+    h4.framer-text:not(:first-child),
+    h5.framer-text:not(:first-child),
+    h6.framer-text:not(:first-child),
+    ol.framer-text:not(:first-child),
+    ul.framer-text:not(:first-child),
+    .framer-image.framer-text:not(:first-child) {
+      margin-top: var(--framer-paragraph-spacing, 0)
+    }
+
+    li.framer-text>ul.framer-text:nth-child(2),
+    li.framer-text>ol.framer-text:nth-child(2) {
+      margin-top: 0
+    }
+
+    .framer-text[data-text-fill] {
+      display: inline-block;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding: max(0em, calc(calc(1.3em - var(--framer-line-height, 1.3em)) / 2));
+      margin: min(0em, calc(calc(1.3em - var(--framer-line-height, 1.3em)) / -2))
+    }
+
+    code.framer-text,
+    code.framer-text span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-code-text-color, var(--framer-text-color, #000));
+      font-size: calc(var(--framer-font-size, 16px) * var(--framer-font-size-scale, 1));
+      letter-spacing: var(--framer-letter-spacing, 0);
+      line-height: var(--framer-line-height, 1.2em)
+    }
+
+    a.framer-text,
+    a.framer-text span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-link-text-color, var(--framer-text-color, #000));
+      font-size: calc(var(--framer-link-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+      text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+      text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none));
+      cursor: var(--framer-custom-cursors, pointer)
+    }
+
+    code.framer-text a.framer-text,
+    code.framer-text a.framer-text span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)));
+      font-size: calc(var(--framer-link-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))
+    }
+
+    a.framer-text:hover,
+    a.framer-text:hover span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+      font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+      font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+      color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+      font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+      text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+      text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+    }
+
+    code.framer-text a.framer-text:hover,
+    code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+      font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+    }
+
+    a.framer-text[data-framer-page-link-current],
+    a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+      font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+      font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+      color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+      font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+      text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+      text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+    }
+
+    code.framer-text a.framer-text[data-framer-page-link-current],
+    code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+      font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+    }
+
+    a.framer-text[data-framer-page-link-current]:hover,
+    a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+      font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+      font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+      color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+      font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1));
+      text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+      text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+    }
+
+    code.framer-text a.framer-text[data-framer-page-link-current]:hover,
+    code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+      font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
+      font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+    }
+
+    .framer-image.framer-text {
+      display: block;
+      max-width: 100%;
+      height: auto
+    }
+
+    .text-styles-preset-reset.framer-text {
+      --framer-font-family: Inter, Inter Placeholder, sans-serif;
+      --framer-font-style: normal;
+      --framer-font-weight: 500;
+      --framer-text-color: #000;
+      --framer-font-size: 16px;
+      --framer-letter-spacing: 0;
+      --framer-text-transform: none;
+      --framer-text-decoration: none;
+      --framer-line-height: 1.2em;
+      --framer-text-alignment: start
+    }
+
+    ul.framer-text,
+    ol.framer-text {
+      display: table;
+      width: 100%
+    }
+
+    li.framer-text {
+      display: table-row;
+      counter-increment: list-item;
+      list-style: none
+    }
+
+    ol.framer-text>li.framer-text:before {
+      display: table-cell;
+      width: 2.25ch;
+      box-sizing: border-box;
+      padding-inline-end: .75ch;
+      content: counter(list-item) ".";
+      white-space: nowrap
+    }
+
+    ul.framer-text>li.framer-text:before {
+      display: table-cell;
+      width: 2.25ch;
+      box-sizing: border-box;
+      padding-inline-end: .75ch;
+      content: "\2022"
+    }
+
+    .framer-text-module[style*=aspect-ratio]>:first-child {
+      width: 100%
+    }
+
+    @supports not (aspect-ratio: 1) {
+      .framer-text-module[style*=aspect-ratio] {
+        position: relative
+      }
+    }
+
+    @supports not (aspect-ratio: 1) {
+      .framer-text-module[style*=aspect-ratio]:before {
+        content: "";
+        display: block;
+        padding-bottom: calc(100% / calc(var(--aspect-ratio)))
+      }
+    }
+
+    @supports not (aspect-ratio: 1) {
+      .framer-text-module[style*=aspect-ratio]>:first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%
+      }
+    }
+
+    [data-framer-component-type=DeprecatedRichText] {
+      cursor: inherit
+    }
+
+    [data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset {
+      --framer-font-family: Inter, Inter Placeholder, sans-serif;
+      --framer-font-style: normal;
+      --framer-font-weight: 500;
+      --framer-text-color: #000;
+      --framer-font-size: 16px;
+      --framer-letter-spacing: 0;
+      --framer-text-transform: none;
+      --framer-text-decoration: none;
+      --framer-line-height: 1.2em;
+      --framer-text-alignment: start
+    }
+
+    [data-framer-component-type=DeprecatedRichText] p,
+    [data-framer-component-type=DeprecatedRichText] div,
+    [data-framer-component-type=DeprecatedRichText] h1,
+    [data-framer-component-type=DeprecatedRichText] h2,
+    [data-framer-component-type=DeprecatedRichText] h3,
+    [data-framer-component-type=DeprecatedRichText] h4,
+    [data-framer-component-type=DeprecatedRichText] h5,
+    [data-framer-component-type=DeprecatedRichText] h6 {
+      margin: 0;
+      padding: 0
+    }
+
+    [data-framer-component-type=DeprecatedRichText] p,
+    [data-framer-component-type=DeprecatedRichText] div,
+    [data-framer-component-type=DeprecatedRichText] h1,
+    [data-framer-component-type=DeprecatedRichText] h2,
+    [data-framer-component-type=DeprecatedRichText] h3,
+    [data-framer-component-type=DeprecatedRichText] h4,
+    [data-framer-component-type=DeprecatedRichText] h5,
+    [data-framer-component-type=DeprecatedRichText] h6,
+    [data-framer-component-type=DeprecatedRichText] li,
+    [data-framer-component-type=DeprecatedRichText] ol,
+    [data-framer-component-type=DeprecatedRichText] ul,
+    [data-framer-component-type=DeprecatedRichText] span:not([data-text-fill]) {
+      font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+      font-style: var(--framer-font-style, normal);
+      font-weight: var(--framer-font-weight, 400);
+      color: var(--framer-text-color, #000);
+      font-size: var(--framer-font-size, 16px);
+      letter-spacing: var(--framer-letter-spacing, 0);
+      text-transform: var(--framer-text-transform, none);
+      text-decoration: var(--framer-text-decoration, none);
+      line-height: var(--framer-line-height, 1.2em);
+      text-align: var(--framer-text-alignment, start)
+    }
+
+    [data-framer-component-type=DeprecatedRichText] p:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] div:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] h1:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] h2:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] h3:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] h4:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] h5:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] h6:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] ol:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] ul:not(:first-child),
+    [data-framer-component-type=DeprecatedRichText] .framer-image:not(:first-child) {
+      margin-top: var(--framer-paragraph-spacing, 0)
+    }
+
+    [data-framer-component-type=DeprecatedRichText] span[data-text-fill] {
+      display: inline-block;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent
+    }
+
+    [data-framer-component-type=DeprecatedRichText] a,
+    [data-framer-component-type=DeprecatedRichText] a span:not([data-text-fill]) {
+      font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+      font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+      font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+      color: var(--framer-link-text-color, var(--framer-text-color, #000));
+      font-size: var(--framer-link-font-size, var(--framer-font-size, 16px));
+      text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+      text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none))
+    }
+
+    [data-framer-component-type=DeprecatedRichText] a:hover,
+    [data-framer-component-type=DeprecatedRichText] a:hover span:not([data-text-fill]) {
+      font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+      font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+      font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+      color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+      font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+      text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+      text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+    }
+
+    a[data-framer-page-link-current],
+    a[data-framer-page-link-current] span:not([data-text-fill]) {
+      font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+      font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+      font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+      color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+      font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+      text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+      text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+    }
+
+    a[data-framer-page-link-current]:hover,
+    a[data-framer-page-link-current]:hover span:not([data-text-fill]) {
+      font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+      font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+      font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+      color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+      font-size: var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))));
+      text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+      text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+    }
+
+    [data-framer-component-type=DeprecatedRichText] strong {
+      font-weight: bolder
+    }
+
+    [data-framer-component-type=DeprecatedRichText] em {
+      font-style: italic
+    }
+
+    [data-framer-component-type=DeprecatedRichText] .framer-image {
+      display: block;
+      max-width: 100%;
+      height: auto
+    }
+
+    [data-framer-component-type=DeprecatedRichText] ul,
+    [data-framer-component-type=DeprecatedRichText] ol {
+      display: table;
+      width: 100%;
+      padding-left: 0;
+      margin: 0
+    }
+
+    [data-framer-component-type=DeprecatedRichText] li {
+      display: table-row;
+      counter-increment: list-item;
+      list-style: none
+    }
+
+    [data-framer-component-type=DeprecatedRichText] ol>li:before {
+      display: table-cell;
+      width: 2.25ch;
+      box-sizing: border-box;
+      padding-right: .75ch;
+      content: counter(list-item) ".";
+      white-space: nowrap
+    }
+
+    [data-framer-component-type=DeprecatedRichText] ul>li:before {
+      display: table-cell;
+      width: 2.25ch;
+      box-sizing: border-box;
+      padding-right: .75ch;
+      content: "\2022"
+    }
+
+    :not([data-framer-generated])>[data-framer-stack-content-wrapper]>*,
+    :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-component-type],
+    :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>*,
+    :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>[data-framer-component-type] {
+      position: relative
+    }
+
+    .flexbox-gap-not-supported [data-framer-legacy-stack-gap-enabled=true]>*,
+    [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false] {
+      margin-top: calc(var(--stack-gap-y) / 2);
+      margin-bottom: calc(var(--stack-gap-y) / 2);
+      margin-right: calc(var(--stack-gap-x) / 2);
+      margin-left: calc(var(--stack-gap-x) / 2)
+    }
+
+    [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+      row-gap: var(--stack-native-row-gap);
+      column-gap: var(--stack-native-column-gap)
+    }
+
+    .flexbox-gap-not-supported [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+      row-gap: unset;
+      column-gap: unset
+    }
+
+    .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,
+    [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child,
+    .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,
+    [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child {
+      margin-top: 0;
+      margin-left: 0
+    }
+
+    .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,
+    [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child,
+    .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,
+    [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child {
+      margin-right: 0;
+      margin-bottom: 0
+    }
+
+    NavigationContainer [data-framer-component-type=NavigationContainer]>*,
+    [data-framer-component-type=NavigationContainer]>[data-framer-component-type] {
+      position: relative
+    }
+
+    [data-framer-component-type=Scroll]::-webkit-scrollbar {
+      display: none
+    }
+
+    [data-framer-component-type=ScrollContentWrapper]>* {
+      position: relative
+    }
+
+    [data-framer-component-type=NativeScroll] {
+      -webkit-overflow-scrolling: touch
+    }
+
+    [data-framer-component-type=NativeScroll]>* {
+      position: relative
+    }
+
+    [data-framer-component-type=NativeScroll].direction-both {
+      overflow-x: scroll;
+      overflow-y: scroll
+    }
+
+    [data-framer-component-type=NativeScroll].direction-vertical {
+      overflow-x: hidden;
+      overflow-y: scroll
+    }
+
+    [data-framer-component-type=NativeScroll].direction-horizontal {
+      overflow-x: scroll;
+      overflow-y: hidden
+    }
+
+    [data-framer-component-type=NativeScroll].direction-vertical>* {
+      width: 100% !important
+    }
+
+    [data-framer-component-type=NativeScroll].direction-horizontal>* {
+      height: 100% !important
+    }
+
+    [data-framer-component-type=NativeScroll].scrollbar-hidden::-webkit-scrollbar {
+      display: none
+    }
+
+    [data-framer-component-type=PageContentWrapper]>*,
+    [data-framer-component-type=PageContentWrapper]>[data-framer-component-type] {
+      position: relative
+    }
+
+    [data-framer-component-type=DeviceComponent].no-device>* {
+      width: 100% !important;
+      height: 100% !important
+    }
+
+    [data-is-present=false],
+    [data-is-present=false] * {
+      pointer-events: none !important
+    }
+
+    [data-framer-cursor=pointer] {
+      cursor: pointer
+    }
+
+    [data-framer-cursor=grab] {
+      cursor: grab
+    }
+
+    [data-framer-cursor=grab]:active {
+      cursor: grabbing
+    }
+
+    [data-framer-component-type=Frame] *,
+    [data-framer-component-type=Stack] * {
+      pointer-events: auto
+    }
+
+    [data-framer-generated] * {
+      pointer-events: unset
+    }
+
+    .svgContainer svg {
+      display: block
+    }
+
+    [data-reset=button] {
+      border-width: 0;
+      padding: 0;
+      background: none
+    }
+
+    [data-hide-scrollbars=true]::-webkit-scrollbar {
+      width: 0px;
+      height: 0px
+    }
+
+    [data-hide-scrollbars=true]::-webkit-scrollbar-thumb {
+      background: transparent
+    }
+
+    .framer-nQFW2 [data-border=true]:after {
+      content: "";
+      border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+      border-color: var(--border-color, none);
+      border-style: var(--border-style, none);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      box-sizing: border-box;
+      left: 0;
+      top: 0;
+      border-radius: inherit;
+      pointer-events: none
+    }
+
+    @supports (aspect-ratio: 1) {
+      body {
+        --framer-aspect-ratio-supported: auto
+      }
+    }
+
+    .framer-body-augiA20Il {
+      background: #fffdf3
+    }
+
+    .framer-nQFW2 .framer-lux5qc {
+      display: block
+    }
+
+    .framer-nQFW2 .framer-72rtr7 {
+      align-content: center;
+      align-items: center;
+      background-color: #585123;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 0px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      width: 1200px
+    }
+
+    .framer-nQFW2 .framer-1f019ed {
+  align-content: center;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; /* Update to column to stack filter and cards vertically */
+  flex-wrap: nowrap;
+  gap: 60px;
+  height: min-content;
+  justify-content: flex-start; /* Start alignment for the filter */
+  min-height: 800px;
+  overflow: visible;
+  padding: 100px;
+  position: relative;
+  width: 100%;
+}
+
+
+    .framer-nQFW2 .framer-1ke0evl {
+      align-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex: 1 0 0px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 20px;
+      height: min-content;
+      justify-content: center;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      width: 1px;
+      z-index: 1
+    }
+
+    .framer-nQFW2 .framer-1nu561s {
+      --framer-link-text-color: #0099ff;
+      --framer-link-text-decoration: underline;
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      position: relative;
+      white-space: pre-wrap;
+      width: 100%;
+      word-break: break-word;
+      word-wrap: break-word;
+      z-index: 1
+    }
+
+    .framer-nQFW2 .framer-nemfdk {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 10px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-11zjg5w {
+      align-content: center;
+      align-items: center;
+      background-color: #eec170;
+      border-radius: 9999px;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 10px;
+      height: min-content;
+      justify-content: center;
+      overflow: hidden;
+      padding: 10px 20px;
+      position: relative;
+      width: min-content;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-1xfljmv,
+    .framer-nQFW2 .framer-1qpmkna {
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      overflow: visible;
+      position: relative;
+      white-space: pre;
+      width: auto
+    }
+
+    .framer-nQFW2 .framer-u65q1a {
+      align-content: center;
+      align-items: center;
+      background-color: #000000;
+      border-radius: 9999px;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 10px;
+      height: min-content;
+      justify-content: center;
+      overflow: hidden;
+      padding: 10px 20px;
+      position: relative;
+      width: min-content;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-11wnlen {
+      display: grid;
+      flex: 1 0 0px;
+      gap: 20px;
+      grid-auto-rows: minmax(0, 1fr);
+      grid-template-columns: repeat(2, minmax(50px, 1fr));
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      height: min-content;
+      justify-content: center;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: 1px
+    }
+
+    .framer-nQFW2 .framer-1nbi709 {
+      -webkit-filter: grayscale(1);
+      align-self: start;
+      aspect-ratio: 1 / 1;
+      border-top-right-radius: 200px;
+      filter: grayscale(1);
+      flex: none;
+      height: var(--framer-aspect-ratio-supported, 225px);
+      justify-self: start;
+      mix-blend-mode: luminosity;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      will-change: var(--framer-will-change-override, transform);
+      z-index: 1
+    }
+
+    .framer-nQFW2 .framer-1ea6vw2 {
+      -webkit-filter: grayscale(1);
+      align-self: start;
+      filter: grayscale(1);
+      flex: none;
+      grid-row: auto / span 2;
+      height: 100%;
+      justify-self: start;
+      mix-blend-mode: luminosity;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      z-index: 1
+    }
+
+    .framer-nQFW2 .framer-1vvodoi {
+      align-self: start;
+      aspect-ratio: 1 / 1;
+      background-color: #eec170;
+      border-bottom-left-radius: 200px;
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px;
+      flex: none;
+      height: var(--framer-aspect-ratio-supported, 225px);
+      justify-self: start;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      will-change: var(--framer-will-change-override, transform);
+      z-index: 1
+    }
+
+    .framer-nQFW2 .framer-1brioti {
+      --border-bottom-width: 1px;
+      --border-color: #585123;
+      --border-left-width: 1px;
+      --border-right-width: 1px;
+      --border-style: solid;
+      --border-top-width: 1px;
+      border-radius: 100%;
+      flex: none;
+      height: 406px;
+      left: -169px;
+      overflow: hidden;
+      position: absolute;
+      top: 2px;
+      transform: rotate(-50deg);
+      width: 578px;
+      will-change: var(--framer-will-change-override, transform);
+      z-index: 0
+    }
+
+    .framer-nQFW2 .framer-1h93qsb {
+      aspect-ratio: .9966329966329966 / 1;
+      bottom: -94px;
+      flex: none;
+      height: var(--framer-aspect-ratio-supported, 297px);
+      overflow: hidden;
+      position: absolute;
+      right: -110px;
+      width: 296px;
+      z-index: 1
+    }
+
+    .framer-nQFW2 .framer-19p2ehg {
+      background-color: #585123;
+      flex: none;
+      height: 1px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: calc(49.831649831649855% - 1px / 2);
+      transform: rotate(90deg)
+    }
+
+    .framer-nQFW2 .framer-179tp13 {
+      background-color: #585123;
+      flex: none;
+      height: 1px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: calc(49.831649831649855% - 1px / 2);
+      transform: rotate(-30deg)
+    }
+
+    .framer-nQFW2 .framer-1qs4e03 {
+      background-color: #585123;
+      flex: none;
+      height: 1px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: calc(49.831649831649855% - 1px / 2);
+      transform: rotate(-60deg)
+    }
+
+    .framer-nQFW2 .framer-1q6x0ez {
+      background-color: #585123;
+      flex: none;
+      height: 1px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: calc(49.831649831649855% - 1px / 2);
+      transform: rotate(30deg)
+    }
+
+    .framer-nQFW2 .framer-hmbyd0 {
+      background-color: #585123;
+      flex: none;
+      height: 1px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: calc(49.831649831649855% - 1px / 2);
+      transform: rotate(60deg)
+    }
+
+    .framer-nQFW2 .framer-7bsdzq {
+      background-color: #585123;
+      flex: none;
+      height: 1px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: calc(49.831649831649855% - 1px / 2)
+    }
+
+    .framer-nQFW2 .framer-1fpzmgq {
+      align-content: center;
+      align-items: center;
+      background-color: #6198a3;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 0px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: hidden;
+      padding: 100px;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-1m5sbt9 {
+      display: grid;
+      flex: none;
+      gap: 20px;
+      grid-auto-rows: min-content;
+      grid-template-columns: repeat(3, minmax(40px, 1fr));
+      grid-template-rows: repeat(2, min-content);
+      height: min-content;
+      justify-content: center;
+      max-width: 1000px;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-1gvow,
+    .framer-nQFW2 .framer-lywx49 {
+      align-content: center;
+      align-items: center;
+      align-self: center;
+      background-color: #234352;
+      border-radius: 40px;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 0px;
+      grid-column: auto / span 2;
+      height: 320px;
+      justify-content: center;
+      justify-self: center;
+      overflow: hidden;
+      padding: 60px;
+      position: relative;
+      width: 100%;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-1etk73u,
+    .framer-nQFW2 .framer-sun0bc {
+      --framer-link-text-color: #0099ff;
+      --framer-link-text-decoration: underline;
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      overflow: visible;
+      position: relative;
+      white-space: pre;
+      width: auto
+    }
+
+    .framer-nQFW2 .framer-dlcxlt,
+    .framer-nQFW2 .framer-n2z993,
+    .framer-nQFW2 .framer-1crng5b,
+    .framer-nQFW2 .framer-7r5uda {
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      max-width: 400px;
+      overflow: visible;
+      position: relative;
+      white-space: pre-wrap;
+      width: 100%;
+      word-break: break-word;
+      word-wrap: break-word
+    }
+
+    .framer-nQFW2 .framer-xdm1ys,
+    .framer-nQFW2 .framer-e74uzy {
+      align-content: center;
+      align-items: center;
+      align-self: center;
+      background-color: #234352;
+      border-radius: 40px;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 20px;
+      height: 320px;
+      justify-content: center;
+      justify-self: center;
+      overflow: hidden;
+      padding: 60px;
+      position: relative;
+      width: 100%;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-1uy86ve {
+      -webkit-filter: grayscale(5);
+      border-radius: 200px 40px;
+      filter: grayscale(1);
+      flex: 1 0 0px;
+      height: 1px;
+      mix-blend-mode: luminosity;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-1q6krjs {
+      -webkit-filter: grayscale(1);
+      aspect-ratio: 1 / 1;
+      border-radius: 40px 200px 200px;
+      filter: grayscale(1);
+      flex: none;
+      height: var(--framer-aspect-ratio-supported, 200px);
+      mix-blend-mode: luminosity;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-146wwkh {
+      align-content: center;
+      align-items: center;
+      background-color: #585123;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 40px;
+      height: min-content;
+      justify-content: center;
+      overflow: hidden;
+      padding: 100px;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-18aywwm,
+    .framer-nQFW2 .framer-vi8y8h,
+    .framer-nQFW2 .framer-ai85ud,
+    .framer-nQFW2 .framer-13h5b5k {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex: 1 0 0px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 20px;
+      height: 300px;
+      justify-content: center;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: 1px
+    }
+
+    .framer-nQFW2 .framer-1ury69o,
+    .framer-nQFW2 .framer-1rhlipg,
+    .framer-nQFW2 .framer-ib3odz,
+    .framer-nQFW2 .framer-uxsatc {
+      -webkit-filter: grayscale(1);
+      aspect-ratio: 1 / 1;
+      border-radius: 64px;
+      filter: grayscale(1);
+      flex: none;
+      height: var(--framer-aspect-ratio-supported, 80px);
+      overflow: hidden;
+      position: relative;
+      width: 80px;
+      will-change: var(--framer-will-change-override, transform)
+    }
+
+    .framer-nQFW2 .framer-878mad,
+    .framer-nQFW2 .framer-fxisb3,
+    .framer-nQFW2 .framer-156godi,
+    .framer-nQFW2 .framer-1ouqpa3 {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-1btr0lk,
+    .framer-nQFW2 .framer-130w1w4,
+    .framer-nQFW2 .framer-vcuamq,
+    .framer-nQFW2 .framer-zngtz2,
+    .framer-nQFW2 .framer-1c6lx0g,
+    .framer-nQFW2 .framer-h1vwiq,
+    .framer-nQFW2 .framer-n714d5,
+    .framer-nQFW2 .framer-y0aypo,
+    .framer-nQFW2 .framer-1dhq2bt,
+    .framer-nQFW2 .framer-1rqdgqr {
+      --framer-link-text-color: #0099ff;
+      --framer-link-text-decoration: underline;
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      overflow: visible;
+      position: relative;
+      white-space: pre-wrap;
+      width: 100%;
+      word-break: break-word;
+      word-wrap: break-word
+    }
+
+    .framer-nQFW2 .framer-xeh02l {
+      align-content: center;
+      align-items: center;
+      background-color: #585123;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 60px;
+      height: min-content;
+      justify-content: center;
+      overflow: hidden;
+      padding: 100px;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-5r9zjt {
+      --framer-link-text-color: #6198a3;
+      --framer-link-text-decoration: underline;
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      max-width: 1000px;
+      overflow: visible;
+      position: relative;
+      white-space: pre-wrap;
+      width: 100%;
+      word-break: break-word;
+      word-wrap: break-word
+    }
+
+    .framer-nQFW2 .framer-17ioy95 {
+      align-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 100px;
+      height: min-content;
+      justify-content: center;
+      max-width: 1000px;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-7qnlyl,
+    .framer-nQFW2 .framer-1utnjfs {
+      align-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex: 1 0 0px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+      height: min-content;
+      justify-content: center;
+      max-width: 100%;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: 1px
+    }
+
+    .framer-nQFW2 .framer-1bqyqq0 {
+      --border-bottom-width: 0px;
+      --border-color: rgba(0, 0, 0, .05);
+      --border-left-width: 0px;
+      --border-right-width: 0px;
+      --border-style: solid;
+      --border-top-width: 1px;
+      align-content: center;
+      align-items: center;
+      background-color: #585123;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 100px;
+      height: min-content;
+      justify-content: center;
+      overflow: visible;
+      padding: 100px;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-14vha0z {
+      align-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 40px;
+      height: min-content;
+      justify-content: flex-start;
+      max-width: 1000px;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-140gryl,
+    .framer-nQFW2 .framer-1ce3uoy,
+    .framer-nQFW2 .framer-pg4n7u {
+      align-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 15px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: 300px
+    }
+
+    .framer-nQFW2 .framer-ndmutp,
+    .framer-nQFW2 .framer-m40bok,
+    .framer-nQFW2 .framer-1lrny2m,
+    .framer-nQFW2 .framer-h8ah44,
+    .framer-nQFW2 .framer-1anmwey,
+    .framer-nQFW2 .framer-1op7c4n,
+    .framer-nQFW2 .framer-1p2zjyl,
+    .framer-nQFW2 .framer-oaxina,
+    .framer-nQFW2 .framer-16htlvm,
+    .framer-nQFW2 .framer-1bin1n5,
+    .framer-nQFW2 .framer-1qpnuqm,
+    .framer-nQFW2 .framer-a0typ0 {
+      --framer-link-hover-text-color: rgba(153, 153, 153, .6);
+      --framer-link-text-decoration: none;
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      overflow: visible;
+      position: relative;
+      white-space: pre;
+      width: auto
+    }
+
+    .framer-nQFW2 .framer-u1w78o,
+    .framer-nQFW2 .framer-1nnwkgp,
+    .framer-nQFW2 .framer-25ortl {
+      align-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: min-content
+    }
+
+    .framer-nQFW2 .framer-174cbfg {
+      --border-bottom-width: 0px;
+      --border-color: #6a622a;
+      --border-left-width: 0px;
+      --border-right-width: 0px;
+      --border-style: solid;
+      --border-top-width: 1px;
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 20px;
+      height: min-content;
+      justify-content: center;
+      max-width: 1000px;
+      overflow: visible;
+      padding: 100px 0 0;
+      position: relative;
+      width: 100%
+    }
+
+    .framer-nQFW2 .framer-k39qtj {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 20px;
+      height: min-content;
+      justify-content: flex-start;
+      overflow: visible;
+      padding: 0;
+      position: relative;
+      width: min-content
+    }
+
+    .framer-nQFW2 .framer-1685hwe,
+    .framer-nQFW2 .framer-10y0ljh,
+    .framer-nQFW2 .framer-171mr1w,
+    .framer-nQFW2 .framer-6dfppk {
+      flex: none;
+      height: 32px;
+      position: relative;
+      width: 32px
+    }
+
+    .framer-nQFW2 .framer-172zy7y {
+      --framer-link-hover-text-color: rgba(153, 153, 153, .6);
+      --framer-link-text-decoration: none;
+      --framer-paragraph-spacing: 0px;
+      flex: none;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      white-space: pre-wrap;
+      width: 100%;
+      word-break: break-word;
+      word-wrap: break-word
+    }
+
+    @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+
+      .framer-nQFW2 .framer-72rtr7,
+      .framer-nQFW2 .framer-1f019ed,
+      .framer-nQFW2 .framer-1ke0evl,
+      .framer-nQFW2 .framer-nemfdk,
+      .framer-nQFW2 .framer-11zjg5w,
+      .framer-nQFW2 .framer-u65q1a,
+      .framer-nQFW2 .framer-1fpzmgq,
+      .framer-nQFW2 .framer-1gvow,
+      .framer-nQFW2 .framer-xdm1ys,
+      .framer-nQFW2 .framer-e74uzy,
+      .framer-nQFW2 .framer-lywx49,
+      .framer-nQFW2 .framer-146wwkh,
+      .framer-nQFW2 .framer-18aywwm,
+      .framer-nQFW2 .framer-878mad,
+      .framer-nQFW2 .framer-vi8y8h,
+      .framer-nQFW2 .framer-fxisb3,
+      .framer-nQFW2 .framer-ai85ud,
+      .framer-nQFW2 .framer-156godi,
+      .framer-nQFW2 .framer-13h5b5k,
+      .framer-nQFW2 .framer-1ouqpa3,
+      .framer-nQFW2 .framer-xeh02l,
+      .framer-nQFW2 .framer-17ioy95,
+      .framer-nQFW2 .framer-7qnlyl,
+      .framer-nQFW2 .framer-1utnjfs,
+      .framer-nQFW2 .framer-1bqyqq0,
+      .framer-nQFW2 .framer-14vha0z,
+      .framer-nQFW2 .framer-140gryl,
+      .framer-nQFW2 .framer-u1w78o,
+      .framer-nQFW2 .framer-1ce3uoy,
+      .framer-nQFW2 .framer-1nnwkgp,
+      .framer-nQFW2 .framer-pg4n7u,
+      .framer-nQFW2 .framer-25ortl,
+      .framer-nQFW2 .framer-174cbfg,
+      .framer-nQFW2 .framer-k39qtj {
+        gap: 0px
+      }
+
+      .framer-nQFW2 .framer-72rtr7>*,
+      .framer-nQFW2 .framer-1fpzmgq>*,
+      .framer-nQFW2 .framer-1gvow>*,
+      .framer-nQFW2 .framer-lywx49>* {
+        margin: 0
+      }
+
+      .framer-nQFW2 .framer-72rtr7>:first-child,
+      .framer-nQFW2 .framer-1ke0evl>:first-child,
+      .framer-nQFW2 .framer-1fpzmgq>:first-child,
+      .framer-nQFW2 .framer-1gvow>:first-child,
+      .framer-nQFW2 .framer-xdm1ys>:first-child,
+      .framer-nQFW2 .framer-e74uzy>:first-child,
+      .framer-nQFW2 .framer-lywx49>:first-child,
+      .framer-nQFW2 .framer-18aywwm>:first-child,
+      .framer-nQFW2 .framer-878mad>:first-child,
+      .framer-nQFW2 .framer-vi8y8h>:first-child,
+      .framer-nQFW2 .framer-fxisb3>:first-child,
+      .framer-nQFW2 .framer-ai85ud>:first-child,
+      .framer-nQFW2 .framer-156godi>:first-child,
+      .framer-nQFW2 .framer-13h5b5k>:first-child,
+      .framer-nQFW2 .framer-1ouqpa3>:first-child,
+      .framer-nQFW2 .framer-xeh02l>:first-child,
+      .framer-nQFW2 .framer-7qnlyl>:first-child,
+      .framer-nQFW2 .framer-1utnjfs>:first-child,
+      .framer-nQFW2 .framer-1bqyqq0>:first-child,
+      .framer-nQFW2 .framer-140gryl>:first-child,
+      .framer-nQFW2 .framer-u1w78o>:first-child,
+      .framer-nQFW2 .framer-1ce3uoy>:first-child,
+      .framer-nQFW2 .framer-1nnwkgp>:first-child,
+      .framer-nQFW2 .framer-pg4n7u>:first-child,
+      .framer-nQFW2 .framer-25ortl>:first-child,
+      .framer-nQFW2 .framer-174cbfg>:first-child {
+        margin-top: 0
+      }
+
+      .framer-nQFW2 .framer-72rtr7>:last-child,
+      .framer-nQFW2 .framer-1ke0evl>:last-child,
+      .framer-nQFW2 .framer-1fpzmgq>:last-child,
+      .framer-nQFW2 .framer-1gvow>:last-child,
+      .framer-nQFW2 .framer-xdm1ys>:last-child,
+      .framer-nQFW2 .framer-e74uzy>:last-child,
+      .framer-nQFW2 .framer-lywx49>:last-child,
+      .framer-nQFW2 .framer-18aywwm>:last-child,
+      .framer-nQFW2 .framer-878mad>:last-child,
+      .framer-nQFW2 .framer-vi8y8h>:last-child,
+      .framer-nQFW2 .framer-fxisb3>:last-child,
+      .framer-nQFW2 .framer-ai85ud>:last-child,
+      .framer-nQFW2 .framer-156godi>:last-child,
+      .framer-nQFW2 .framer-13h5b5k>:last-child,
+      .framer-nQFW2 .framer-1ouqpa3>:last-child,
+      .framer-nQFW2 .framer-xeh02l>:last-child,
+      .framer-nQFW2 .framer-7qnlyl>:last-child,
+      .framer-nQFW2 .framer-1utnjfs>:last-child,
+      .framer-nQFW2 .framer-1bqyqq0>:last-child,
+      .framer-nQFW2 .framer-140gryl>:last-child,
+      .framer-nQFW2 .framer-u1w78o>:last-child,
+      .framer-nQFW2 .framer-1ce3uoy>:last-child,
+      .framer-nQFW2 .framer-1nnwkgp>:last-child,
+      .framer-nQFW2 .framer-pg4n7u>:last-child,
+      .framer-nQFW2 .framer-25ortl>:last-child,
+      .framer-nQFW2 .framer-174cbfg>:last-child {
+        margin-bottom: 0
+      }
+
+      .framer-nQFW2 .framer-1f019ed>* {
+        margin: 0 30px
+      }
+
+      .framer-nQFW2 .framer-1f019ed>:first-child,
+      .framer-nQFW2 .framer-nemfdk>:first-child,
+      .framer-nQFW2 .framer-11zjg5w>:first-child,
+      .framer-nQFW2 .framer-u65q1a>:first-child,
+      .framer-nQFW2 .framer-146wwkh>:first-child,
+      .framer-nQFW2 .framer-17ioy95>:first-child,
+      .framer-nQFW2 .framer-14vha0z>:first-child,
+      .framer-nQFW2 .framer-k39qtj>:first-child {
+        margin-left: 0
+      }
+
+      .framer-nQFW2 .framer-1f019ed>:last-child,
+      .framer-nQFW2 .framer-nemfdk>:last-child,
+      .framer-nQFW2 .framer-11zjg5w>:last-child,
+      .framer-nQFW2 .framer-u65q1a>:last-child,
+      .framer-nQFW2 .framer-146wwkh>:last-child,
+      .framer-nQFW2 .framer-17ioy95>:last-child,
+      .framer-nQFW2 .framer-14vha0z>:last-child,
+      .framer-nQFW2 .framer-k39qtj>:last-child {
+        margin-right: 0
+      }
+
+      .framer-nQFW2 .framer-1ke0evl>*,
+      .framer-nQFW2 .framer-xdm1ys>*,
+      .framer-nQFW2 .framer-e74uzy>*,
+      .framer-nQFW2 .framer-18aywwm>*,
+      .framer-nQFW2 .framer-vi8y8h>*,
+      .framer-nQFW2 .framer-ai85ud>*,
+      .framer-nQFW2 .framer-13h5b5k>*,
+      .framer-nQFW2 .framer-174cbfg>* {
+        margin: 10px 0
+      }
+
+      .framer-nQFW2 .framer-nemfdk>*,
+      .framer-nQFW2 .framer-11zjg5w>*,
+      .framer-nQFW2 .framer-u65q1a>* {
+        margin: 0 5px
+      }
+
+      .framer-nQFW2 .framer-146wwkh>*,
+      .framer-nQFW2 .framer-14vha0z>* {
+        margin: 0 20px
+      }
+
+      .framer-nQFW2 .framer-878mad>*,
+      .framer-nQFW2 .framer-fxisb3>*,
+      .framer-nQFW2 .framer-156godi>*,
+      .framer-nQFW2 .framer-1ouqpa3>*,
+      .framer-nQFW2 .framer-7qnlyl>*,
+      .framer-nQFW2 .framer-1utnjfs>*,
+      .framer-nQFW2 .framer-u1w78o>*,
+      .framer-nQFW2 .framer-1nnwkgp>*,
+      .framer-nQFW2 .framer-25ortl>* {
+        margin: 5px 0
+      }
+
+      .framer-nQFW2 .framer-xeh02l>* {
+        margin: 30px 0
+      }
+
+      .framer-nQFW2 .framer-17ioy95>* {
+        margin: 0 50px
+      }
+
+      .framer-nQFW2 .framer-1bqyqq0>* {
+        margin: 50px 0
+      }
+
+      .framer-nQFW2 .framer-140gryl>*,
+      .framer-nQFW2 .framer-1ce3uoy>*,
+      .framer-nQFW2 .framer-pg4n7u>* {
+        margin: 7.5px 0
+      }
+
+      .framer-nQFW2 .framer-k39qtj>* {
+        margin: 0 10px
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .framer-nQFW2 .hidden-72rtr7 {
+        display: none !important
+      }
+    }
+
+    @media (min-width: 810px) and (max-width: 1199px) {
+      .framer-nQFW2 .hidden-1nnt3yf {
+        display: none !important
+      }
+
+      .framer-body-augiA20Il {
+        background: #585123
+      }
+
+      .framer-nQFW2 .framer-72rtr7 {
+        width: 810px
+      }
+
+      .framer-nQFW2 .framer-1f019ed {
+        min-height: unset;
+        padding: 50px
+      }
+
+      .framer-nQFW2 .framer-1nbi709 {
+        height: var(--framer-aspect-ratio-supported, 153px)
+      }
+
+      .framer-nQFW2 .framer-1vvodoi {
+        height: var(--framer-aspect-ratio-supported, 152px)
+      }
+
+      .framer-nQFW2 .framer-1brioti {
+        bottom: 21px;
+        height: 243px;
+        left: -80px;
+        top: unset;
+        width: 346px
+      }
+
+      .framer-nQFW2 .framer-1h93qsb {
+        bottom: -51px;
+        height: var(--framer-aspect-ratio-supported, 211px);
+        right: -67px;
+        width: 210px
+      }
+
+      .framer-nQFW2 .framer-1fpzmgq {
+        align-content: flex-start;
+        align-items: flex-start;
+        padding: 80px 40px
+      }
+
+      .framer-nQFW2 .framer-1m5sbt9 {
+        grid-template-columns: repeat(2, minmax(40px, 1fr))
+      }
+
+      .framer-nQFW2 .framer-1gvow,
+      .framer-nQFW2 .framer-xdm1ys,
+      .framer-nQFW2 .framer-e74uzy,
+      .framer-nQFW2 .framer-lywx49 {
+        border-radius: 30px
+      }
+
+      .framer-nQFW2 .framer-1q6krjs {
+        height: var(--framer-aspect-ratio-supported, 235px)
+      }
+
+      .framer-nQFW2 .framer-146wwkh {
+        align-content: unset;
+        align-items: unset;
+        display: grid;
+        gap: 0px;
+        grid-auto-rows: minmax(0, 1fr);
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        padding: 50px
+      }
+
+      .framer-nQFW2 .framer-18aywwm,
+      .framer-nQFW2 .framer-vi8y8h,
+      .framer-nQFW2 .framer-ai85ud,
+      .framer-nQFW2 .framer-13h5b5k {
+        align-self: start;
+        flex: none;
+        justify-self: start;
+        width: 100%
+      }
+
+      .framer-nQFW2 .framer-xeh02l {
+        padding: 50px
+      }
+
+      .framer-nQFW2 .framer-17ioy95 {
+        gap: 60px
+      }
+
+      .framer-nQFW2 .framer-1bqyqq0 {
+        gap: 50px;
+        padding: 50px
+      }
+
+      .framer-nQFW2 .framer-140gryl,
+      .framer-nQFW2 .framer-1ce3uoy,
+      .framer-nQFW2 .framer-pg4n7u {
+        flex: 1 0 0px;
+        width: 1px
+      }
+
+      .framer-nQFW2 .framer-174cbfg {
+        padding: 50px 0 0
+      }
+
+      @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+
+        .framer-nQFW2 .framer-146wwkh,
+        .framer-nQFW2 .framer-17ioy95,
+        .framer-nQFW2 .framer-1bqyqq0 {
+          gap: 0px
+        }
+
+        .framer-nQFW2 .framer-146wwkh>*,
+        .framer-nQFW2 .framer-146wwkh>:first-child,
+        .framer-nQFW2 .framer-146wwkh>:last-child {
+          margin: 0
+        }
+
+        .framer-nQFW2 .framer-17ioy95>* {
+          margin: 0 30px
+        }
+
+        .framer-nQFW2 .framer-17ioy95>:first-child {
+          margin-left: 0
+        }
+
+        .framer-nQFW2 .framer-17ioy95>:last-child {
+          margin-right: 0
+        }
+
+        .framer-nQFW2 .framer-1bqyqq0>* {
+          margin: 25px 0
+        }
+
+        .framer-nQFW2 .framer-1bqyqq0>:first-child {
+          margin-top: 0
+        }
+
+        .framer-nQFW2 .framer-1bqyqq0>:last-child {
+          margin-bottom: 0
+        }
+      }
+    }
+
+    @media (max-width: 809px) {
+      .framer-nQFW2 .hidden-jryn7l {
+        display: none !important
+      }
+
+      .framer-body-augiA20Il {
+        background: #585123
+      }
+
+      .framer-nQFW2 .framer-72rtr7 {
+        width: 390px
+      }
+
+      .framer-nQFW2 .framer-1f019ed {
+        /* flex-direction: column; */
+        gap: 50px;
+        justify-content: center;
+        min-height: unset;
+        padding: 20px
+      }
+
+      .framer-nQFW2 .framer-1ke0evl {
+        flex: none;
+        order: 0;
+        width: 100%
+      }
+
+      .framer-nQFW2 .framer-nemfdk,
+      .framer-nQFW2 .framer-14vha0z {
+        flex-direction: column
+      }
+
+      .framer-nQFW2 .framer-11zjg5w,
+      .framer-nQFW2 .framer-u65q1a,
+      .framer-nQFW2 .framer-140gryl,
+      .framer-nQFW2 .framer-1ce3uoy,
+      .framer-nQFW2 .framer-pg4n7u {
+        width: 100%
+      }
+
+      .framer-nQFW2 .framer-11wnlen {
+        flex: none;
+        order: 1;
+        width: 100%
+      }
+
+      .framer-nQFW2 .framer-1nbi709,
+      .framer-nQFW2 .framer-1vvodoi {
+        height: var(--framer-aspect-ratio-supported, 165px)
+      }
+
+      .framer-nQFW2 .framer-1brioti {
+        height: 197px;
+        left: -103px;
+        top: -6px;
+        width: 280px
+      }
+
+      .framer-nQFW2 .framer-1h93qsb {
+        bottom: -48px;
+        height: var(--framer-aspect-ratio-supported, 204px);
+        right: -64px;
+        width: 204px
+      }
+
+      .framer-nQFW2 .framer-1fpzmgq {
+        padding: 20px
+      }
+
+      .framer-nQFW2 .framer-1m5sbt9 {
+        grid-template-columns: repeat(1, minmax(40px, 1fr))
+      }
+
+      .framer-nQFW2 .framer-1gvow,
+      .framer-nQFW2 .framer-lywx49 {
+        border-radius: 20px;
+        grid-column: auto / span 1
+      }
+
+      .framer-nQFW2 .framer-xdm1ys,
+      .framer-nQFW2 .framer-e74uzy {
+        border-radius: 20px
+      }
+
+      .framer-nQFW2 .framer-1uy86ve {
+        flex: none;
+        height: 300px
+      }
+
+      .framer-nQFW2 .framer-1q6krjs {
+        height: var(--framer-aspect-ratio-supported, 230px)
+      }
+
+      .framer-nQFW2 .framer-146wwkh {
+        flex-direction: column;
+        gap: 60px;
+        padding: 60px 20px
+      }
+
+      .framer-nQFW2 .framer-18aywwm,
+      .framer-nQFW2 .framer-vi8y8h,
+      .framer-nQFW2 .framer-ai85ud,
+      .framer-nQFW2 .framer-13h5b5k {
+        flex: none;
+        height: min-content;
+        width: 100%
+      }
+
+      .framer-nQFW2 .framer-xeh02l {
+        align-content: flex-start;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 20px
+      }
+
+      .framer-nQFW2 .framer-17ioy95 {
+        flex-direction: column;
+        gap: 40px
+      }
+
+      .framer-nQFW2 .framer-7qnlyl,
+      .framer-nQFW2 .framer-1utnjfs {
+        flex: none;
+        width: 100%
+      }
+
+      .framer-nQFW2 .framer-1bqyqq0 {
+        gap: 40px;
+        padding: 40px 20px
+      }
+
+      .framer-nQFW2 .framer-174cbfg {
+        padding: 40px 0 0
+      }
+
+      @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+
+        .framer-nQFW2 .framer-1f019ed,
+        .framer-nQFW2 .framer-nemfdk,
+        .framer-nQFW2 .framer-146wwkh,
+        .framer-nQFW2 .framer-xeh02l,
+        .framer-nQFW2 .framer-17ioy95,
+        .framer-nQFW2 .framer-1bqyqq0,
+        .framer-nQFW2 .framer-14vha0z {
+          gap: 0px
+        }
+
+        .framer-nQFW2 .framer-1f019ed>* {
+          margin: 25px 0
+        }
+
+        .framer-nQFW2 .framer-1f019ed>:first-child,
+        .framer-nQFW2 .framer-nemfdk>:first-child,
+        .framer-nQFW2 .framer-146wwkh>:first-child,
+        .framer-nQFW2 .framer-xeh02l>:first-child,
+        .framer-nQFW2 .framer-17ioy95>:first-child,
+        .framer-nQFW2 .framer-1bqyqq0>:first-child,
+        .framer-nQFW2 .framer-14vha0z>:first-child {
+          margin-top: 0
+        }
+
+        .framer-nQFW2 .framer-1f019ed>:last-child,
+        .framer-nQFW2 .framer-nemfdk>:last-child,
+        .framer-nQFW2 .framer-146wwkh>:last-child,
+        .framer-nQFW2 .framer-xeh02l>:last-child,
+        .framer-nQFW2 .framer-17ioy95>:last-child,
+        .framer-nQFW2 .framer-1bqyqq0>:last-child,
+        .framer-nQFW2 .framer-14vha0z>:last-child {
+          margin-bottom: 0
+        }
+
+        .framer-nQFW2 .framer-nemfdk>* {
+          margin: 5px 0
+        }
+
+        .framer-nQFW2 .framer-146wwkh>* {
+          margin: 30px 0
+        }
+
+        .framer-nQFW2 .framer-xeh02l>*,
+        .framer-nQFW2 .framer-17ioy95>*,
+        .framer-nQFW2 .framer-1bqyqq0>*,
+        .framer-nQFW2 .framer-14vha0z>* {
+          margin: 20px 0
+        }
+      }
+    }
+
+    .ssr-variant {
+      display: contents
+    }
+
+    .cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 5 equal-width columns */
+  gap: 20px; /*Adjust the gap between cards */
+  width: 100%;
+  max-width: 500%; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the grid */
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.card {
+  width: 100%;
+  max-width: 100%;
+  flex: 1;
+}
+
+
+/* .card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEPEBASEBAVExAPEA8XFw8QEBAREBAVFRIWFxgRFRUYHSggGBonGxUTITEhJSkrOi4uFx81ODMsNygtLi0BCgoKDQ0NDw0NDi0ZFRk3NystLSs3LTcrKy0tKysrKy0rLS0rLS0rNysrKysrNysrKys3KysrLisrKy0rLSsrLf/AABEIAMsA+AMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYDBAcBAv/EAEYQAAIBAgEIBgYFCgUFAAAAAAABAgMRBAUGEiExQVFhIjJxgZGxE0JSocHRFDNjgpIjU2Jyc5Oys8LwB3SD0uEVFiQ0VP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7UAAAAAAAAAAAAAAAADRxmV8PRuqlaMWvVvpT7dCN5e4ia+eeGj1Y1J84xil29Jp+4CyAptTPn2cNq4yq2felH4nx/3zP/54/vX/ALQLqCm08+faw2rjGrd9ycfib1DPTDy60akOcoxa7ejJu3cBZAaGDyxh61lTrRbeyLejN/dlZ+43wAAAAAAAAAAAAAAAAAAAAAAAAAAAHzUqKKcpNRildyk0klxbexEblrLdLCx6T0qjXRpRa0nzfsx1PXydrvUUDK2WK2KlepK0U9VOLahHg7b3zfO1k7AWvKueNOF40I+kl7bvGmuzfL3J7mVXH5bxFfr1Xov1IdCHY0usv1rkcegeJHoAAAAAAB40SGAy1iKH1dV6K9SfTh2JPq91jQAF5yXnlTnaNePo5e2rum+3fH382WenUUkpRalFq6lFpprimtpx83slZXrYV3py6Ld3Sld05cXbc+atsW7UB1QEVkTLtLFro9GoleVKT6S5p+sta1rir2uSoAAAAAAAAAAAAAAAAAAACAzkzhWGWhTtKs1seuNNe1L4IyZzZcWFglGzrVF0U9ait9SXLgt75Jtc5qVHKTlJtyk23Ju7be9sD2tVlOTlOTlKTu5Sd23x8vA+QAAAAAAADJSoyn1Iyl+rFvyM/wD0yv8AmKn7uXyA1AZauGqQ69OUf1oyXmYgAAAAAD6pVJQkpQk4yi01KLs01/b8ToGbWcSxK0Klo10tmxVEvWjz4r+1z0+qdRxalFuMotNSW1NbwOwAhc2cuLFU7Ssq0F0o7pL248uK3Pk1eaAAAAAAAAAAAAAABrZQxkaFKdSfVgti2ybdlFc22l3myUPPjKfpKqoxfQpa5c5teSi7dspX2ICBx+MnXqSqTfSm92yK3RXJLV/y2a4AAAAAAlw2sDLhcPOrJQhG8nu+L4It+TM26VNJ1Uqk+fUXYt/ebOQslrD01dflJJOUv6VyRJgeRikrJWS3LUj0AAReUcg0ayfR0J+3BJeK2MlABznKOT54eejNdkl1ZLivkap0PK2AjiKTg9u2MvZluOezi4tpqzi2muDWpoDwAAAABsZPxk6FSNSm7Si9m6S3xfJ/3rsdSwGMjXpwqQ6s1eztdPfF23p3T5o5KWfMfKehUdCT6FXXH9GaS1djS8VFbwL2AAAAAAAAAAAAA1so4tUKVSo9ehFu17aT9WPa3Zd5yipNyblJ3lJtuT2ybd3J829feXbP/F6NKnS31Ztvg4wtq8ZRf3SjgAAAAAAkMgUlPE0k9mlf8KbXvRHm/kGpo4mi/wBK3imviB0EAAAAAAAAoudFFQxM7bJqMu9qz96L0UfOud8TJezGC91/iBDgAAAAB9UpuMoyi2nFpqS2pp3TXPefIA6zk7FqvSp1Erekgno7dF749zuu42Sr5hYvSo1KW+lNNfqzu/G8ZvvLQAAAAAAAAAAAHPM+MRpYtxT1U6dOLXCT0p+U4kAb2X6uni8S/tpr8HQ/pNEAAAAAAGfAtqrStt9JT/iRgNzJEksRRb2ekj56vfYDogAAAAAAABz/ADgv9JrX9peGire46AUTOeSeKqW3KCfaooCKAAAAAAABYcxq+jinHdUpzWzbJWl5RkdBOXZuVdDF4d/aJfjTh/UzqIAAAAAAAAAAAckyk/y+I/zOJ/nTMBt5Zp6OJxC+3rP8U3Je5mogAAAAAAE7a1tQAHR8nYpVqUJr1oq/J7GvG5slazLxF41Kb9VqS79T8l4llAAAAAAMOMxCpU5zlshFvt4I5xWqOcpSltk232t3LhnhW0aCjvnNeC1+dimAAAAAAAAAbWSf/Yw/7eh/MidYOVZDhpYrDr7ak/CSfwOqgAAAAAAAAAABzbPChoYyo/zihPbu0VHzhIhi3/4g4bXRqrY9KEnxfWgv5hUAAAAAAAAAJPN3F+hxEW+rPovv2PxsX05eXvNvHOtQWk7ypvRb42Safg0BKgAAAaOW8Y6NCc49bUo9r1X+PcBWM7MZ6StoJ9Gkrfee34LuIQ9bvre17zwAAAAAAAACazNpaeMp/ZxqTfYo6K984nSCmf4fYbXXqvYtCC7etLzplzAAAAAAAAAAACLzkwPp8NVileaWlFLa5R16K7VeP3jmCZ2M5jnLk76NiJxStTn0ocLPbFdjurblo8QIsAAAAAAAAtuZX1dX9ov4UVnC4OpVdqcHJ8lqXa9iLvkHJzw9LRk05SlpO2xakrLwAkgAAIbO1f8AjPlOHxJk1Mq4P09GdO9nJKzexNO68gOdA3MbkutR68Hb2l0o+K2d5pgAAAAAANglc2cnfSMRBNdCm1OfC0WrR73ZW4X4AXjNnA+gwtKLVpyWnJPapT1tPsuo9xKgAAAAAAAAAAAAIjObJP0qi0vrYdKD2XdtcHyfmk9xLgDjrVtTVmnZpppprc09gLdnpkOzeJpLU/rIrd9olw4+O9tVGEW2kldvYlrbIB9Uqcpu0YuTe6KbZYsl5ruVpV3or83Hrd73FlwuEp0lanBRXJa32vayip4LNitOzqNU48H0peCJ3CZu4enrcdN8Zu6/DsJYAeRikrJJJbkrI9AAAAAAABHYzIdCrrcNGT9aHRfgtT70SIAqGNzVqRu6UlNey+jL5P3EFXoTpu04uL4STR0wx4jDwqLRnFSXCSuBzMFpynmttlQf+nJ+Uvn4lZq05Qk4yTjJbU1ZoD47Nb4JXb5JHS82clfRaKUl+VnaU+TtqhfgvO73kDmXkTSaxFRdFfVxe9/nOxbuevcm7qAAAAAAAAAAAAAAAAB41fbse5kFh836WHqTqQXW2Rev0XHR5E8AIw9Nmrh/Z8DWaAAAAAAAAAAAAAAAAAGtisiU8TKEqkeo92rTXsPlckaWH3y8PmbKARSSSSsluWpLkegAAAAAAAAAAAAAAAAAAAAMdSkpbfHeZABozoNc+z5GMkj4nTT2r5gaANmWF4Px1mN4eXJ9j+YGIH26Ulufn5Hmg+D8APkH2qUuD8vM+lh5cl2v5AYgbMcLxfhqM0KSWxfMDUhQb5dvyNqnRUe3iZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/9k=');
+} */
+
+/* .card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+} */
+
+.card__like {
+    width: 18px;
+}
+
+.card__clock {
+    width: 15px;
+  vertical-align: middle;
+    fill: #AD7D52;
+}
+.card__time {
+    font-size: 12px;
+    color: #AD7D52;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+  /* visibility: hidden; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+.card__img-grayscale {
+    filter: grayscale(100%);
+}
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.card {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 100%;
+    gap: 10px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card__by {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transform: translateY(50%);
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  display: block;
+  min-width: 231.5px;
+  width: 100% !important;
+  max-width: 483px;
+}
+
+/* the code below is for the dropdown heading */
+/* .container {
+  height: 100vh;
+  background-color: #23232b;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+} */
+
+.menu {
+  display: grid;
+  grid-template-rows: 40px max-content;
+  gap: 10px;
+}
+
+.toggle {
+  all: unset;
+  background-color: #6198a3;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-width: 0 3px 3px 0;
+  border-style: solid;
+  transform: rotate(45deg);
+  transition: 0.4s;
+}
+
+.list {
+  background-color: white;
+  color: #444;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(4, 40px);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 0;
+  transition: 0.4s;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.4s, transform 0.4s var(--delay);
+  transform: translateX(-100%);
+  user-select: none;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.toggle:focus::after {
+  transform: rotate(225deg);
+}
+
+.toggle:focus ~ .list {
+  height: 160px;
+}
+
+.toggle:focus ~ .list .list-item {
+  transform: translateX(0);
+}
+
+  </style>
+
+  <!-- End of headEnd -->
+  <style type="text/css" data-framer-css="true"></style>
+</head>
+
+<body class="framer-body-augiA20Il">
+
+  <!-- End of bodyStart -->
+  <div id="main"
+    data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localizationId&quot;:&quot;default&quot;,&quot;localeId&quot;:&quot;default&quot;}"
+    data-framer-ssr-released-at="2023-08-29T09:47:22.822Z" data-framer-page-optimized-at="2023-09-01T05:04:35.206Z">
+    <div class="framer-nQFW2" style="display:contents">
+      <div class="framer-72rtr7" style="min-height:100%;width:auto">
+        <!-- <div class="framer-1f019ed" data-framer-name="Hero" name="Hero">
+          <div class="framer-1ke0evl">
+            <div class="framer-1nu561s"
+              style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+              data-framer-component-type="RichTextContainer">
+              <h1
+                style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:64px;--framer-line-height:1.1em;--framer-text-alignment:left;--framer-text-color:rgb(88, 81, 35)"
+                class="framer-text">Empower Your Coaching</h1>
+            </div>
+            <div class="framer-nemfdk" data-framer-name="Buttons" name="Buttons">
+              <button id="Button" name="Button" onclick="openPopup()">
+                <div class="framer-11zjg5w" data-framer-name="Button" >
+                  <div class="framer-1xfljmv" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                    <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left" class="framer-text">Manage Students</p>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="framer-11wnlen">
+            <div class="framer-1nbi709" data-framer-name="Image" name="Image">
+              <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                data-framer-background-image-wrapper="true"><img
+                  src="https://framerusercontent.com/images/WpwnOcQQcbT4e4KFARo5hDA7ik.jpg?scale-down-to=512" alt=""
+                  srcset="https://framerusercontent.com/images/WpwnOcQQcbT4e4KFARo5hDA7ik.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/WpwnOcQQcbT4e4KFARo5hDA7ik.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/WpwnOcQQcbT4e4KFARo5hDA7ik.jpg 1200w"
+                  sizes="max((max((100vw - 260px) / 2, 0px) - 20px) / 2, 50px)"
+                  style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto">
+              </div>
+            </div>
+            <div class="framer-1ea6vw2" data-framer-name="Image" name="Image">
+              <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                data-framer-background-image-wrapper="true"><img
+                  src="https://framerusercontent.com/images/VJ9O1nlnAAQ3QF8TzJtxa5UZhIE.jpg?scale-down-to=512" alt=""
+                  srcset="https://framerusercontent.com/images/VJ9O1nlnAAQ3QF8TzJtxa5UZhIE.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/VJ9O1nlnAAQ3QF8TzJtxa5UZhIE.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/VJ9O1nlnAAQ3QF8TzJtxa5UZhIE.jpg 1200w"
+                  sizes="max((max((100vw - 260px) / 2, 0px) - 20px) / 2, 50px)"
+                  style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto">
+              </div>
+            </div>
+            <div class="framer-1vvodoi" data-framer-name="Image" name="Image"></div>
+            <div class="framer-1brioti" data-border="true" data-framer-name="Decoration" name="Decoration"
+              style="transform:rotate(-50deg)"></div>
+            <div class="framer-1h93qsb" data-framer-name="Decoration" name="Decoration">
+              <div class="framer-19p2ehg" style="transform:rotate(90deg)"></div>
+              <div class="framer-179tp13" style="transform:rotate(-30deg)"></div>
+              <div class="framer-1qs4e03" style="transform:rotate(-60deg)"></div>
+              <div class="framer-1q6x0ez" style="transform:rotate(30deg)"></div>
+              <div class="framer-hmbyd0" style="transform:rotate(60deg)"></div>
+              <div class="framer-7bsdzq"></div>
+            </div>
+          </div>
+        </div> -->
+        <div class="framer-1fpzmgq" data-framer-name="Metrics" name="Metrics">
+          <div class="framer-1m5sbt9">
+            <div class="framer-1gvow" data-framer-name="Card" name="Card">
+              <div class="framer-1etk73u"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:80px;--framer-text-alignment:left;--framer-text-color:rgb(242, 166, 90)"
+                  class="framer-text">500</h2>
+              </div>
+              <div class="framer-dlcxlt"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h3
+                  style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(238, 193, 112)"
+                  class="framer-text">Dedicated Students Learning</h3>
+              </div>
+            </div>
+            <div class="framer-xdm1ys" data-framer-name="Card" name="Card">
+              <div class="framer-1uy86ve" data-framer-name="Image" name="Image">
+                <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                  data-framer-background-image-wrapper="true"><img
+                    src="https://framerusercontent.com/images/ge4msbSMmohKNjmu6KQwosXQfms.jpg?scale-down-to=512" alt=""
+                    srcset="https://framerusercontent.com/images/ge4msbSMmohKNjmu6KQwosXQfms.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/ge4msbSMmohKNjmu6KQwosXQfms.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/ge4msbSMmohKNjmu6KQwosXQfms.jpg 1200w"
+                    sizes="calc(max((min(100vw - 200px, 1000px) - 40px) / 3, 40px) - 120px)"
+                    style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto">
+                </div>
+              </div>
+            </div>
+            <div class="framer-e74uzy" data-framer-name="Card" name="Card">
+              <div class="framer-1q6krjs" data-framer-name="Image" name="Image">
+                <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                  data-framer-background-image-wrapper="true"><img
+                    src="https://framerusercontent.com/images/Y7RyEDZjH5CyPiqMQW5ia8Z1hcQ.jpg?scale-down-to=512" alt=""
+                    srcset="https://framerusercontent.com/images/Y7RyEDZjH5CyPiqMQW5ia8Z1hcQ.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/Y7RyEDZjH5CyPiqMQW5ia8Z1hcQ.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/Y7RyEDZjH5CyPiqMQW5ia8Z1hcQ.jpg 1200w"
+                    sizes="calc(max((min(100vw - 200px, 1000px) - 40px) / 3, 40px) - 120px)"
+                    style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto"
+                    loading="lazy"></div>
+              </div>
+            </div>
+            <div class="framer-lywx49" data-framer-name="Card" name="Card">
+              <div class="framer-sun0bc"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:80px;--framer-text-alignment:left;--framer-text-color:rgb(242, 166, 90)"
+                  class="framer-text">50</h2>
+              </div>
+              <div class="framer-n2z993"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(238, 193, 112)"
+                  class="framer-text">Enlightening Courses Offered</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="framer-1f019ed" data-framer-name="Hero" name="Hero">
+
+          <div class="menu">
+            <button class="toggle">{{ selected_option }}</button>
+            <ul class="list">
+              <li class="list-item" style="--delay:0.2s" data-value="11th Gujarati Medium">11th Gujarati Medium</li>
+              <li class="list-item" style="--delay:0.4s" data-value="11th English Medium">11th English Medium</li>
+              <li class="list-item" style="--delay:0.6s" data-value="12th Gujarati Medium">12th Gujarati Medium</li>
+              <li class="list-item" style="--delay:0.8s" data-value="12th English Medium">12th English Medium</li>
+            </ul>
+          </div>
+          
+          <form id="selection-form" action="/admin_panel/manage_students/" method="POST">
+            {% csrf_token %}
+            <input type="hidden" name="selected-option" id="selected-option" value="">
+          </form>          
+
+          <div>
+            <section class="cards">
+              <div class="row">
+                {% for student in students %}
+                  <article class="card card--1">
+                    <div class="card__info-hover">
+                      <div class="card__clock-info">
+                        <span class="card__time">{{ student.contact_num }}</span>
+                      </div>
+                    </div>
+                    <!-- <div class="card__img">
+                      <img src="{% get_media_prefix %}{{ student.id }}/{{ student.id }}.jpg;" alt="Student Image" class="card__img">
+                    </div> -->
+                    <div class="card__img" style="background-image: url('{% get_media_prefix %}{{ student.id }}/{{ student.id }}.jpg');"></div>
+                    <a href="{% url 'view_student' student.id %}" class="card_link">
+                      <div class="card__img--hover"></div>
+                    </a>
+                    <div class="card__info">
+                      <span class="card__category">{{ student.standard }}TH {{ student.medium }}</span>
+                      <h3 class="card__title">{{ student.full_name }}</h3>
+                      <span class="card__by"><a href="{% url 'delete_student' student.id %}" class="card__author">Remove Student</a></span>
+                    </div>
+                  </article>
+        
+                  {% if forloop.counter|divisibleby:1 and not forloop.last %}
+                    </div><div class="row">
+                  {% endif %}
+        
+                {% endfor %}
+              </div>
+            </section>
+          </div>
+        </div>
+        
+        
+        <div class="framer-146wwkh" data-framer-name="Team" name="Team">
+          <div class="framer-18aywwm" data-framer-name="Page" name="Page">
+            <div class="framer-1ury69o">
+              <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                data-framer-background-image-wrapper="true"><img
+                  src="https://framerusercontent.com/images/4Ek6RyK1M6W4EKMeAt75KdyK1oA.jpg?scale-down-to=512" alt=""
+                  srcset="https://framerusercontent.com/images/4Ek6RyK1M6W4EKMeAt75KdyK1oA.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/4Ek6RyK1M6W4EKMeAt75KdyK1oA.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/4Ek6RyK1M6W4EKMeAt75KdyK1oA.jpg 1200w"
+                  sizes="80px"
+                  style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto"
+                  loading="lazy"></div>
+            </div>
+            <div class="framer-878mad">
+              <div class="framer-1btr0lk"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h3
+                  style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:20px;--framer-line-height:1.4em;--framer-text-alignment:center;--framer-text-color:rgb(238, 193, 112);--framer-text-transform:uppercase"
+                  class="framer-text">Kamal</h3>
+              </div>
+              <div class="framer-130w1w4"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="framer-vi8y8h" data-framer-name="Page" name="Page">
+            <div class="framer-1rhlipg">
+              <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                data-framer-background-image-wrapper="true"><img
+                  src="https://framerusercontent.com/images/Jzkw7QiR5MwzEa1qgFO91WDLkOA.jpg?scale-down-to=512" alt=""
+                  srcset="https://framerusercontent.com/images/Jzkw7QiR5MwzEa1qgFO91WDLkOA.jpg?scale-down-to=512 409w, https://framerusercontent.com/images/Jzkw7QiR5MwzEa1qgFO91WDLkOA.jpg?scale-down-to=1024 819w, https://framerusercontent.com/images/Jzkw7QiR5MwzEa1qgFO91WDLkOA.jpg 1200w"
+                  sizes="80px"
+                  style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto"
+                  loading="lazy"></div>
+            </div>
+            <div class="framer-fxisb3">
+              <div class="framer-vcuamq"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h3
+                  style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:20px;--framer-line-height:1.4em;--framer-text-alignment:center;--framer-text-color:rgb(238, 193, 112);--framer-text-transform:uppercase"
+                  class="framer-text">Priya</h3>
+              </div>
+              <div class="framer-zngtz2"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Co-Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="framer-ai85ud" data-framer-name="Page" name="Page">
+            <div class="framer-ib3odz">
+              <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                data-framer-background-image-wrapper="true"><img
+                  src="https://framerusercontent.com/images/EG7eLiRrkIsElKToP0iWUg.jpg?scale-down-to=512" alt=""
+                  srcset="https://framerusercontent.com/images/EG7eLiRrkIsElKToP0iWUg.jpg?scale-down-to=512 341w, https://framerusercontent.com/images/EG7eLiRrkIsElKToP0iWUg.jpg?scale-down-to=1024 683w, https://framerusercontent.com/images/EG7eLiRrkIsElKToP0iWUg.jpg 1200w"
+                  sizes="80px"
+                  style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto"
+                  loading="lazy"></div>
+            </div>
+            <div class="framer-156godi">
+              <div class="framer-1c6lx0g"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h3
+                  style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:20px;--framer-line-height:1.4em;--framer-text-alignment:center;--framer-text-color:rgb(238, 193, 112);--framer-text-transform:uppercase"
+                  class="framer-text">Rohan</h3>
+              </div>
+              <div class="framer-h1vwiq"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Lead Instructor</p>
+              </div>
+            </div>
+          </div>
+          <div class="framer-13h5b5k" data-framer-name="Page" name="Page">
+            <div class="framer-uxsatc">
+              <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                data-framer-background-image-wrapper="true"><img
+                  src="https://framerusercontent.com/images/emh4SRQMTfqMZAD56ccbtLoXVg.jpg?scale-down-to=512" alt=""
+                  srcset="https://framerusercontent.com/images/emh4SRQMTfqMZAD56ccbtLoXVg.jpg?scale-down-to=512 409w, https://framerusercontent.com/images/emh4SRQMTfqMZAD56ccbtLoXVg.jpg?scale-down-to=1024 819w, https://framerusercontent.com/images/emh4SRQMTfqMZAD56ccbtLoXVg.jpg 1200w"
+                  sizes="80px"
+                  style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto"
+                  loading="lazy"></div>
+            </div>
+            <div class="framer-1ouqpa3">
+              <div class="framer-n714d5"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h3
+                  style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:20px;--framer-line-height:1.4em;--framer-text-alignment:center;--framer-text-color:rgb(238, 193, 112);--framer-text-transform:uppercase"
+                  class="framer-text">Neha</h3>
+              </div>
+              <div class="framer-y0aypo"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Marketing Head</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="framer-xeh02l" data-framer-name="FAQ" name="FAQ">
+          <div class="framer-5r9zjt"
+            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+            data-framer-component-type="RichTextContainer">
+            <h2
+              style="--font-selector:R0Y7R2xvb2NrLXJlZ3VsYXI=;--framer-font-family:&quot;Gloock&quot;, &quot;Gloock Placeholder&quot;, serif;--framer-font-size:48px;--framer-text-alignment:left;--framer-text-color:rgb(238, 193, 112)"
+              class="framer-text">Common Queries</h2>
+          </div>
+          <div class="framer-17ioy95" data-framer-name="Questions Row" name="Questions Row">
+            <div class="framer-7qnlyl" data-framer-name="Q&amp;A" name="Q&amp;A">
+              <div class="framer-1dhq2bt"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(238, 193, 112)"
+                  class="framer-text">How to add new courses?</h2>
+              </div>
+              <div class="framer-1crng5b"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Simply navigate to the ‘Courses’ tab and click on ‘Add New Course’ to provide
+                  course details and save.</h2>
+              </div>
+            </div>
+            <div class="framer-1utnjfs" data-framer-name="Q&amp;A" name="Q&amp;A">
+              <div class="framer-1rqdgqr"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(238, 193, 112)"
+                  class="framer-text">What stats are available?</h2>
+              </div>
+              <div class="framer-7r5uda"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <h2
+                  style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">You can monitor student progress, course performance, and other important metrics
+                  in the dashboard area.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="framer-1bqyqq0" data-border="true" data-framer-name="Footer" name="Footer">
+          <div class="framer-14vha0z" data-framer-name="Horizontal" name="Horizontal">
+            <div class="framer-140gryl" data-framer-name="Vertical" name="Vertical">
+              <div class="framer-ndmutp"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Resources</p>
+              </div>
+              <div class="framer-u1w78o">
+                <div class="framer-m40bok"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                    class="framer-text">Blog</p>
+                </div>
+                <div class="framer-1lrny2m"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                    class="framer-text">Help</p>
+                </div>
+                <div class="framer-h8ah44"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                    class="framer-text">Policies</p>
+                </div>
+              </div>
+            </div>
+            <div class="framer-1ce3uoy" data-framer-name="Vertical" name="Vertical">
+              <div class="framer-1anmwey"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">About</p>
+              </div>
+              <div class="framer-1nnwkgp">
+                <div class="framer-1op7c4n"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left"
+                    class="framer-text"><br class="framer-text trailing-break"></p>
+                </div>
+                <div class="framer-1p2zjyl"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left"
+                    class="framer-text"><br class="framer-text trailing-break"></p>
+                </div>
+                <div class="framer-oaxina"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left"
+                    class="framer-text"><br class="framer-text trailing-break"></p>
+                </div>
+              </div>
+            </div>
+            <div class="framer-pg4n7u" data-framer-name="Vertical" name="Vertical">
+              <div class="framer-16htlvm"
+                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                data-framer-component-type="RichTextContainer">
+                <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-letter-spacing:-0.025em;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                  class="framer-text">Contact</p>
+              </div>
+              <div class="framer-25ortl">
+                <div class="framer-1bin1n5"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                    class="framer-text">Email</p>
+                </div>
+                <div class="framer-1qpnuqm"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                    class="framer-text">Phone</p>
+                </div>
+                <div class="framer-a0typ0"
+                  style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                  data-framer-component-type="RichTextContainer">
+                  <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(255, 255, 255)"
+                    class="framer-text">Social</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="framer-174cbfg" data-border="true" data-framer-name="Copyright" name="Copyright">
+            <div class="framer-k39qtj" data-framer-name="Icons" name="Icons">
+              <div data-framer-component-type="SVG" data-framer-name="Twitter" name="Twitter"
+                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20d%3D%22M%200%200%20L%2032%200%20L%2032%2032%20L%200%2032%20Z%22%20fill%3D%22transparent%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2030.713%209.712%20L%2026.938%2013.475%20C%2026.188%2022.212%2018.813%2029%2010%2029%20C%208.188%2029%206.688%2028.712%205.55%2028.15%20C%204.638%2027.687%204.263%2027.2%204.163%2027.05%20C%203.995%2026.795%203.953%2026.478%204.047%2026.189%20C%204.142%2025.899%204.364%2025.668%204.65%2025.562%20C%204.675%2025.55%207.625%2024.425%209.538%2022.262%20C%208.351%2021.418%207.309%2020.388%206.45%2019.212%20C%204.738%2016.887%202.925%2012.85%204.013%206.825%20C%204.082%206.46%204.346%206.163%204.7%206.05%20C%205.055%205.934%205.446%206.025%205.713%206.287%20C%205.75%206.337%209.913%2010.437%2015%2011.762%20L%2015%2011%20C%2015.01%209.399%2015.656%207.867%2016.795%206.742%20C%2017.934%205.617%2019.474%204.99%2021.075%205%20C%2023.192%205.03%2025.137%206.169%2026.2%208%20L%2030%208%20C%2030.404%207.999%2030.769%208.24%2030.925%208.612%20C%2031.072%208.989%2030.989%209.417%2030.713%209.712%20Z%22%20fill%3D%22%23FFFFFF%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')"
+                class="framer-1685hwe"></div>
+              <div data-framer-component-type="SVG" data-framer-name="Instagram" name="Instagram"
+                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20d%3D%22M%200%200%20L%2032%200%20L%2032%2032%20L%200%2032%20Z%22%20fill%3D%22transparent%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2012%2016%20C%2012%2013.791%2013.791%2012%2016%2012%20C%2018.209%2012%2020%2013.791%2020%2016%20C%2020%2018.209%2018.209%2020%2016%2020%20C%2013.791%2020%2012%2018.209%2012%2016%20Z%22%20fill%3D%22%23FFFFFF%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2021.5%203.5%20L%2010.5%203.5%20C%206.634%203.5%203.5%206.634%203.5%2010.5%20L%203.5%2021.5%20C%203.5%2025.366%206.634%2028.5%2010.5%2028.5%20L%2021.5%2028.5%20C%2025.366%2028.5%2028.5%2025.366%2028.5%2021.5%20L%2028.5%2010.5%20C%2028.5%206.634%2025.366%203.5%2021.5%203.5%20Z%20M%2016%2022%20C%2012.686%2022%2010%2019.314%2010%2016%20C%2010%2012.686%2012.686%2010%2016%2010%20C%2019.314%2010%2022%2012.686%2022%2016%20C%2022%2019.314%2019.314%2022%2016%2022%20Z%20M%2022.5%2011%20C%2021.672%2011%2021%2010.328%2021%209.5%20C%2021%208.672%2021.672%208%2022.5%208%20C%2023.328%208%2024%208.672%2024%209.5%20C%2024%2010.328%2023.328%2011%2022.5%2011%20Z%22%20fill%3D%22%23FFFFFF%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')"
+                class="framer-10y0ljh"></div>
+              <div data-framer-component-type="SVG" data-framer-name="Facebook" name="Facebook"
+                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20d%3D%22M%2029%2016%20C%2028.992%2022.575%2024.083%2028.112%2017.556%2028.907%20C%2017.414%2028.924%2017.272%2028.878%2017.166%2028.783%20C%2017.059%2028.687%2016.999%2028.55%2017%2028.407%20L%2017%2019%20L%2020%2019%20C%2020.277%2019.001%2020.542%2018.886%2020.732%2018.684%20C%2020.921%2018.482%2021.018%2018.21%2021%2017.934%20C%2020.954%2017.4%2020.504%2016.993%2019.969%2017%20L%2017%2017%20L%2017%2014%20C%2017%2012.895%2017.895%2012%2019%2012%20L%2021%2012%20C%2021.277%2012.001%2021.542%2011.886%2021.732%2011.684%20C%2021.921%2011.482%2022.018%2011.21%2022%2010.934%20C%2021.954%2010.399%2021.503%209.991%2020.966%2010%20L%2019%2010%20C%2016.791%2010%2015%2011.791%2015%2014%20L%2015%2017%20L%2012%2017%20C%2011.723%2016.999%2011.458%2017.114%2011.268%2017.316%20C%2011.079%2017.518%2010.982%2017.79%2011%2018.066%20C%2011.046%2018.601%2011.497%2019.009%2012.034%2019%20L%2015%2019%20L%2015%2028.41%20C%2015.001%2028.553%2014.941%2028.689%2014.835%2028.785%20C%2014.729%2028.88%2014.587%2028.926%2014.445%2028.91%20C%207.731%2028.092%202.762%2022.27%203.009%2015.511%20C%203.259%208.761%208.726%203.274%2015.481%203.011%20C%2019.015%202.874%2022.452%204.181%2025.002%206.631%20C%2027.552%209.081%2028.996%2012.464%2029%2016%20Z%22%20fill%3D%22%23FFFFFF%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')"
+                class="framer-171mr1w"></div>
+              <div data-framer-component-type="SVG" data-framer-name="Twitch" name="Twitch"
+                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20d%3D%22M%2026%204%20L%206%204%20C%204.895%204%204%204.895%204%206%20L%204%2024%20C%204%2025.105%204.895%2026%206%2026%20L%208%2026%20L%208%2030%20C%208%2030.388%208.224%2030.741%208.576%2030.906%20C%208.927%2031.071%209.342%2031.017%209.64%2030.769%20L%2015.363%2026%20L%2020.638%2026%20C%2021.106%2026%2021.559%2025.836%2021.919%2025.536%20L%2027.28%2021.067%20C%2027.737%2020.688%2028.001%2020.125%2028%2019.531%20L%2028%206%20C%2028%204.895%2027.105%204%2026%204%20Z%20M%2016%2017%20C%2016%2017.552%2015.552%2018%2015%2018%20C%2014.448%2018%2014%2017.552%2014%2017%20L%2014%2011%20C%2014%2010.448%2014.448%2010%2015%2010%20C%2015.552%2010%2016%2010.448%2016%2011%20Z%20M%2022%2017%20C%2022%2017.552%2021.552%2018%2021%2018%20C%2020.448%2018%2020%2017.552%2020%2017%20L%2020%2011%20C%2020%2010.448%2020.448%2010%2021%2010%20C%2021.552%2010%2022%2010.448%2022%2011%20Z%22%20fill%3D%22%23FFFFFF%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')"
+                class="framer-6dfppk"></div>
+            </div>
+            <div class="framer-172zy7y"
+              style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+              data-framer-component-type="RichTextContainer">
+              <p style="--font-selector:R0Y7SW5zdHJ1bWVudCBTYW5zLTUwMA==;--framer-font-family:&quot;Instrument Sans&quot;, sans-serif;--framer-font-weight:500;--framer-line-height:1.5em;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)"
+                class="framer-text">© 2023 Kamal Sir’s Academy. All Rights Reserved.</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div id="overlay"></div>
+    </div>
+  </div>
+  <div id="svg-templates" style="position: absolute; overflow: hidden; top: 0; left: 0; width: 0; height: 0">
+  </div>
+  <script data-framer-appear-animation="no-preference"></script>
+
+  <!-- End of bodyEnd -->
+
+  <div id="popup" style="display: none;">
+    <section class="cards">
+      {% for student in students %}
+      <article class="card card--1">
+        <div class="card__info-hover">
+          <div class="card__clock-info">
+            <span class="card__time">{{ student.contact_num }}</span>
+          </div>
+        </div>
+        <div class="card__img"></div>
+        <a href="{% url 'view_student' student.id %}" class="card_link">
+          <div class="card__img--hover"></div>
+        </a>
+        <div class="card__info">
+          <span class="card__category">{{ student.standard }}TH {{ student.medium }}</span>
+          <h3 class="card__title">{{ student.full_name }}</h3>
+          <span class="card__by"><a href="{% url 'delete_student' student.id %}" class="card__author">Remove Student</a></span>
+        </div>
+      </article>
+      {% endfor %}
+    </section>
+  </div>
+
+</body>
+<div id="smartyContainer"
+  style="position: absolute; top: 0px; right: 0px; line-height: initial; z-index: 2147483647; width: auto; font-size: initial;">
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+  // Listen for click events on list items
+  $(".list-item").click(function() {
+    // Get the selected value from the data attribute
+    var selectedValue = $(this).data("value");
+
+    // Update the hidden input field value
+    $("#selected-option").val(selectedValue);
+
+    // Submit the form to trigger a POST request
+    $("#selection-form").submit();
+  });
+});
+
+        const button = document.querySelector('.toggle');
+        const list = document.querySelector('.list');
+
+        button.addEventListener('click', () => {
+            list.classList.toggle('visible');
+        });
+
+</script>
+
+</html>
+{% endblock %}

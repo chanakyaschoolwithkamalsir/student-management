@@ -1,0 +1,460 @@
+[2024-03-09 12:24:28-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-824]:file not uploaded
+[2024-03-09 12:26:26-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-829]:     Name  marks  total
+0  jayesh     20     30
+[2024-03-09 12:26:59-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-829]:     Name  marks  total
+0  jayesh     20     30
+[2024-03-09 12:30:16-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-835]:     Name  marks  total
+0  jayesh     20     30
+[2024-03-09 12:31:17-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-834]:     Name  marks  total
+0  jayesh     20     30
+[2024-03-09 13:05:18-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-852]:<QuerySet [<Student: Student object (40)>, <Student: Student object (41)>, <Student: Student object (42)>, <Student: Student object (43)>, <Student: Student object (44)>, <Student: Student object (45)>, <Student: Student object (46)>, <Student: Student object (47)>, <Student: Student object (48)>, <Student: Student object (49)>, <Student: Student object (50)>, <Student: Student object (51)>, <Student: Student object (52)>, <Student: Student object (53)>, <Student: Student object (54)>, <Student: Student object (55)>, <Student: Student object (56)>, <Student: Student object (57)>, <Student: Student object (58)>, <Student: Student object (59)>, '...(remaining elements truncated)...']>
+[2024-03-09 13:06:10-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-854]:<QuerySet [('Shah Snehi Sanjaykumar', '9824083342', 2, 11, 'Gujarati Medium'), ('Vaghela Diya Ranjitsinh', '7383696506', 1, 11, 'Gujarati Medium'), ('Raval Mohini Rajubhai', '7600229795', 9, 11, 'Gujarati Medium'), ('Patel Princee Jitendrabhai', '9033064575', 35, 11, 'Gujarati Medium'), ('Nainani janvi Manojkumar', '9016938557', 34, 11, 'Gujarati Medium'), ('Shah Jal Manojkumar', '9898776820', 25, 11, 'Gujarati Medium'), ('Panchal Jiya Bhaveshbhai', '9429584393', 35, 11, 'Gujarati Medium'), ('Luhar Aksha Islambhai', '8128272554', 32, 11, 'Gujarati Medium'), ('Nirali Girishbhai Kalani', '7016598906', 31, 11, 'Gujarati Medium'), ('Patel Dhruvi Arvindbhai ', '9408017846', 15, 11, 'Gujarati Medium'), ('Prajapati Riya Rameshbhai ', '9904650661', 5, 11, 'Gujarati Medium'), ('Patel Hani Mukeshkumar', '9638680312', 4, 11, 'Gujarati Medium'), ('Patel Kashish Jagdishbhai', '9978061792', 37, 11, 'Gujarati Medium'), ('Khant Drashti Vikrambhai', '9925636002', 10, 11, 'Gujarati Medium'), ('Chauhan Haniba Ranjitsinh', '6352894775', 3, 11, 'Gujarati Medium'), ('Shah Nihal Mineshkumar ', '9427949676', 26, 11, 'Gujarati Medium'), ('Rathod Mahipal Pintusinh', '8866298118', 23, 11, 'Gujarati Medium'), ('Bhavsar Param Nayanbhai', '9429759855', 22, 11, 'Gujarati Medium'), ('Suthar Dax Jagdishbhai', '9909051414', 7, 11, 'Gujarati Medium'), ('Raval Mahir Punabhai', '9586405152', 17, 11, 'Gujarati Medium'), '...(remaining elements truncated)...']>
+[2024-03-09 13:06:53-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-854]:<QuerySet [('Shah Snehi Sanjaykumar', '9824083342', 2, 11, 'Gujarati Medium'), ('Vaghela Diya Ranjitsinh', '7383696506', 1, 11, 'Gujarati Medium'), ('Raval Mohini Rajubhai', '7600229795', 9, 11, 'Gujarati Medium'), ('Patel Princee Jitendrabhai', '9033064575', 35, 11, 'Gujarati Medium'), ('Nainani janvi Manojkumar', '9016938557', 34, 11, 'Gujarati Medium'), ('Shah Jal Manojkumar', '9898776820', 25, 11, 'Gujarati Medium'), ('Panchal Jiya Bhaveshbhai', '9429584393', 35, 11, 'Gujarati Medium'), ('Luhar Aksha Islambhai', '8128272554', 32, 11, 'Gujarati Medium'), ('Nirali Girishbhai Kalani', '7016598906', 31, 11, 'Gujarati Medium'), ('Patel Dhruvi Arvindbhai ', '9408017846', 15, 11, 'Gujarati Medium'), ('Prajapati Riya Rameshbhai ', '9904650661', 5, 11, 'Gujarati Medium'), ('Patel Hani Mukeshkumar', '9638680312', 4, 11, 'Gujarati Medium'), ('Patel Kashish Jagdishbhai', '9978061792', 37, 11, 'Gujarati Medium'), ('Khant Drashti Vikrambhai', '9925636002', 10, 11, 'Gujarati Medium'), ('Chauhan Haniba Ranjitsinh', '6352894775', 3, 11, 'Gujarati Medium'), ('Shah Nihal Mineshkumar ', '9427949676', 26, 11, 'Gujarati Medium'), ('Rathod Mahipal Pintusinh', '8866298118', 23, 11, 'Gujarati Medium'), ('Bhavsar Param Nayanbhai', '9429759855', 22, 11, 'Gujarati Medium'), ('Suthar Dax Jagdishbhai', '9909051414', 7, 11, 'Gujarati Medium'), ('Raval Mahir Punabhai', '9586405152', 17, 11, 'Gujarati Medium'), '...(remaining elements truncated)...']>
+[2024-03-09 13:06:53-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-856]:                                0           1   2   3                4
+0          Shah Snehi Sanjaykumar  9824083342   2  11  Gujarati Medium
+1         Vaghela Diya Ranjitsinh  7383696506   1  11  Gujarati Medium
+2           Raval Mohini Rajubhai  7600229795   9  11  Gujarati Medium
+3      Patel Princee Jitendrabhai  9033064575  35  11  Gujarati Medium
+4        Nainani janvi Manojkumar  9016938557  34  11  Gujarati Medium
+5             Shah Jal Manojkumar  9898776820  25  11  Gujarati Medium
+6        Panchal Jiya Bhaveshbhai  9429584393  35  11  Gujarati Medium
+7           Luhar Aksha Islambhai  8128272554  32  11  Gujarati Medium
+8        Nirali Girishbhai Kalani  7016598906  31  11  Gujarati Medium
+9        Patel Dhruvi Arvindbhai   9408017846  15  11  Gujarati Medium
+10     Prajapati Riya Rameshbhai   9904650661   5  11  Gujarati Medium
+11         Patel Hani Mukeshkumar  9638680312   4  11  Gujarati Medium
+12      Patel Kashish Jagdishbhai  9978061792  37  11  Gujarati Medium
+13       Khant Drashti Vikrambhai  9925636002  10  11  Gujarati Medium
+14      Chauhan Haniba Ranjitsinh  6352894775   3  11  Gujarati Medium
+15        Shah Nihal Mineshkumar   9427949676  26  11  Gujarati Medium
+16       Rathod Mahipal Pintusinh  8866298118  23  11  Gujarati Medium
+17        Bhavsar Param Nayanbhai  9429759855  22  11  Gujarati Medium
+18         Suthar Dax Jagdishbhai  9909051414   7  11  Gujarati Medium
+19           Raval Mahir Punabhai  9586405152  17  11  Gujarati Medium
+20  Makvana Kuljeetsinh Navalsinh  9998120451  33  11  Gujarati Medium
+21   Rathod Shivaditya Kartiksinh  9725737572  28  11  Gujarati Medium
+22         Patel Arpit Bharatbhai  6352951802  20  11  Gujarati Medium
+23       Goswami Janvi Hiteshgiri  9327840485  12  11  Gujarati Medium
+24        Patel Rutvik Rakeshbhai  7990927349  19  11  Gujarati Medium
+25         Patel SUjal Mukeshbhai  8128759142   8  11  Gujarati Medium
+26         Shah Akshat Niravkumar  9825409957  24  11  Gujarati Medium
+27      Mesariya Vishv Ashvinbhai  9409777209  21  11  Gujarati Medium
+28    Zala Anirudhsinh Vanrajsinh  9624662208  30  11  Gujarati Medium
+[2024-03-09 13:11:27-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-855]:<QuerySet [('Shah Snehi Sanjaykumar', '9824083342', 2, 11, 'Gujarati Medium'), ('Vaghela Diya Ranjitsinh', '7383696506', 1, 11, 'Gujarati Medium'), ('Raval Mohini Rajubhai', '7600229795', 9, 11, 'Gujarati Medium'), ('Patel Princee Jitendrabhai', '9033064575', 35, 11, 'Gujarati Medium'), ('Nainani janvi Manojkumar', '9016938557', 34, 11, 'Gujarati Medium'), ('Shah Jal Manojkumar', '9898776820', 25, 11, 'Gujarati Medium'), ('Panchal Jiya Bhaveshbhai', '9429584393', 35, 11, 'Gujarati Medium'), ('Luhar Aksha Islambhai', '8128272554', 32, 11, 'Gujarati Medium'), ('Nirali Girishbhai Kalani', '7016598906', 31, 11, 'Gujarati Medium'), ('Patel Dhruvi Arvindbhai ', '9408017846', 15, 11, 'Gujarati Medium'), ('Prajapati Riya Rameshbhai ', '9904650661', 5, 11, 'Gujarati Medium'), ('Patel Hani Mukeshkumar', '9638680312', 4, 11, 'Gujarati Medium'), ('Patel Kashish Jagdishbhai', '9978061792', 37, 11, 'Gujarati Medium'), ('Khant Drashti Vikrambhai', '9925636002', 10, 11, 'Gujarati Medium'), ('Chauhan Haniba Ranjitsinh', '6352894775', 3, 11, 'Gujarati Medium'), ('Shah Nihal Mineshkumar ', '9427949676', 26, 11, 'Gujarati Medium'), ('Rathod Mahipal Pintusinh', '8866298118', 23, 11, 'Gujarati Medium'), ('Bhavsar Param Nayanbhai', '9429759855', 22, 11, 'Gujarati Medium'), ('Suthar Dax Jagdishbhai', '9909051414', 7, 11, 'Gujarati Medium'), ('Raval Mahir Punabhai', '9586405152', 17, 11, 'Gujarati Medium'), '...(remaining elements truncated)...']>
+[2024-03-09 13:11:27-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-858]:                        full_name parent_contact_number  roll_no  standard           medium
+0          Shah Snehi Sanjaykumar            9824083342        2        11  Gujarati Medium
+1         Vaghela Diya Ranjitsinh            7383696506        1        11  Gujarati Medium
+2           Raval Mohini Rajubhai            7600229795        9        11  Gujarati Medium
+3      Patel Princee Jitendrabhai            9033064575       35        11  Gujarati Medium
+4        Nainani janvi Manojkumar            9016938557       34        11  Gujarati Medium
+5             Shah Jal Manojkumar            9898776820       25        11  Gujarati Medium
+6        Panchal Jiya Bhaveshbhai            9429584393       35        11  Gujarati Medium
+7           Luhar Aksha Islambhai            8128272554       32        11  Gujarati Medium
+8        Nirali Girishbhai Kalani            7016598906       31        11  Gujarati Medium
+9        Patel Dhruvi Arvindbhai             9408017846       15        11  Gujarati Medium
+10     Prajapati Riya Rameshbhai             9904650661        5        11  Gujarati Medium
+11         Patel Hani Mukeshkumar            9638680312        4        11  Gujarati Medium
+12      Patel Kashish Jagdishbhai            9978061792       37        11  Gujarati Medium
+13       Khant Drashti Vikrambhai            9925636002       10        11  Gujarati Medium
+14      Chauhan Haniba Ranjitsinh            6352894775        3        11  Gujarati Medium
+15        Shah Nihal Mineshkumar             9427949676       26        11  Gujarati Medium
+16       Rathod Mahipal Pintusinh            8866298118       23        11  Gujarati Medium
+17        Bhavsar Param Nayanbhai            9429759855       22        11  Gujarati Medium
+18         Suthar Dax Jagdishbhai            9909051414        7        11  Gujarati Medium
+19           Raval Mahir Punabhai            9586405152       17        11  Gujarati Medium
+20  Makvana Kuljeetsinh Navalsinh            9998120451       33        11  Gujarati Medium
+21   Rathod Shivaditya Kartiksinh            9725737572       28        11  Gujarati Medium
+22         Patel Arpit Bharatbhai            6352951802       20        11  Gujarati Medium
+23       Goswami Janvi Hiteshgiri            9327840485       12        11  Gujarati Medium
+24        Patel Rutvik Rakeshbhai            7990927349       19        11  Gujarati Medium
+25         Patel SUjal Mukeshbhai            8128759142        8        11  Gujarati Medium
+26         Shah Akshat Niravkumar            9825409957       24        11  Gujarati Medium
+27      Mesariya Vishv Ashvinbhai            9409777209       21        11  Gujarati Medium
+28    Zala Anirudhsinh Vanrajsinh            9624662208       30        11  Gujarati Medium
+[2024-03-09 13:11:49-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-855]:<QuerySet [('Shah Snehi Sanjaykumar', '9824083342', 2, 11, 'Gujarati Medium'), ('Vaghela Diya Ranjitsinh', '7383696506', 1, 11, 'Gujarati Medium'), ('Raval Mohini Rajubhai', '7600229795', 9, 11, 'Gujarati Medium'), ('Patel Princee Jitendrabhai', '9033064575', 35, 11, 'Gujarati Medium'), ('Nainani janvi Manojkumar', '9016938557', 34, 11, 'Gujarati Medium'), ('Shah Jal Manojkumar', '9898776820', 25, 11, 'Gujarati Medium'), ('Panchal Jiya Bhaveshbhai', '9429584393', 35, 11, 'Gujarati Medium'), ('Luhar Aksha Islambhai', '8128272554', 32, 11, 'Gujarati Medium'), ('Nirali Girishbhai Kalani', '7016598906', 31, 11, 'Gujarati Medium'), ('Patel Dhruvi Arvindbhai ', '9408017846', 15, 11, 'Gujarati Medium'), ('Prajapati Riya Rameshbhai ', '9904650661', 5, 11, 'Gujarati Medium'), ('Patel Hani Mukeshkumar', '9638680312', 4, 11, 'Gujarati Medium'), ('Patel Kashish Jagdishbhai', '9978061792', 37, 11, 'Gujarati Medium'), ('Khant Drashti Vikrambhai', '9925636002', 10, 11, 'Gujarati Medium'), ('Chauhan Haniba Ranjitsinh', '6352894775', 3, 11, 'Gujarati Medium'), ('Shah Nihal Mineshkumar ', '9427949676', 26, 11, 'Gujarati Medium'), ('Rathod Mahipal Pintusinh', '8866298118', 23, 11, 'Gujarati Medium'), ('Bhavsar Param Nayanbhai', '9429759855', 22, 11, 'Gujarati Medium'), ('Suthar Dax Jagdishbhai', '9909051414', 7, 11, 'Gujarati Medium'), ('Raval Mahir Punabhai', '9586405152', 17, 11, 'Gujarati Medium'), '...(remaining elements truncated)...']>
+[2024-03-09 13:11:49-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-858]:                        full_name parent_contact_number  roll_no  standard           medium
+0          Shah Snehi Sanjaykumar            9824083342        2        11  Gujarati Medium
+1         Vaghela Diya Ranjitsinh            7383696506        1        11  Gujarati Medium
+2           Raval Mohini Rajubhai            7600229795        9        11  Gujarati Medium
+3      Patel Princee Jitendrabhai            9033064575       35        11  Gujarati Medium
+4        Nainani janvi Manojkumar            9016938557       34        11  Gujarati Medium
+5             Shah Jal Manojkumar            9898776820       25        11  Gujarati Medium
+6        Panchal Jiya Bhaveshbhai            9429584393       35        11  Gujarati Medium
+7           Luhar Aksha Islambhai            8128272554       32        11  Gujarati Medium
+8        Nirali Girishbhai Kalani            7016598906       31        11  Gujarati Medium
+9        Patel Dhruvi Arvindbhai             9408017846       15        11  Gujarati Medium
+10     Prajapati Riya Rameshbhai             9904650661        5        11  Gujarati Medium
+11         Patel Hani Mukeshkumar            9638680312        4        11  Gujarati Medium
+12      Patel Kashish Jagdishbhai            9978061792       37        11  Gujarati Medium
+13       Khant Drashti Vikrambhai            9925636002       10        11  Gujarati Medium
+14      Chauhan Haniba Ranjitsinh            6352894775        3        11  Gujarati Medium
+15        Shah Nihal Mineshkumar             9427949676       26        11  Gujarati Medium
+16       Rathod Mahipal Pintusinh            8866298118       23        11  Gujarati Medium
+17        Bhavsar Param Nayanbhai            9429759855       22        11  Gujarati Medium
+18         Suthar Dax Jagdishbhai            9909051414        7        11  Gujarati Medium
+19           Raval Mahir Punabhai            9586405152       17        11  Gujarati Medium
+20  Makvana Kuljeetsinh Navalsinh            9998120451       33        11  Gujarati Medium
+21   Rathod Shivaditya Kartiksinh            9725737572       28        11  Gujarati Medium
+22         Patel Arpit Bharatbhai            6352951802       20        11  Gujarati Medium
+23       Goswami Janvi Hiteshgiri            9327840485       12        11  Gujarati Medium
+24        Patel Rutvik Rakeshbhai            7990927349       19        11  Gujarati Medium
+25         Patel SUjal Mukeshbhai            8128759142        8        11  Gujarati Medium
+26         Shah Akshat Niravkumar            9825409957       24        11  Gujarati Medium
+27      Mesariya Vishv Ashvinbhai            9409777209       21        11  Gujarati Medium
+28    Zala Anirudhsinh Vanrajsinh            9624662208       30        11  Gujarati Medium
+[2024-03-09 13:13:39-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-855]:<QuerySet [(2, 'Shah Snehi Sanjaykumar', '9824083342'), (1, 'Vaghela Diya Ranjitsinh', '7383696506'), (9, 'Raval Mohini Rajubhai', '7600229795'), (35, 'Patel Princee Jitendrabhai', '9033064575'), (34, 'Nainani janvi Manojkumar', '9016938557'), (25, 'Shah Jal Manojkumar', '9898776820'), (35, 'Panchal Jiya Bhaveshbhai', '9429584393'), (32, 'Luhar Aksha Islambhai', '8128272554'), (31, 'Nirali Girishbhai Kalani', '7016598906'), (15, 'Patel Dhruvi Arvindbhai ', '9408017846'), (5, 'Prajapati Riya Rameshbhai ', '9904650661'), (4, 'Patel Hani Mukeshkumar', '9638680312'), (37, 'Patel Kashish Jagdishbhai', '9978061792'), (10, 'Khant Drashti Vikrambhai', '9925636002'), (3, 'Chauhan Haniba Ranjitsinh', '6352894775'), (26, 'Shah Nihal Mineshkumar ', '9427949676'), (23, 'Rathod Mahipal Pintusinh', '8866298118'), (22, 'Bhavsar Param Nayanbhai', '9429759855'), (7, 'Suthar Dax Jagdishbhai', '9909051414'), (17, 'Raval Mahir Punabhai', '9586405152'), '...(remaining elements truncated)...']>
+[2024-03-09 13:13:39-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-858]:    Roll Number                        Student Contact Number
+0             2         Shah Snehi Sanjaykumar     9824083342
+1             1        Vaghela Diya Ranjitsinh     7383696506
+2             9          Raval Mohini Rajubhai     7600229795
+3            35     Patel Princee Jitendrabhai     9033064575
+4            34       Nainani janvi Manojkumar     9016938557
+5            25            Shah Jal Manojkumar     9898776820
+6            35       Panchal Jiya Bhaveshbhai     9429584393
+7            32          Luhar Aksha Islambhai     8128272554
+8            31       Nirali Girishbhai Kalani     7016598906
+9            15       Patel Dhruvi Arvindbhai      9408017846
+10            5     Prajapati Riya Rameshbhai      9904650661
+11            4         Patel Hani Mukeshkumar     9638680312
+12           37      Patel Kashish Jagdishbhai     9978061792
+13           10       Khant Drashti Vikrambhai     9925636002
+14            3      Chauhan Haniba Ranjitsinh     6352894775
+15           26        Shah Nihal Mineshkumar      9427949676
+16           23       Rathod Mahipal Pintusinh     8866298118
+17           22        Bhavsar Param Nayanbhai     9429759855
+18            7         Suthar Dax Jagdishbhai     9909051414
+19           17           Raval Mahir Punabhai     9586405152
+20           33  Makvana Kuljeetsinh Navalsinh     9998120451
+21           28   Rathod Shivaditya Kartiksinh     9725737572
+22           20         Patel Arpit Bharatbhai     6352951802
+23           12       Goswami Janvi Hiteshgiri     9327840485
+24           19        Patel Rutvik Rakeshbhai     7990927349
+25            8         Patel SUjal Mukeshbhai     8128759142
+26           24         Shah Akshat Niravkumar     9825409957
+27           21      Mesariya Vishv Ashvinbhai     9409777209
+28           30    Zala Anirudhsinh Vanrajsinh     9624662208
+[2024-03-09 13:18:33-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-857]:<QuerySet [(2, 'Shah Snehi Sanjaykumar', '9824083342'), (1, 'Vaghela Diya Ranjitsinh', '7383696506'), (9, 'Raval Mohini Rajubhai', '7600229795'), (35, 'Patel Princee Jitendrabhai', '9033064575'), (34, 'Nainani janvi Manojkumar', '9016938557'), (25, 'Shah Jal Manojkumar', '9898776820'), (35, 'Panchal Jiya Bhaveshbhai', '9429584393'), (32, 'Luhar Aksha Islambhai', '8128272554'), (31, 'Nirali Girishbhai Kalani', '7016598906'), (15, 'Patel Dhruvi Arvindbhai ', '9408017846'), (5, 'Prajapati Riya Rameshbhai ', '9904650661'), (4, 'Patel Hani Mukeshkumar', '9638680312'), (37, 'Patel Kashish Jagdishbhai', '9978061792'), (10, 'Khant Drashti Vikrambhai', '9925636002'), (3, 'Chauhan Haniba Ranjitsinh', '6352894775'), (26, 'Shah Nihal Mineshkumar ', '9427949676'), (23, 'Rathod Mahipal Pintusinh', '8866298118'), (22, 'Bhavsar Param Nayanbhai', '9429759855'), (7, 'Suthar Dax Jagdishbhai', '9909051414'), (17, 'Raval Mahir Punabhai', '9586405152'), '...(remaining elements truncated)...']>
+[2024-03-09 13:18:33-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-865]:    Roll Number                        Student Contact Number Obtained Total
+1             1        Vaghela Diya Ranjitsinh     7383696506               
+0             2         Shah Snehi Sanjaykumar     9824083342               
+14            3      Chauhan Haniba Ranjitsinh     6352894775               
+11            4         Patel Hani Mukeshkumar     9638680312               
+10            5     Prajapati Riya Rameshbhai      9904650661               
+18            7         Suthar Dax Jagdishbhai     9909051414               
+25            8         Patel SUjal Mukeshbhai     8128759142               
+2             9          Raval Mohini Rajubhai     7600229795               
+13           10       Khant Drashti Vikrambhai     9925636002               
+23           12       Goswami Janvi Hiteshgiri     9327840485               
+9            15       Patel Dhruvi Arvindbhai      9408017846               
+19           17           Raval Mahir Punabhai     9586405152               
+24           19        Patel Rutvik Rakeshbhai     7990927349               
+22           20         Patel Arpit Bharatbhai     6352951802               
+27           21      Mesariya Vishv Ashvinbhai     9409777209               
+17           22        Bhavsar Param Nayanbhai     9429759855               
+16           23       Rathod Mahipal Pintusinh     8866298118               
+26           24         Shah Akshat Niravkumar     9825409957               
+5            25            Shah Jal Manojkumar     9898776820               
+15           26        Shah Nihal Mineshkumar      9427949676               
+21           28   Rathod Shivaditya Kartiksinh     9725737572               
+28           30    Zala Anirudhsinh Vanrajsinh     9624662208               
+8            31       Nirali Girishbhai Kalani     7016598906               
+7            32          Luhar Aksha Islambhai     8128272554               
+20           33  Makvana Kuljeetsinh Navalsinh     9998120451               
+4            34       Nainani janvi Manojkumar     9016938557               
+6            35       Panchal Jiya Bhaveshbhai     9429584393               
+3            35     Patel Princee Jitendrabhai     9033064575               
+12           37      Patel Kashish Jagdishbhai     9978061792               
+[2024-03-09 13:20:26-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-837]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:30:55-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-842]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:31:21-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-842]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:32:08-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-842]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:34:29-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-842]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:34:46-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-842]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:35:13-INFO]-views.py-post-Thread-1 (process_request_thread)-[Line-842]:    Roll Number                        Student  Contact Number  Obtained  Total
+0             1        Vaghela Diya Ranjitsinh      7383696506       NaN    NaN
+1             2         Shah Snehi Sanjaykumar      9824083342       NaN    NaN
+2             3      Chauhan Haniba Ranjitsinh      6352894775       NaN    NaN
+3             4         Patel Hani Mukeshkumar      9638680312       NaN    NaN
+4             5     Prajapati Riya Rameshbhai       9904650661       NaN    NaN
+5             7         Suthar Dax Jagdishbhai      9909051414       NaN    NaN
+6             8         Patel SUjal Mukeshbhai      8128759142       NaN    NaN
+7             9          Raval Mohini Rajubhai      7600229795       NaN    NaN
+8            10       Khant Drashti Vikrambhai      9925636002       NaN    NaN
+9            12       Goswami Janvi Hiteshgiri      9327840485       NaN    NaN
+10           15       Patel Dhruvi Arvindbhai       9408017846       NaN    NaN
+11           17           Raval Mahir Punabhai      9586405152       NaN    NaN
+12           19        Patel Rutvik Rakeshbhai      7990927349       NaN    NaN
+13           20         Patel Arpit Bharatbhai      6352951802       NaN    NaN
+14           21      Mesariya Vishv Ashvinbhai      9409777209       NaN    NaN
+15           22        Bhavsar Param Nayanbhai      9429759855       NaN    NaN
+16           23       Rathod Mahipal Pintusinh      8866298118       NaN    NaN
+17           24         Shah Akshat Niravkumar      9825409957       NaN    NaN
+18           25            Shah Jal Manojkumar      9898776820       NaN    NaN
+19           26        Shah Nihal Mineshkumar       9427949676       NaN    NaN
+20           28   Rathod Shivaditya Kartiksinh      9725737572       NaN    NaN
+21           30    Zala Anirudhsinh Vanrajsinh      9624662208       NaN    NaN
+22           31       Nirali Girishbhai Kalani      7016598906       NaN    NaN
+23           32          Luhar Aksha Islambhai      8128272554       NaN    NaN
+24           33  Makvana Kuljeetsinh Navalsinh      9998120451       NaN    NaN
+25           34       Nainani janvi Manojkumar      9016938557       NaN    NaN
+26           35       Panchal Jiya Bhaveshbhai      9429584393       NaN    NaN
+27           35     Patel Princee Jitendrabhai      9033064575       NaN    NaN
+28           37      Patel Kashish Jagdishbhai      9978061792       NaN    NaN
+[2024-03-09 13:52:59-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-888]:<QuerySet [(2, 'Shah Snehi Sanjaykumar', '9824083342'), (1, 'Vaghela Diya Ranjitsinh', '7383696506'), (9, 'Raval Mohini Rajubhai', '7600229795'), (35, 'Patel Princee Jitendrabhai', '9033064575'), (34, 'Nainani janvi Manojkumar', '9016938557'), (25, 'Shah Jal Manojkumar', '9898776820'), (35, 'Panchal Jiya Bhaveshbhai', '9429584393'), (32, 'Luhar Aksha Islambhai', '8128272554'), (31, 'Nirali Girishbhai Kalani', '7016598906'), (15, 'Patel Dhruvi Arvindbhai ', '9408017846'), (5, 'Prajapati Riya Rameshbhai ', '9904650661'), (4, 'Patel Hani Mukeshkumar', '9638680312'), (37, 'Patel Kashish Jagdishbhai', '9978061792'), (10, 'Khant Drashti Vikrambhai', '9925636002'), (3, 'Chauhan Haniba Ranjitsinh', '6352894775'), (26, 'Shah Nihal Mineshkumar ', '9427949676'), (23, 'Rathod Mahipal Pintusinh', '8866298118'), (22, 'Bhavsar Param Nayanbhai', '9429759855'), (7, 'Suthar Dax Jagdishbhai', '9909051414'), (17, 'Raval Mahir Punabhai', '9586405152'), '...(remaining elements truncated)...']>
+[2024-03-09 13:52:59-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-896]:    Roll Number                        Student Contact Number Obtained Total
+1             1        Vaghela Diya Ranjitsinh     7383696506               
+0             2         Shah Snehi Sanjaykumar     9824083342               
+14            3      Chauhan Haniba Ranjitsinh     6352894775               
+11            4         Patel Hani Mukeshkumar     9638680312               
+10            5     Prajapati Riya Rameshbhai      9904650661               
+18            7         Suthar Dax Jagdishbhai     9909051414               
+25            8         Patel SUjal Mukeshbhai     8128759142               
+2             9          Raval Mohini Rajubhai     7600229795               
+13           10       Khant Drashti Vikrambhai     9925636002               
+23           12       Goswami Janvi Hiteshgiri     9327840485               
+9            15       Patel Dhruvi Arvindbhai      9408017846               
+19           17           Raval Mahir Punabhai     9586405152               
+24           19        Patel Rutvik Rakeshbhai     7990927349               
+22           20         Patel Arpit Bharatbhai     6352951802               
+27           21      Mesariya Vishv Ashvinbhai     9409777209               
+17           22        Bhavsar Param Nayanbhai     9429759855               
+16           23       Rathod Mahipal Pintusinh     8866298118               
+26           24         Shah Akshat Niravkumar     9825409957               
+5            25            Shah Jal Manojkumar     9898776820               
+15           26        Shah Nihal Mineshkumar      9427949676               
+21           28   Rathod Shivaditya Kartiksinh     9725737572               
+28           30    Zala Anirudhsinh Vanrajsinh     9624662208               
+8            31       Nirali Girishbhai Kalani     7016598906               
+7            32          Luhar Aksha Islambhai     8128272554               
+20           33  Makvana Kuljeetsinh Navalsinh     9998120451               
+4            34       Nainani janvi Manojkumar     9016938557               
+6            35       Panchal Jiya Bhaveshbhai     9429584393               
+3            35     Patel Princee Jitendrabhai     9033064575               
+12           37      Patel Kashish Jagdishbhai     9978061792               
+[2024-03-09 13:57:35-INFO]-views.py-show_test_marks-Thread-2 (process_request_thread)-[Line-695]:Test ID: 23 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2024-03-09 13:57:36-INFO]-views.py-show_test_marks-Thread-2 (process_request_thread)-[Line-710]:Test ID: 23 - Standard: 11 - Medium: Gujarati Medium -> 29 Records
+[2024-03-09 13:59:50-INFO]-views.py-show_test_marks-Thread-2 (process_request_thread)-[Line-695]:Test ID: 23 - Standard: 11 - Medium: Gujarati Medium -> show test marks
+[2024-03-09 13:59:50-INFO]-views.py-show_test_marks-Thread-2 (process_request_thread)-[Line-710]:Test ID: 23 - Standard: 11 - Medium: Gujarati Medium -> 29 Records
+[2024-03-09 14:34:07-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1282]:41 - 1 data collected
+[2024-03-09 14:34:07-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1293]:41 - creating pdf object
+[2024-03-09 14:34:07-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1307]:41 - preparing student all data table
+[2024-03-09 14:34:07-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1326]:41 - start generating charts
+[2024-03-09 14:34:07-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1329]:41 - Chemistry chart is getting generated
+[2024-03-09 14:34:08-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1378]:41 - Chemistry chapter wise chart is getting generated
+[2024-03-09 14:35:59-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1282]:41 - 1 data collected
+[2024-03-09 14:35:59-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1293]:41 - creating pdf object
+[2024-03-09 14:35:59-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1307]:41 - preparing student all data table
+[2024-03-09 14:35:59-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1326]:41 - start generating charts
+[2024-03-09 14:35:59-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1329]:41 - Chemistry chart is getting generated
+[2024-03-09 14:36:00-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1378]:41 - Chemistry chapter wise chart is getting generated
+[2024-03-09 14:36:01-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1413]:41 - adding data table
+[2024-03-09 14:37:17-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1282]:41 - 1 data collected
+[2024-03-09 14:37:17-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1293]:41 - creating pdf object
+[2024-03-09 14:37:17-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1307]:41 - preparing student all data table
+[2024-03-09 14:37:17-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1326]:41 - start generating charts
+[2024-03-09 14:37:17-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1329]:41 - Chemistry chart is getting generated
+[2024-03-09 14:37:18-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1378]:41 - Chemistry chapter wise chart is getting generated
+[2024-03-09 14:37:19-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1413]:41 - adding data table
+[2024-03-09 14:37:19-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1448]:41 - saving pdf
+[2024-03-09 14:37:34-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1268]:Student matching query does not exist.
+[2024-03-09 14:39:11-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-888]:<QuerySet [(114, 'Goswami Arpit Surendrapuri', '9724326086'), (134, 'Parmar Prashant', '7990213105'), (101, 'Modi Bhagyashree Rameshbhai', '7777916088'), (102, 'suthar dhara jigneshkumar', '8141005575'), (143, 'Tumbadiya Parth Natvarbhai', '9998107657'), (149, 'Zala Vanraj Chakusinh', '9737751515'), (123, 'Chauhan Divyarajsinh Vijaysinh', '9574049574'), (131, 'Zala Ashwinsinh Makhusinh', '7861825054'), (118, 'Prajapati Bhavy', '9724692677'), (129, 'Patel Sudip Jagdishbhai', '8511908295'), (148, 'Priyadarshi Parth Shaileshbhai ', '6354568054'), (142, 'Taksh Bhavsar', '9408816699'), (144, 'Prajapati Soham Hashmukhbhai', '9427742975'), (113, 'Zala Yuvrajsinh Bhupendrasinh', '8128286790'), (126, 'Zala Mandip Hitendrasinh', '9023651857'), (146, 'Shah Shail  Nikhilkumar ', '9426535935'), (119, 'Nayi Darshan Kirtibhai', '9512303328'), (153, 'Chaudhari Nisarg Hareshbhai', '7862885923'), (147, 'Prajapati Chintan Vishnubhai', '9978275042'), (124, 'Zala Pruthvirajsinh Vanrajsinh', '9596744421'), '...(remaining elements truncated)...']>
+[2024-03-09 14:39:36-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1268]:Student matching query does not exist.
+[2024-03-09 14:39:40-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1282]:12 - 0 data collected
+[2024-03-09 14:39:40-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1293]:12 - creating pdf object
+[2024-03-09 14:39:40-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-1307]:12 - preparing student all data table
+[2024-03-09 15:00:15-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1340]:41 - 1 data collected
+[2024-03-09 15:00:15-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1351]:41 - creating pdf object
+[2024-03-09 15:00:15-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1365]:41 - preparing student all data table
+[2024-03-09 15:00:15-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1384]:41 - start generating charts
+[2024-03-09 15:00:15-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1387]:41 - Chemistry chart is getting generated
+[2024-03-09 15:00:16-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1436]:41 - Chemistry chapter wise chart is getting generated
+[2024-03-09 15:00:17-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1471]:41 - adding data table
+[2024-03-09 15:00:17-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1506]:41 - saving pdf
+[2024-03-09 15:19:22-INFO]-views.py-whatsapp_button-Thread-1 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-03-09 15:19:42-INFO]-views.py-whatsapp_button-Thread-2 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-03-09 15:19:47-INFO]-views.py-whatsapp_button-Thread-3 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-03-09 15:24:45-INFO]-views.py-whatsapp_button-Thread-1 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-03-09 15:24:52-INFO]-views.py-whatsapp_button-Thread-2 (process_request_thread)-[Line-316]:connecting to whatsapp
+[2024-03-09 15:27:44-INFO]-views.py-get-Thread-3 (process_request_thread)-[Line-888]:<QuerySet [(114, 'Goswami Arpit Surendrapuri', '9724326086'), (134, 'Parmar Prashant', '7990213105'), (101, 'Modi Bhagyashree Rameshbhai', '7777916088'), (102, 'suthar dhara jigneshkumar', '8141005575'), (143, 'Tumbadiya Parth Natvarbhai', '9998107657'), (149, 'Zala Vanraj Chakusinh', '9737751515'), (123, 'Chauhan Divyarajsinh Vijaysinh', '9574049574'), (131, 'Zala Ashwinsinh Makhusinh', '7861825054'), (118, 'Prajapati Bhavy', '9724692677'), (129, 'Patel Sudip Jagdishbhai', '8511908295'), (148, 'Priyadarshi Parth Shaileshbhai ', '6354568054'), (142, 'Taksh Bhavsar', '9408816699'), (144, 'Prajapati Soham Hashmukhbhai', '9427742975'), (113, 'Zala Yuvrajsinh Bhupendrasinh', '8128286790'), (126, 'Zala Mandip Hitendrasinh', '9023651857'), (146, 'Shah Shail  Nikhilkumar ', '9426535935'), (119, 'Nayi Darshan Kirtibhai', '9512303328'), (153, 'Chaudhari Nisarg Hareshbhai', '7862885923'), (147, 'Prajapati Chintan Vishnubhai', '9978275042'), (124, 'Zala Pruthvirajsinh Vanrajsinh', '9596744421'), '...(remaining elements truncated)...']>
+[2024-03-09 15:34:54-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1340]:41 - 1 data collected
+[2024-03-09 15:34:54-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1351]:41 - creating pdf object
+[2024-03-09 15:34:54-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1365]:41 - preparing student all data table
+[2024-03-09 15:34:54-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1384]:41 - start generating charts
+[2024-03-09 15:34:54-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1387]:41 - Chemistry chart is getting generated
+[2024-03-09 15:34:55-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1436]:41 - Chemistry chapter wise chart is getting generated
+[2024-03-09 15:34:55-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1471]:41 - adding data table
+[2024-03-09 15:34:55-INFO]-views.py-get-Thread-1 (process_request_thread)-[Line-1506]:41 - saving pdf
